@@ -1,0 +1,1122 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-180.png"><link rel="icon" href="icon-192.png"><meta name="theme-color" content="#3f9a2e"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="ずんだ講義 過去問"><meta name="apple-mobile-web-app-status-bar-style" content="default"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body><title>ずんだ講義 過去問</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=M+PLUS+1p:wght@400;500;700;800&display=swap">
+<style>
+:root {
+  --bg: #fbfcf8;
+  --surface: #ffffff;
+  --chip: #eef1ea;
+  --chip-on: #17200f;
+  --chip-on-ink: #ffffff;
+  --ink: #17200f;
+  --muted: #647060;
+  --line: #e2e7dc;
+  --accent: #3f9a2e;
+  --accent-soft: #e4f3dd;
+  --red: #e62117;
+  --stage: #0d120b;
+  --sheet: #ffffff;
+  --scrim: rgba(10, 14, 8, .45);
+  --navh: 54px;
+  --navpad: max(env(safe-area-inset-bottom, 0px), 20px);
+  --zun: url("data:image/webp;base64,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");
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #0f130d;
+    --surface: #171c14;
+    --chip: #232a1f;
+    --chip-on: #eef3e8;
+    --chip-on-ink: #0f130d;
+    --ink: #eef3e8;
+    --muted: #9aa692;
+    --line: #283024;
+    --accent: #8fd17a;
+    --accent-soft: #1f2c1a;
+    --stage: #000000;
+    --sheet: #1b2118;
+    --scrim: rgba(0, 0, 0, .6);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0f130d;
+  --surface: #171c14;
+  --chip: #232a1f;
+  --chip-on: #eef3e8;
+  --chip-on-ink: #0f130d;
+  --ink: #eef3e8;
+  --muted: #9aa692;
+  --line: #283024;
+  --accent: #8fd17a;
+  --accent-soft: #1f2c1a;
+  --stage: #000000;
+  --sheet: #1b2118;
+  --scrim: rgba(0, 0, 0, .6);
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "M PLUS 1p", "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+input { font-size: 16px; font-family: inherit; }
+.app { max-width: 520px; margin-inline: auto; min-height: 100%; padding-bottom: calc(var(--navh) + 6px + var(--navpad)); }
+
+/* 上の帯 */
+.top {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: var(--bg);
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 16px 8px;
+}
+.logo { display: flex; align-items: center; gap: 8px; font-family: "Dela Gothic One", "M PLUS 1p", sans-serif; font-size: 21px; letter-spacing: .02em; }
+.logo i { width: 34px; height: 24px; border-radius: 7px; background: var(--accent); display: grid; place-items: center; }
+.logo i::after { content: ""; border-left: 10px solid #fff; border-top: 6px solid transparent; border-bottom: 6px solid transparent; margin-left: 3px; }
+.top h1 { font-size: 22px; font-weight: 800; margin: 0; }
+
+/* チップ */
+.chips { display: flex; gap: 8px; overflow-x: auto; padding: 4px 16px 12px; scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+.chip { flex: none; background: var(--chip); border-radius: 9px; padding: 6px 14px; font-weight: 500; font-size: 14px; white-space: nowrap; }
+.chip[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-ink); }
+.chip .n { font-variant-numeric: tabular-nums; opacity: .7; margin-left: 4px; font-size: 12px; }
+
+/* サムネイル */
+.th {
+  position: relative; container-type: inline-size;
+  aspect-ratio: 16 / 9; width: 100%; max-width: 100%; overflow: hidden;
+  color: #fff; display: flex; flex-direction: column; justify-content: center;
+  padding: 7cqw 6cqw 8cqw;
+}
+.th { --h: 140; }
+.th.K { background:
+  repeating-linear-gradient(0deg, rgba(255,255,255,.07) 0 1px, transparent 1px 9cqw),
+  repeating-linear-gradient(90deg, rgba(255,255,255,.07) 0 1px, transparent 1px 9cqw),
+  linear-gradient(135deg, hsl(var(--h) 45% 20%), hsl(var(--h) 48% 34%)); }
+.th.S { background:
+  repeating-linear-gradient(0deg, rgba(255,255,255,.08) 0 1px, transparent 1px 7cqw),
+  linear-gradient(90deg, transparent 0 58%, rgba(255,255,255,.12) 58% calc(58% + 1px), transparent 0),
+  linear-gradient(135deg, hsl(var(--h) 48% 20%), hsl(var(--h) 45% 36%)); }
+.th.X { background:
+  repeating-linear-gradient(0deg, rgba(255,255,255,.09) 0 1px, transparent 1px 6cqw),
+  linear-gradient(90deg, transparent 0 12%, rgba(255,255,255,.16) 12% calc(12% + 1px), transparent 0),
+  linear-gradient(135deg, hsl(var(--h) 55% 22%), hsl(var(--h) 50% 36%)); }
+.th.X .chno { font-size: 30cqw; top: 2cqw; right: 22cqw; }
+.th .chno { position: absolute; right: 24cqw; top: -6cqw; font-family: "Dela Gothic One", sans-serif; font-size: 40cqw; line-height: 1; color: rgba(255,255,255,.1); pointer-events: none; }
+.th > *:not(.chno) { position: relative; }
+.th .tag, .th .zun, .th .dur, .th .pbar, .th .cnt { position: absolute; }
+.th .tag { position: absolute; left: 4cqw; top: 3.5cqw; font-weight: 800; font-size: 4.2cqw; background: rgba(0,0,0,.45); padding: .3em .7em; border-radius: .5em; letter-spacing: .03em; }
+.th .hl {
+  font-family: "Dela Gothic One", "M PLUS 1p", sans-serif;
+  font-size: 10.5cqw; line-height: 1.18; letter-spacing: -.01em;
+  -webkit-text-stroke: 1.6cqw #111; paint-order: stroke fill;
+  text-wrap: balance; max-width: 78%;
+}
+.th .hl em { font-style: normal; color: #ffe14a; }
+.th .zun { position: absolute; right: 3cqw; bottom: 3cqw; width: 20cqw; aspect-ratio: 1; border-radius: 50%;
+  background: #e9f7df var(--zun) center / cover no-repeat; border: 1cqw solid #fff; }
+.th .dur { position: absolute; right: 2.5cqw; bottom: 3cqw; font-size: 4.2cqw; font-weight: 700; background: rgba(0,0,0,.78); padding: .15em .45em; border-radius: .35em; font-variant-numeric: tabular-nums; }
+.th .dur.soon { background: rgba(0,0,0,.55); color: #d7dccf; }
+.th .zun { right: 3.5cqw; bottom: 12cqw; }
+.th .dur { bottom: 3.5cqw; }
+.pbar { position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: rgba(255,255,255,.35); }
+.pbar i { display: block; height: 100%; background: var(--red); }
+
+/* 一覧の1件 */
+.feed { display: flex; flex-direction: column; gap: 22px; }
+.card { display: flex; flex-direction: column; gap: 10px; }
+.card .cth { display: block; width: 100%; text-align: left; }
+.meta { display: flex; gap: 4px; padding: 0 6px 0 16px; align-items: flex-start; }
+.meta .mt { flex: 1; min-width: 0; display: flex; gap: 12px; text-align: left; }
+.av { flex: none; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 12px; color: #fff; }
+.meta b { display: block; font-weight: 500; font-size: 15px; line-height: 1.4; }
+.meta small { display: block; color: var(--muted); font-size: 12.5px; }
+.weak { color: var(--red); font-weight: 700; }
+.more { flex: none; width: 40px; height: 40px; display: grid; place-items: center; border-radius: 50%; color: var(--muted); }
+.more svg { width: 22px; height: 22px; }
+
+/* 再生リスト：丸い章 */
+.subs { display: flex; gap: 14px; overflow-x: auto; padding: 6px 16px 14px; align-items: flex-start; scrollbar-width: none; }
+.subs::-webkit-scrollbar { display: none; }
+.sub { flex: none; width: 70px; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.sub .disc { position: relative; width: 62px; height: 62px; border-radius: 50%; display: grid; place-items: center; color: #fff; font-family: "Dela Gothic One", sans-serif; font-size: 17px; outline: 3px solid transparent; outline-offset: 2px; }
+.sub .disc, .chrow .disc, .av { background: linear-gradient(135deg, hsl(var(--h) 45% 22%), hsl(var(--h) 48% 40%)); }
+.sub[aria-pressed="true"] .disc { outline-color: var(--ink); }
+.sub .dot { position: absolute; right: -1px; bottom: 1px; width: 15px; height: 15px; border-radius: 50%; background: var(--red); border: 2.5px solid var(--bg); }
+.sub span { font-size: 11.5px; line-height: 1.3; text-align: center; color: var(--ink); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.all { flex: none; align-self: center; color: var(--accent); font-weight: 700; padding: 0 4px 18px; }
+.chhead { padding: 0 16px 12px; display: flex; flex-direction: column; gap: 2px; }
+.chhead h2 { margin: 0; font-size: 19px; font-weight: 800; text-wrap: balance; }
+.chhead small { color: var(--muted); }
+.grid-ch { display: flex; flex-direction: column; padding: 0 16px 20px; }
+.grid-ch h3 { font-size: 14px; color: var(--muted); margin: 16px 0 6px; font-weight: 700; letter-spacing: .06em; }
+.chrow { display: flex; align-items: center; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--line); text-align: left; width: 100%; }
+.chrow .disc { width: 38px; height: 38px; font-size: 12px; flex: none; border-radius: 50%; display: grid; place-items: center; color: #fff; font-family: "Dela Gothic One", sans-serif; }
+.chrow[disabled] { opacity: .45; cursor: default; }
+.chrow .nm { flex: 1; min-width: 0; }
+.chrow .cnt { color: var(--muted); font-size: 12.5px; font-variant-numeric: tabular-nums; }
+
+/* マイページ */
+.me { display: flex; align-items: center; gap: 16px; padding: 8px 16px 18px; }
+.me .big { width: 72px; height: 72px; border-radius: 50%; background: #e9f7df var(--zun) center / cover no-repeat; flex: none; }
+.me b { font-size: 24px; font-weight: 800; display: block; }
+.me small { color: var(--muted); display: block; }
+.me small.warn { color: var(--red); font-weight: 700; }
+.acbtn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 12px 7px 16px; border: 1.5px solid var(--line); border-radius: 999px; font-weight: 700; font-size: 14px; }
+.acbtn svg { width: 16px; height: 16px; }
+.accts { gap: 6px; }
+.accts h3 { font-size: 17px; margin-top: 14px; }
+.acrow { display: flex; align-items: center; gap: 14px; padding: 8px 0; width: 100%; text-align: left; color: inherit; text-decoration: none; }
+.acrow .av { width: 48px; height: 48px; border-radius: 50%; flex: none; display: grid; place-items: center; color: #fff; font-weight: 800; font-size: 15px; }
+.acrow .av.z { background: #e9f7df var(--zun) center / cover no-repeat; box-shadow: 0 0 0 2px var(--accent); }
+.acrow .nm { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.acrow .nm small { color: var(--muted); font-size: 12.5px; }
+.acrow .ck { width: 26px; height: 26px; color: var(--accent); flex: none; }
+.acrow.off { opacity: .45; }
+.sec { display: flex; flex-direction: column; gap: 10px; padding-bottom: 22px; }
+.sech { display: flex; align-items: center; justify-content: space-between; padding-inline: 16px; }
+.sech h2 { margin: 0; font-size: 19px; font-weight: 800; display: flex; align-items: center; gap: 4px; }
+.sech .plus { font-size: 26px; line-height: 1; padding: 0 4px; }
+.row { display: flex; gap: 12px; overflow-x: auto; padding-inline: 16px; scrollbar-width: none; }
+.row::-webkit-scrollbar { display: none; }
+.mini { flex: none; width: 168px; display: flex; flex-direction: column; gap: 6px; text-align: left; }
+.mini .th { border-radius: 10px; }
+.mini b { font-size: 13px; font-weight: 500; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.mini small { color: var(--muted); font-size: 12px; }
+.folder .th { box-shadow: 6px -6px 0 -1px var(--line); }
+.folder .th .cnt { position: absolute; inset: auto 0 0 auto; width: 44%; height: 100%; background: rgba(0,0,0,.62); display: grid; place-items: center; font-weight: 800; font-size: 9cqw; }
+.empty { color: var(--muted); padding: 4px 16px; font-size: 13.5px; }
+.list { display: flex; flex-direction: column; gap: 12px; padding: 0 4px 0 16px; }
+.li { display: flex; gap: 2px; align-items: flex-start; }
+.li .lh { flex: 1; min-width: 0; display: flex; gap: 12px; text-align: left; align-items: flex-start; }
+.li .th { width: 46%; flex: none; border-radius: 9px; }
+.li b { display: -webkit-box; font-size: 14px; font-weight: 500; line-height: 1.4; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.li small { color: var(--muted); font-size: 12px; display: block; margin-top: 3px; }
+.backbar { display: flex; align-items: center; gap: 8px; padding: 10px 12px; position: sticky; top: env(safe-area-inset-top, 0px); background: var(--bg); z-index: 5; }
+.backbar h1 { font-size: 19px; margin: 0; font-weight: 800; }
+.backbar input { flex: 1; min-width: 0; padding: 9px 14px; border-radius: 999px; border: 0; background: var(--chip); color: var(--ink); }
+.ico { width: 40px; height: 40px; display: grid; place-items: center; border-radius: 50%; flex: none; }
+.ico svg { width: 24px; height: 24px; }
+.top .sbtn { margin-left: auto; }
+
+/* お気に入りのフォルダ */
+.fhead { position: relative; overflow: hidden; color: #fff; background: linear-gradient(180deg, hsl(var(--h) 40% 22%), hsl(var(--h) 38% 14%)); margin-bottom: 12px; padding-top: env(safe-area-inset-top, 0px); }
+.fbg { position: absolute; inset: -40px; filter: blur(28px) saturate(1.2); opacity: .75; }
+.fbg .th { height: 100%; aspect-ratio: auto; }
+.fhead::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.25), rgba(0,0,0,.62)); }
+.fhead > *:not(.fbg) { position: relative; z-index: 1; }
+.ftop { display: flex; justify-content: space-between; padding: 8px 8px 0; }
+.fbody { display: flex; flex-direction: column; gap: 6px; padding: 6px 16px 18px; }
+.fcover { width: 62%; margin: 0 auto 10px; border-radius: 12px; overflow: hidden; box-shadow: 0 6px 24px rgba(0,0,0,.45); }
+.fbody h1 { margin: 0; font-size: 24px; font-weight: 800; line-height: 1.3; text-wrap: balance; }
+.fbody small { color: rgba(255,255,255,.78); font-size: 13px; }
+.playall { margin-top: 10px; background: #fff; color: #111; border-radius: 999px; padding: 11px 0; font-weight: 800; font-size: 15px; display: flex; align-items: center; justify-content: center; gap: 8px; }
+.playall svg { width: 20px; height: 20px; }
+.playall[disabled] { opacity: .5; cursor: default; }
+
+/* ショート：1本が画面いっぱい。上下に送る */
+.shorts {
+  position: fixed; z-index: 4; left: 0; right: 0; top: 0; bottom: calc(var(--navh) + var(--navpad));
+  max-width: 520px; margin-inline: auto;
+  overflow-y: auto; scroll-snap-type: y mandatory; overscroll-behavior: contain;
+  background: #000; scrollbar-width: none;
+}
+.shorts::-webkit-scrollbar { display: none; }
+.short {
+  position: relative; height: 100%; scroll-snap-align: start; scroll-snap-stop: always; overflow: hidden;
+  background: linear-gradient(180deg, hsl(var(--h) 40% 10%), hsl(var(--h) 45% 20%)); color: #fff;
+  display: flex; flex-direction: column; justify-content: center; gap: 14px;
+  padding: calc(env(safe-area-inset-top, 0px) + 56px) 0 150px;
+}
+.slabel { position: absolute; left: 16px; top: calc(env(safe-area-inset-top, 0px) + 12px); font-size: 20px; font-weight: 800; text-shadow: 0 1px 6px rgba(0,0,0,.6); z-index: 2; }
+.short video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #000; }
+.shl { margin: 0; padding: 0 76px 0 16px; font-family: "Dela Gothic One", sans-serif; font-size: clamp(22px, 7vw, 30px); line-height: 1.25; text-wrap: balance; }
+.shl em { font-style: normal; color: #ffe14a; }
+.sframe .th .tag, .sframe .th .dur, .sframe .th .hl { display: none; }
+.side { position: absolute; right: 6px; bottom: 150px; z-index: 2; display: flex; flex-direction: column; gap: 14px; }
+.side button { width: 56px; display: flex; flex-direction: column; align-items: center; gap: 3px; font-size: 11.5px; font-weight: 700; text-shadow: 0 1px 4px rgba(0,0,0,.7); }
+.side i { width: 46px; height: 46px; border-radius: 50%; background: rgba(255,255,255,.16); display: grid; place-items: center; }
+.side svg { width: 24px; height: 24px; }
+.sfoot { position: absolute; left: 16px; right: 72px; bottom: 18px; z-index: 2; display: flex; flex-direction: column; gap: 4px; text-shadow: 0 1px 5px rgba(0,0,0,.65); }
+.sfoot b { font-weight: 700; font-size: 15px; line-height: 1.4; }
+.sfoot small { color: rgba(255,255,255,.78); font-size: 12px; }
+.gomain { margin-top: 8px; align-self: flex-start; background: #fff; color: #111; border-radius: 999px; padding: 9px 18px; font-weight: 800; font-size: 14px; text-shadow: none; }
+.sline { position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: rgba(255,255,255,.28); z-index: 2; }
+.sline i { display: block; height: 100%; width: 0; background: var(--red); }
+
+/* 下のタブ */
+.nav {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+  background: var(--bg); border-top: 1px solid var(--line);
+  padding-bottom: var(--navpad);
+}
+.nav div { max-width: 520px; margin-inline: auto; display: grid; grid-template-columns: repeat(4, 1fr); height: var(--navh); }
+.nav button { display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding-top: 7px; gap: 2px; font-size: 11px; color: var(--ink); }
+.nav svg { width: 26px; height: 26px; }
+.nav button[aria-current="page"] svg .fill { fill: currentColor; }
+
+/* 再生画面 */
+.player { position: fixed; inset: 0; z-index: 20; background: var(--bg); overflow-y: auto; padding-top: env(safe-area-inset-top, 0px); padding-bottom: var(--navpad); }
+.pw { max-width: 520px; margin-inline: auto; padding-bottom: 24px; }
+.stick { position: sticky; top: 0; z-index: 3; background: var(--bg); }
+.ptop { height: 40px; display: flex; align-items: center; justify-content: space-between; padding: 0 4px; }
+.fullb { display: flex; align-items: center; gap: 6px; height: 34px; padding: 0 14px; margin-right: 6px; border-radius: 999px; background: var(--chip); font-weight: 700; font-size: 14px; }
+.fullb svg { width: 20px; height: 20px; }
+.screen { position: relative; background: var(--stage); aspect-ratio: 16 / 9; width: 100%; max-width: 100%; }
+.screen video { display: block; width: 100%; height: 100%; background: var(--stage); }
+.screen .th { height: 100%; }
+.screen .nomovie { position: absolute; inset: auto 0 0 0; padding: 8px 12px; background: rgba(0,0,0,.6); color: #fff; font-size: 13px; }
+.pinfo { padding: 12px 16px 6px; display: flex; flex-direction: column; gap: 6px; text-align: left; width: 100%; }
+.pinfo h2 { margin: 0; font-size: 19px; font-weight: 800; line-height: 1.35; text-wrap: balance; }
+.pinfo small { color: var(--muted); font-size: 13px; }
+.pinfo small b { color: var(--ink); font-weight: 700; }
+.acts { display: flex; gap: 8px; padding: 8px 16px 14px; overflow-x: auto; scrollbar-width: none; }
+.acts::-webkit-scrollbar { display: none; }
+.act { flex: none; display: flex; align-items: center; gap: 6px; background: var(--chip); border-radius: 999px; padding: 8px 16px; font-weight: 500; font-size: 14px; }
+.act svg { width: 20px; height: 20px; }
+.act.on { background: var(--chip-on); color: var(--chip-on-ink); }
+.rates { display: flex; gap: 6px; padding: 0 16px 14px; flex-wrap: wrap; }
+.rates .chip { padding: 5px 12px; font-variant-numeric: tabular-nums; }
+.nexth { padding: 14px 16px 10px; font-weight: 800; font-size: 16px; border-top: 1px solid var(--line); }
+.qlist { padding-bottom: 16px; }
+
+/* 下から出る画面 */
+.scrim { position: fixed; inset: 0; z-index: 30; background: var(--scrim); }
+.sheet {
+  position: fixed; z-index: 31; left: 0; right: 0; bottom: 0;
+  top: calc(env(safe-area-inset-top, 0px) + 40px + min(100vw, 520px) * 9 / 16);
+  max-width: 520px; margin-inline: auto;
+  background: var(--sheet); border-radius: 16px 16px 0 0;
+  display: flex; flex-direction: column; overflow: hidden;
+}
+.sheet.low { top: auto; max-height: 75%; }
+.grab { width: 40px; height: 5px; border-radius: 3px; background: var(--line); margin: 8px auto 0; flex: none; }
+.sheeth { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 8px 8px 20px; border-bottom: 1px solid var(--line); flex: none; }
+.sheeth h2 { margin: 0; font-size: 22px; font-weight: 800; }
+.sheeth h2.sm { font-size: 15px; font-weight: 700; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.sbody { overflow-y: auto; padding: 16px 20px calc(24px + var(--navpad)); display: flex; flex-direction: column; gap: 18px; }
+.sbody h3 { margin: 0; font-size: 19px; font-weight: 800; line-height: 1.4; text-wrap: balance; }
+.who { display: flex; align-items: center; gap: 10px; font-weight: 700; }
+.who .av { width: 30px; height: 30px; font-size: 10px; }
+.stats { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+.stats div { background: var(--chip); border-radius: 12px; padding: 10px 6px; text-align: center; display: flex; flex-direction: column; }
+.stats b { font-size: 18px; font-weight: 800; font-variant-numeric: tabular-nums; }
+.stats small { color: var(--muted); font-size: 12px; }
+.links { display: flex; flex-direction: column; border-top: 1px solid var(--line); }
+.links button { display: flex; gap: 14px; padding: 11px 2px; border-bottom: 1px solid var(--line); text-align: left; width: 100%; align-items: baseline; }
+.links .no { flex: none; width: 3.2em; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; }
+.links .now { color: var(--muted); font-size: 12px; margin-left: auto; flex: none; }
+.links button[aria-current="true"] { background: var(--accent-soft); }
+.fold { display: flex; flex-direction: column; }
+.fold label { display: flex; align-items: center; gap: 14px; padding: 12px 2px; border-bottom: 1px solid var(--line); font-size: 15.5px; }
+.fold input[type="checkbox"] { width: 22px; height: 22px; accent-color: var(--accent); }
+.newf { display: flex; gap: 8px; }
+.newf input { flex: 1; min-width: 0; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
+.newf button { background: var(--chip-on); color: var(--chip-on-ink); border-radius: 10px; padding: 0 16px; font-weight: 700; }
+.menu { display: flex; flex-direction: column; padding: 6px 8px calc(14px + var(--navpad)); overflow-y: auto; }
+.menu button { display: flex; align-items: center; gap: 18px; padding: 13px 12px; text-align: left; font-size: 15.5px; border-radius: 10px; }
+.menu svg { width: 24px; height: 24px; flex: none; }
+
+.th .hl.plain { font-size: 8cqw; max-width: 74%; }
+.blk { display: flex; flex-direction: column; gap: 8px; }
+.lbl { margin: 6px 0 0; font-size: 12.5px; font-weight: 800; color: var(--muted); letter-spacing: .06em; }
+.talk { display: flex; flex-direction: column; gap: 12px; }
+.talk p { margin: 0; line-height: 1.85; font-size: 15px; font-variant-numeric: tabular-nums; }
+.kl .zp { display: block; margin-top: 4px; line-height: 1.8; }
+.talk .kt { font-weight: 700; font-size: 16px; }
+.talk .ph { margin: 14px 0 0; font-size: 16px; font-weight: 800; }
+.blk > p { margin: 0; line-height: 1.8; font-size: 14.5px; }
+.ab { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; font-size: 14.5px; line-height: 1.7; }
+.ab dt { font-weight: 700; }
+.ab dd { margin: 0; }
+.kl { margin: 0; padding-left: 1.3em; display: flex; flex-direction: column; gap: 8px; font-size: 14.5px; line-height: 1.75; }
+.kl b { font-weight: 700; }
+.kl small { display: block; color: var(--muted); font-size: 12.5px; font-variant-numeric: tabular-nums; }
+.sc { display: flex; flex-direction: column; gap: 8px; padding: 10px 12px 14px; border-radius: 12px; }
+.sc.now { background: var(--accent-soft); }
+.sch { display: flex; gap: 12px; align-items: baseline; text-align: left; width: 100%; }
+.sch .no { flex: none; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; }
+.sch b { font-size: 15.5px; font-weight: 800; line-height: 1.45; }
+.sc p { margin: 0; font-size: 14.5px; line-height: 1.75; display: flex; gap: 10px; }
+.sc p i { flex: none; width: 5.4em; white-space: nowrap; font-style: normal; font-weight: 700; font-size: 12px; padding-top: .3em; }
+.sc p i.z { color: #3f9a2e; } .sc p i.m { color: #c2508a; }
+.scbtn { align-self: flex-start; }
+.seekb { margin-top: 6px; background: var(--chip); border-radius: 999px; padding: 6px 14px; font-size: 13.5px; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+.toast { position: fixed; z-index: 40; left: 50%; bottom: calc(var(--navh) + 18px + var(--navpad)); transform: translateX(-50%); max-width: min(90vw, 420px);
+  background: var(--chip-on); color: var(--chip-on-ink); border-radius: 10px; padding: 10px 16px; font-size: 14px; font-weight: 500; pointer-events: none; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .sheet { animation: up .22s ease-out; }
+  @keyframes up { from { transform: translateY(40px); opacity: .4; } }
+}
+</style>
+
+<div class="app" id="app"></div>
+<nav class="nav" aria-label="タブ"><div id="nav"></div></nav>
+<div class="player" id="player" hidden></div>
+<div class="scrim" id="scrim" hidden></div>
+<div class="sheet" id="sheet" hidden role="dialog" aria-modal="true"></div>
+<div class="toast" id="toast" hidden role="status"></div>
+
+<script>
+// ---------- データ（build.py が埋める） ----------
+const DATA = {"asof":"2026-09-29","mock":false,"chapters":{"商会":["簿記の全体像","企業会計原則等","現金預金","有形固定資産","無形固定資産・投資その他の資産・繰延資産","引当金","商品売買","棚卸資産","経過勘定","有価証券","債権債務・貸倒引当金","デリバティブ取引","リース会計","研究開発費・ソフトウェア","減損会計","税金及び税効果会計","外貨建取引","社債","退職給付会計","資産除去債務","純資産","会計方針の開示、会計上の変更及び誤謬の訂正","四半期財務諸表","収益認識","本支店会計","連結会計Ⅰ（連結会計の基礎）","連結会計Ⅱ（資本連結）","連結会計Ⅲ（成果連結）","連結会計Ⅳ（連結税効果）","持分法会計","包括利益","連結退職給付","在外支店","在外子会社","個別キャッシュ・フロー計算書","連結キャッシュ・フロー計算書","セグメント情報","企業結合会計","事業分離会計","１株当たり情報","分配可能額"],"工原":["原価計算総論","材料費会計","労務費会計","経費会計","製造間接費会計","部門別計算","個別原価計算","単純総合原価計算","工程別総合原価計算","組別総合原価計算","等級別総合原価計算","連産品","標準原価計算","直接原価計算","ＣＶＰ分析","予算管理","資金管理","意思決定会計Ⅰ（戦術的意思決定）","意思決定会計Ⅱ（戦略的意思決定）","戦略的原価計算","分権組織とグループ経営の管理会計"]},"exams":[152,153,156,157,158,159,161,162,164,165,167,168,170,171,173],"account":"過去問","accounts":[{"id":"商会","name":"商業簿記・会計学","abbr":"商","hue":214,"url":"https://ageargfbv.github.io/zunda-shoukai/","sub":"講義 64本","chara":"ずんだもん"},{"id":"工原","name":"工業簿記・原価計算","abbr":"工","hue":150,"url":"https://ageargfbv.github.io/zunda-kougen/","sub":"講義 51本・問題 13問","chara":"ずんだもん"},{"id":"過去問","name":"過去問","abbr":"過","hue":24,"url":"https://ageargfbv.github.io/zunda-kakomon/","sub":"過去問 15回","chara":"ずんだもん"}],"lectures":[{"kind":"exam","no":"152回","sub":"過去問","ch":152,"probs":[],"hl":"","acct":"過去問","id":"x152-bo","title":"商業簿記","sn":"商簿","w":0.0,"wt":[]},{"kind":"exam","no":"152回","sub":"過去問","ch":152,"probs":[],"hl":"","acct":"過去問","id":"x152-ka","title":"会計学","sn":"会計","w":0.0,"wt":[]},{"kind":"exam","no":"152回","sub":"過去問","ch":152,"probs":[],"hl":"","acct":"過去問","id":"x152-ko","title":"工業簿記","sn":"工簿","w":0.0,"wt":[]},{"kind":"exam","no":"152回","sub":"過去問","ch":152,"probs":[],"hl":"","acct":"過去問","id":"x152-ge","title":"原価計算","sn":"原計","w":0.0,"wt":[]},{"kind":"exam","no":"153回","sub":"過去問","ch":153,"probs":[],"hl":"","acct":"過去問","id":"x153-bo","title":"商業簿記","sn":"商簿","w":0.0,"wt":[]},{"kind":"exam","no":"153回","sub":"過去問","ch":153,"probs":[],"hl":"","acct":"過去問","id":"x153-ka","title":"会計学","sn":"会計","w":0.0,"wt":[]},{"kind":"exam","no":"153回","sub":"過去問","ch":153,"probs":[],"hl":"","acct":"過去問","id":"x153-ko","title":"工業簿記","sn":"工簿","w":0.0,"wt":[]},{"kind":"exam","no":"153回","sub":"過去問","ch":153,"probs":[],"hl":"","acct":"過去問","id":"x153-ge","title":"原価計算","sn":"原計","w":0.0,"wt":[]},{"kind":"exam","no":"156回","sub":"過去問","ch":156,"probs":[],"hl":"","acct":"過去問","id":"x156-bo","title":"商業簿記","sn":"商簿","w":0.0,"wt":[]},{"kind":"exam","no":"156回","sub":"過去問","ch":156,"probs":[],"hl":"","acct":"過去問","id":"x156-ka","title":"会計学","sn":"会計","w":0.0,"wt":[]},{"kind":"exam","no":"156回","sub":"過去問","ch":156,"probs":[],"hl":"","acct":"過去問","id":"x156-ko","title":"工業簿記","sn":"工簿","w":0.0,"wt":[]},{"kind":"exam","no":"156回","sub":"過去問","ch":156,"probs":[],"hl":"","acct":"過去問","id":"x156-ge","title":"原価計算","sn":"原計","w":0.0,"wt":[]},{"kind":"exam","no":"157回","sub":"過去問","ch":157,"probs":[],"hl":"","acct":"過去問","id":"x157-bo","title":"商業簿記","sn":"商簿","w":0.0,"wt":[]},{"kind":"exam","no":"157回","sub":"過去問","ch":157,"probs":[],"hl":"","acct":"過去問","id":"x157-ka","title":"会計学","sn":"会計","w":0.0,"wt":[]},{"kind":"exam","no":"157回","sub":"過去問","ch":157,"probs":[],"hl":"","acct":"過去問","id":"x157-ko","title":"工業簿記","sn":"工簿","w":0.0,"wt":[]},{"kind":"exam","no":"157回","sub":"過去問","ch":157,"probs":[],"hl":"","acct":"過去問","id":"x157-ge","title":"原価計算","sn":"原計","w":0.0,"wt":[]},{"kind":"exam","no":"158回","sub":"過去問","ch":158,"probs":[],"hl":"","acct":"過去問","id":"x158-bo","title":"商業簿記","sn":"商簿","w":0.0,"wt":[]},{"kind":"exam","no":"158回","sub":"過去問","ch":158,"probs":[],"hl":"","acct":"過去問","id":"x158-ka","title":"会計学","sn":"会計","w":0.0,"wt":[]},{"kind":"exam","no":"158回","sub":"過去問","ch":158,"probs":[],"hl":"","acct":"過去問","id":"x158-ko","title":"工業簿記","sn":"工簿","w":0.0,"wt":[]},{"kind":"exam","no":"158回","sub":"過去問","ch":158,"probs":[],"hl":"","acct":"過去問","id":"x158-ge","title":"原価計算","sn":"原計","w":0.0,"wt":[]},{"kind":"exam","no":"159回","sub":"過去問","ch":159,"probs":[],"hl":"","acct":"過去問","id":"x159-bo","title":"商業簿記","sn":"商簿","w":0.0,"wt":[]},{"kind":"exam","no":"159回","sub":"過去問","ch":159,"probs":[],"hl":"","acct":"過去問","id":"x159-ka","title":"会計学","sn":"会計","w":0.0,"wt":[]},{"kind":"exam","no":"159回","sub":"過去問","ch":159,"probs":[],"hl":"","acct":"過去問","id":"x159-ko","title":"工業簿記","sn":"工簿","w":0.0,"wt":[]},{"kind":"exam","no":"159回","sub":"過去問","ch":159,"probs":[],"hl":"","acct":"過去問","id":"x159-ge","title":"原価計算","sn":"原計","w":0.0,"wt":[]},{"kind":"exam","no":"161回","sub":"過去問","ch":161,"probs":[],"hl":"","acct":"過去問","id":"x161-bo","title":"商業簿記","sn":"商簿","w":0.0,"wt":[]},{"kind":"exam","no":"161回","sub":"過去問","ch":161,"probs":[],"hl":"","acct":"過去問","id":"x161-ka","title":"会計学","sn":"会計","w":0.0,"wt":[]},{"kind":"exam","no":"161回","sub":"過去問","ch":161,"probs":[],"hl":"","acct":"過去問","id":"x161-ko","title":"工業簿記","sn":"工簿","w":0.0,"wt":[]},{"kind":"exam","no":"161回","sub":"過去問","ch":161,"probs":[],"hl":"","acct":"過去問","id":"x161-ge","title":"原価計算","sn":"原計","w":0.0,"wt":[]},{"kind":"exam","no":"162回","sub":"過去問","ch":162,"probs":[],"hl":"","acct":"過去問","id":"x162-bo","title":"商業簿記","sn":"商簿","w":0.0,"wt":[]},{"kind":"exam","no":"162回","sub":"過去問","ch":162,"probs":[],"hl":"","acct":"過去問","id":"x162-ka","title":"会計学","sn":"会計","w":0.0,"wt":[]},{"kind":"exam","no":"162回","sub":"過去問","ch":162,"probs":[],"hl":"","acct":"過去問","id":"x162-ko","title":"工業簿記","sn":"工簿","w":0.0,"wt":[]},{"kind":"exam","no":"162回","sub":"過去問","ch":162,"probs":[],"hl":"","acct":"過去問","id":"x162-ge","title":"原価計算","sn":"原計","w":0.0,"wt":[]},{"kind":"exam","no":"164回","sub":"過去問","ch":164,"probs":[],"hl":"[返品権付き]から/[税効果]まで","acct":"過去問","id":"x164-bo-1","title":"商業簿記 前編","sn":"商簿前","w":0.936,"wt":["収益認識（返金負債・工事進行基準に近い進捗度計算）が手つかず","外貨建有価証券の完成計算で、前T/Bへの足し戻しを忘れる","税効果会計・法人税等の計算が手つかず","有形固定資産の保有目的変更と減損が手つかず"],"video":{"blob":"8d350bb86fbb1a54b2763b8c532057f8","secs":611.96,"mb":7.5},"scenes":[[0,"商業簿記の全体像"],[53.83,"返品権付き販売：問題文を読む"],[110.17,"返品権付き販売：売上高を減らす"],[139.37,"返品権付き販売：原価率を出す"],[224.63,"返品権付き販売：返品資産と売上原価"],[265.77,"ソフトウェア開発：問題文を読む"],[327.94,"ソフトウェア開発：Y社"],[402.81,"ソフトウェア開発：Z社"],[446.55,"ソフトウェア開発：受注損失引当金"],[511.74,"ソフトウェア開発：契約資産・契約負債と答え"]],"shorts":[{"hl":"[返品資産]は/売値ではなく原価で","at":53.83,"blob":"f5d7e893320d1f520013e90cebb68d21"},{"hl":"引当金は/[来期以降]の損失だけ","at":446.55,"blob":"95ca884c2ee4281df51429124bd338fd"},{"hl":"お金が先か/[作業]が先か","at":511.74,"blob":"bb4723ea072a0de849dd6a6a82bd9e3b"}],"script":[[["ずんだもん","今回は、164回の商業簿記を、最初から最後まで解くのだ。"],["めたん","まずは、何を答える問題かしら。"],["ずんだもん","問1は、損益計算書を作ることなのだ。"],["ずんだもん","問2は、貸借対照表の5つの科目の金額を答えるのだ。"],["めたん","材料は資料1と資料2ね。2は未処理事項と決算整理事項。"],["ずんだもん","そうなのだ。資料1は、決算整理前残高試算表なのだ。"],["めたん","決算整理前残高試算表って、ずいぶん長い名前ね。"],["ずんだもん","決算の修正をする前の、各科目の残高の一覧なのだ。前T/Bと呼ぶのだ。"],["めたん","じゃあ、資料2の順に前T/Bを直していけばいいのね。"],["ずんだもん","その通りなのだ。1番から順に処理して、前T/Bの数字を直していくのだ。"],["ずんだもん","直した後の数字を、損益計算書と貸借対照表に書き写すのだ。"],["めたん","金額の単位は全部千円ね。毎回言ってたら長くなるわ。"],["ずんだもん","だから話すときは、千円を省いて数字だけ言うのだ。"],["めたん","本人の点数も、先に聞いておきたいわ。"],["ずんだもん","25点中6点なのだ。退職給付費用、2つの減価償却費、ソフトウェア償却費が合っていたのだ。"],["ずんだもん","合っていた所も、解き方が合っていたか、一緒に確かめるのだ。"]],[["ずんだもん","最初は資料2の1番、返品権付き販売なのだ。"],["ずんだもん","ここを解くと、解答用紙の3つの欄が埋まるのだ。"],["めたん","3つも？どこかしら。"],["ずんだもん","損益計算書の、売上高の商品販売と、売上原価の商品販売なのだ。"],["ずんだもん","それと、問2の返品資産なのだ。"],["めたん","問題文には、売ってから1か月以内なら、返品されたら全額返金する、ってあるわ。"],["ずんだもん","そこが出発点なのだ。この1か月以内というのが、あとで効いてくるのだ。"],["めたん","ただの条件にしか見えないけど。"],["ずんだもん","この会社の決算日は、3月31日なのだ。"],["ずんだもん","2月までに売った商品は、もう1か月たったから、返品されないのだ。"],["めたん","じゃあ、まだ返ってくるかもしれないのは、3月に売った分だけね。"],["ずんだもん","その通りなのだ。4月に入ってから返ってくるかもしれないのだ。"],["めたん","それで、3月中の販売金額100,000が出てくるのね。"],["ずんだもん","そうなのだ。この100,000は、3月に売った商品の、売値の合計なのだ。"],["ずんだもん","しかも、もう前T/Bの売上高820,000の中に入っているのだ。"],["めたん","そのうち10%が、4月に返ってきそうなのよね。"],["ずんだもん","そうなのだ。この場面でやることは2つなのだ。"],["ずんだもん","返ってくる分を売上高から減らすことと、返ってくる商品を資産にすることなのだ。"]],[["めたん","まず返ってくる分の売値ね。100,000の10%で、10,000。"],["ずんだもん","その通りなのだ。"],["めたん","返されると分かってる分を、売上のままにしておくのは変よね。"],["ずんだもん","そうなのだ。だから、その10,000を売上高から減らすのだ。"],["めたん","減らした分は、どこへ行くのかしら。"],["ずんだもん","返金負債にするのだ。お客さんにお金を返す義務だから、負債なのだ。"],["めたん","仕訳は、借方が売上高10,000、貸方が返金負債10,000ね。"],["ずんだもん","完璧なのだ。"],["めたん","売上高の欄は、820,000−10,000で、810,000。"],["ずんだもん","その通りなのだ。解答用紙の、売上高の商品販売の欄は、810,000なのだ。"]],[["めたん","次は、返ってくる商品の方ね。"],["ずんだもん","そうなのだ。返品されると、商品が手元に戻ってくるのだ。"],["めたん","戻ってくる商品は、財産になるのね。"],["ずんだもん","そうなのだ。これを返品資産として計上するのだ。"],["めたん","金額は、さっきの10,000でいいでしょ。"],["ずんだもん","違うのだ。10,000は売値なのだ。商品は、仕入れた値段で数えるのだ。"],["めたん","でも、その商品をいくらで仕入れたかは、どこにも書いてないわよ。"],["ずんだもん","そうなのだ。だから問題文は、当期の原価率で見積もれ、と言っているのだ。"],["めたん","原価率って何？"],["ずんだもん","売値のうち、仕入れの値段が何割かという割合なのだ。"],["めたん","それが分かれば、売値10,000から仕入れの値段を逆算できるわけね。"],["ずんだもん","そうなのだ。原価率は、当期の売上原価を、当期の売上高で割って出すのだ。"],["めたん","でも、売上原価は前T/Bに載ってないわよ。"],["ずんだもん","この会社は三分法だから、自分で出すのだ。"],["めたん","三分法だと、なんで自分で出すの？"],["ずんだもん","三分法では、買ったときは仕入、期首の在庫は繰越商品に、分けて置いてあるだけなのだ。"],["ずんだもん","だから決算で、期首の在庫と仕入を足して、期末の在庫を引くのだ。"],["めたん","期首の在庫は、前T/Bの繰越商品60,000ね。"],["ずんだもん","そうなのだ。決算の前だから、まだ期首の在庫のままなのだ。"],["ずんだもん","仕入は、前T/Bの仕入高、661,000なのだ。"],["めたん","期末の在庫は、問題文に書いてある65,000ね。"],["ずんだもん","材料はそろったのだ。60,000＋661,000−65,000を計算するのだ。"],["めたん","656,000。これが売上原価ね。"],["ずんだもん","その通りなのだ。"],["めたん","あとは、さっき直した売上高810,000で割ればいいのね。"],["ずんだもん","そこは、返品を引く前の820,000で割るのだ。"],["ずんだもん","656,000は、返品を考える前の売上に対応する原価だからなのだ。分子と分母をそろえるのだ。"],["めたん","656,000÷820,000で、原価率は80%ね。"],["ずんだもん","その通りなのだ。"]],[["めたん","原価率が出たから、返品資産も出せるわね。10,000×80%で、8,000。"],["ずんだもん","その通りなのだ。戻ってくる商品を、仕入れの値段で数えたのだ。"],["ずんだもん","仕訳は、借方が返品資産8,000、貸方が売上原価8,000なのだ。"],["めたん","なんで売上原価を減らすの？"],["ずんだもん","戻ってくる商品は、売れなかったのと同じだからなのだ。"],["ずんだもん","売上高を10,000減らしたから、それに対応する原価も8,000減らすのだ。"],["めたん","売上と原価が、セットで戻るってことね。"],["めたん","じゃあ売上原価の欄は、656,000−8,000で、648,000。"],["ずんだもん","その通りなのだ。ここでまとめるのだ。"],["ずんだもん","解答用紙の、売上高の商品販売は810,000なのだ。"],["ずんだもん","売上原価の商品販売は648,000なのだ。"],["ずんだもん","問2の返品資産は8,000なのだ。"],["ずんだもん","返金負債の10,000は、あとの貸倒引当金の場面で、もう一度使うのだ。"]],[["ずんだもん","次は資料2の2番、ソフトウェア開発なのだ。"],["ずんだもん","ここで埋まるのは、売上高と売上原価の、ソフトウェア開発の欄なのだ。"],["ずんだもん","それと、問2の受注損失引当金なのだ。"],["めたん","問題文には、収益は履行義務が充足されるにつれて計上する、ってあるわね。"],["ずんだもん","完成したときに、まとめて売上にするのではないのだ。"],["ずんだもん","作業が進んだ分だけ、売上にするのだ。"],["めたん","進んだ分なんて、どうやって測るのよ。"],["ずんだもん","発生した原価に基づくインプット法、と書いてあるのだ。"],["ずんだもん","かかると見積もった原価の全体のうち、もう使った原価が何割か、で進み具合を測るのだ。"],["めたん","それが進捗度ね。発生原価の累計を、見積総原価で割るわけね。"],["ずんだもん","その通りなのだ。"],["めたん","表には、X社、Y社、Z社の3つが載ってるわ。全部計算するのかしら。"],["ずんだもん","まず、どれを処理するか決めるのだ。"],["ずんだもん","問題文に、前T/Bの売上高と売上原価は、当期中に全部終わった案件の当期分だ、と書いてあるのだ。"],["めたん","当期中に全部終わった案件って、どれ？"],["ずんだもん","完成年月を見るのだ。X社は、当期の10月に完成しているのだ。"],["ずんだもん","だからX社の当期分は、もう前T/Bに入っているのだ。何もしなくていいのだ。"],["めたん","Y社は来期の4月、Z社は再来期の3月に完成ね。"],["ずんだもん","そうなのだ。まだ途中だから、当期分を自分で計上するのだ。"]],[["ずんだもん","Y社から計算するのだ。まず、当期末までの進捗度を出すのだ。"],["めたん","当期末までの発生原価の累計が30,000、見積総原価が36,000ね。"],["ずんだもん","30,000÷36,000で、進捗度は6分の5、約83%なのだ。"],["めたん","取引価格45,000×6分の5で、37,500。これが当期の売上ね。"],["ずんだもん","惜しいのだ。これは、着手してから当期末までの、売上の累計なのだ。"],["ずんだもん","Y社は前の期に着手しているのだ。前の期にも、進んだ分の売上を計上済みなのだ。"],["めたん","じゃあ、前期の分を引かないといけないのね。"],["めたん","でも前期の売上は、どこにも書いてないわよ。"],["ずんだもん","自分で出すのだ。表に、前期末までの発生原価の累計6,000が載っているのだ。"],["めたん","前期末の進捗度は、6,000÷36,000で、6分の1ね。"],["めたん","あれ、見積総原価は前期も36,000でいいのかしら。"],["ずんだもん","いいのだ。Y社の見積りが変わったとは書いてないからなのだ。"],["ずんだもん","前期の売上は、45,000×6分の1で、7,500なのだ。"],["めたん","当期の売上は、37,500−7,500で、30,000ね。"],["ずんだもん","その通りなのだ。原価の方も、当期に発生した分だけを出すのだ。"],["めたん","累計30,000から前期の6,000を引いて、24,000。"],["めたん","でも、なんで原価まで引くの？"],["ずんだもん","前期の6,000は、前期の売上原価になっているからなのだ。"],["めたん","当期の24,000は、今どこにあるのかしら。"],["ずんだもん","仕掛品に貯まっているのだ。前T/Bの仕掛品36,600は、Y社の24,000と、Z社の12,600の合計なのだ。"],["ずんだもん","だから、仕掛品から売上原価に24,000を振り替えるのだ。"]],[["めたん","次はZ社ね。Y社と同じ手順でいいのかしら。"],["ずんだもん","2つ違うのだ。Z社は当期に着手したから、前期の分がないのだ。"],["ずんだもん","それと、見積総原価が途中で変わっているのだ。"],["めたん","問題文には、当初は45,000の見積りだったけど、52,500になると分かった、ってあるわ。"],["ずんだもん","当期末までに、見積りが増えたのだ。"],["めたん","進捗度は、最初の45,000で割るのよね。"],["ずんだもん","違うのだ。新しい見積りの52,500で割るのだ。当期末の時点で、一番正しい見積りだからなのだ。"],["めたん","発生原価は12,600だから、12,600÷52,500で、24%ね。"],["ずんだもん","その通りなのだ。取引価格48,000に24%をかけて、当期の売上は11,520なのだ。"],["めたん","原価は、前期の分がないから、当期に発生した12,600そのままね。"],["ずんだもん","そうなのだ。12,600を、仕掛品から売上原価に振り替えるのだ。"]],[["めたん","ちょっと待って。Z社は、売上11,520より原価12,600の方が大きいわ。"],["ずんだもん","そうなのだ。見積総原価52,500が、取引価格48,000を超えたからなのだ。"],["めたん","つまり、この仕事は全体で赤字なのね。"],["ずんだもん","そうなのだ。全体の損失は、52,500−48,000で、4,500なのだ。"],["めたん","問題文には、必要な受注損失引当金を計上しろ、ってあるわね。"],["ずんだもん","来期以降に出ると分かっている損失を、今期のうちに費用にしておく引当金なのだ。"],["めたん","じゃあ、4,500を全部引き当てればいいのね。"],["ずんだもん","全部ではないのだ。当期の分の損失は、もう出ているからなのだ。"],["めたん","当期の分は、売上11,520と原価12,600の差で、1,080ね。"],["ずんだもん","その通りなのだ。4,500−1,080で、3,420。これが来期以降の損失なのだ。"],["ずんだもん","解説では、来期以降の売上と、来期以降の原価の差でも出しているのだ。"],["めたん","来期以降の売上は、48,000−11,520で36,480ね。"],["ずんだもん","来期以降の原価は、52,500−12,600で39,900なのだ。差はやっぱり3,420なのだ。"],["めたん","どっちから出しても同じね。あとは繰入額の置き場所ね。"],["ずんだもん","問題文に、売上原価に含める、と書いてあるのだ。"],["ずんだもん","だから、売上原価のソフトウェア開発に、3,420を足すのだ。"]],[["めたん","売上を立てたときの、相手の科目は何？"],["ずんだもん","お金を先にもらっているか、まだもらっていないかで、分けるのだ。"],["ずんだもん","先にお金をもらって、まだ作業していない分は、契約負債なのだ。"],["めたん","逆に、作業はしたけどお金がまだなら、契約資産ね。"],["ずんだもん","その通りなのだ。"],["めたん","前T/Bに、契約負債19,500があるわね。"],["ずんだもん","これは、Y社とZ社から、先にもらったお金なのだ。"],["めたん","内訳が知りたいわ。"],["ずんだもん","Y社は、入金18,000のうち、前期の売上7,500にもう使った残りの、10,500なのだ。"],["ずんだもん","Z社は、入金9,000がまるごと残っているのだ。10,500＋9,000で、19,500なのだ。"],["めたん","前T/Bの数字と合うわね。"],["ずんだもん","そうなのだ。さっき自分で出した前期の売上7,500が、正しいことの確かめにもなるのだ。"],["めたん","Y社の当期の売上30,000は、どう仕訳するのかしら。"],["ずんだもん","まず、先にもらっている契約負債10,500を取り崩して、売上に回すのだ。"],["ずんだもん","足りない19,500は、まだお金をもらっていないから、契約資産なのだ。"],["めたん","Z社の11,520も同じね。契約負債9,000を取り崩して、足りない2,520が契約資産。"],["ずんだもん","完璧なのだ。"],["ずんだもん","次は、売上高のソフトウェア開発の欄なのだ。"],["ずんだもん","前T/Bの22,500に、Y社の30,000と、Z社の11,520を足すのだ。"],["めたん","前T/Bの22,500は、X社の当期分ね。"],["ずんだもん","そうなのだ。問題文に、前T/Bに入っていると書いてあったのだ。"],["ずんだもん","22,500＋30,000＋11,520で、64,020なのだ。"],["めたん","売上原価も、前T/Bの19,200に足していく形ね。"],["ずんだもん","Y社の24,000、Z社の12,600、引当金の3,420を足すのだ。"],["ずんだもん","合計で59,220なのだ。"],["ずんだもん","解答用紙の、売上高のソフトウェア開発は64,020なのだ。"],["ずんだもん","売上原価のソフトウェア開発は59,220なのだ。"],["ずんだもん","問2の受注損失引当金は、3,420なのだ。"],["ずんだもん","契約資産の19,500と2,520は、次の貸倒引当金で使うのだ。"]]],"drops":[{"prob":"売上高・売上原価（商品販売／ソフトウェア開発）","at":"2026-09-27","kind":"none","pair":null,"what":"収益認識（返金負債・工事進行基準に近い進捗度計算）が手つかず","n":0,"vs":"","seek":53.83}]},{"kind":"exam","no":"164回","sub":"過去問","ch":164,"probs":[],"hl":"[返品権付き]から/[税効果]まで","acct":"過去問","id":"x164-bo-2","title":"商業簿記 後編","sn":"商簿後","w":2.808,"wt":["収益認識（返金負債・工事進行基準に近い進捗度計算）が手つかず","外貨建有価証券の完成計算で、前T/Bへの足し戻しを忘れる","税効果会計・法人税等の計算が手つかず","有形固定資産の保有目的変更と減損が手つかず"],"video":{"blob":"648723f656d7f35b44bc875fe63b44f5","secs":1106.41,"mb":13.2},"scenes":[[0.0,"貸倒引当金"],[75.22,"減価償却費：建物甲と備品"],[156.54,"建物乙と土地：投資不動産への振替"],[216.79,"建物乙と土地：減損"],[350.59,"機械装置と研究開発費"],[417.82,"ソフトウェア償却費"],[491.87,"外貨建て債券：償却原価法"],[563.29,"外貨建て債券：換算替えと答え"],[635.85,"退職給付"],[736.62,"法人税等"],[767.2,"税効果会計"],[897.3,"損益計算書を完成させる"],[992.01,"配当と準備金"],[1071.88,"問2のまとめ"]],"shorts":[{"hl":"[前T／B]に/足すのを忘れない","at":491.87,"blob":"afb65436c79eb6daade08786fe3ede93"},{"hl":"前T／Bの7,000は/[足さない]","at":635.85,"blob":"e3c6276021a5ff3ebc2e5e641060a7e4"},{"hl":"売掛金は/[返金負債]と相殺してから","at":0.0,"blob":"dbe2e3090b2e3c349d6ae7feade340a7"}],"script":[[["ずんだもん","次は資料2の3番、貸倒引当金なのだ。"],["ずんだもん","ここで埋まるのは、販売費及び一般管理費の、貸倒引当金繰入額なのだ。"],["めたん","本人は空欄だったのよね。"],["ずんだもん","そうなのだ。でも、1番と2番が解ければ、すぐ出るのだ。"],["めたん","問題文には、売掛金と契約資産の残高に、1%を差額補充法で設定、ってあるわ。"],["ずんだもん","その2つに、貸倒引当金を設定するのだ。"],["めたん","売掛金は、前T/Bの135,980をそのまま使えばいいわね。"],["ずんだもん","そのままでは使わないのだ。問題文に、返金負債との相殺後、と書いてあるのだ。"],["めたん","どうして相殺するの？"],["ずんだもん","返品されれば、その分の売掛金は、お金を回収しないで消えるからなのだ。"],["めたん","1番の返金負債を引いて、135,980−10,000で、125,980ね。"],["ずんだもん","その通りなのだ。"],["めたん","契約資産は、2番のY社19,500とZ社2,520で、22,020。"],["ずんだもん","そうなのだ。契約資産も、いずれお金をもらう権利だから、貸倒引当金がいるのだ。"],["ずんだもん","125,980＋22,020で148,000、その1%で1,480なのだ。"],["めたん","これが繰入額ね。"],["ずんだもん","違うのだ。差額補充法だから、今ある引当金との差だけを足すのだ。"],["めたん","今ある引当金は、前T/Bの貸倒引当金400ね。"],["ずんだもん","そうなのだ。1,480−400で、繰入額は1,080なのだ。"],["ずんだもん","解答用紙の、貸倒引当金繰入額の欄は1,080なのだ。"],["ずんだもん","引当金の残高1,480は、税効果の場面で、もう一度使うのだ。"]],[["ずんだもん","次は資料2の4番、有形固定資産なのだ。"],["ずんだもん","ここは中身が多いので、3つに分けるのだ。"],["ずんだもん","建物甲と備品、建物乙と土地、それと機械装置なのだ。"],["ずんだもん","最初の建物甲と備品で埋まるのは、販売費及び一般管理費の減価償却費なのだ。"],["めたん","本人は21,500で、正解だったわね。"],["ずんだもん","そうなのだ。解き方を確かめるのだ。"],["ずんだもん","建物甲は、税法上の定額法、耐用年数20年、残存価額0なのだ。"],["めたん","定額法なら、償却率は1÷20で、0.05ね。"],["ずんだもん","その通りなのだ。取得原価250,000にかけて、12,500なのだ。"],["ずんだもん","次は備品なのだ。200%定率法で、償却率は定額法の率の2倍なのだ。"],["めたん","1÷8年が0.125だから、その2倍で0.25ね。"],["ずんだもん","そうなのだ。"],["めたん","あとは取得原価48,000に0.25をかければいいのよね。"],["ずんだもん","定率法は、まだ償却していない帳簿価額にかけるのだ。"],["ずんだもん","取得原価48,000から、前T/Bの備品減価償却累計額12,000を引いた、36,000なのだ。"],["めたん","36,000×0.25で、9,000ね。"],["めたん","改定償却率とか保証率は、使わなくていいのかしら。"],["ずんだもん","確かめるのだ。償却保証額は、取得原価48,000に保証率0.07909をかけて、約3,796なのだ。"],["ずんだもん","普通に計算した9,000の方が大きいから、改定償却率に切り替えなくていいのだ。"],["めたん","建物乙が入ってないけど、いいのかしら。"],["ずんだもん","乙は賃貸用に変えたので、次の場面で別に計算するのだ。"],["ずんだもん","12,500＋9,000で、21,500なのだ。"],["ずんだもん","解答用紙の、販売費及び一般管理費の減価償却費は、21,500なのだ。"]],[["ずんだもん","次は、建物乙と、土地の一部なのだ。"],["ずんだもん","ここで埋まるのは、営業外費用の減価償却費と、特別損失の減損損失なのだ。"],["めたん","本人は、営業外の減価償却費12,000は合っていて、減損は空欄だったのよね。"],["めたん","問題文には、当期首から、土地146,410と建物乙を賃貸目的に変えた、ってあるわ。"],["ずんだもん","賃貸目的に変えると、自分の事業で使う資産ではなくなるのだ。"],["ずんだもん","人に貸して賃料をもらう、投資のための資産になるのだ。"],["めたん","だから、建物と土地から、投資不動産に振り替えるのね。"],["ずんだもん","その通りなのだ。"],["めたん","振り替える金額は？"],["ずんだもん","取得原価で振り替えるのだ。建物乙の180,000と、土地の146,410で、326,410なのだ。"],["めたん","振り替えた後も、建物乙の減価償却は続けるのかしら。"],["ずんだもん","続けるのだ。建物乙は、耐用年数15年の定額法なのだ。"],["めたん","180,000÷15年で、12,000ね。"],["ずんだもん","その通りなのだ。"],["めたん","表示は、今までどおり販管費でいいわよね。"],["ずんだもん","本業の費用ではないので、営業外費用に入れるのだ。"],["ずんだもん","賃料の受取賃貸料が営業外収益なので、それに対応する費用も、営業外なのだ。"],["ずんだもん","解答用紙の、営業外費用の減価償却費は、12,000なのだ。"]],[["めたん","で、ここから減損の話になるのよね。なんで急に減損なの？"],["ずんだもん","問題文の続きに、当期末において減損の兆候が判明し、と書いてあるのだ。"],["めたん","減損の兆候って何？"],["ずんだもん","資産の価値が、帳簿の金額より大きく下がったかもしれない、というサインなのだ。"],["ずんだもん","兆候があるときは、本当に減損しているかを、判定しないといけないのだ。"],["めたん","判定するのは、振り替えた建物乙と土地ね。"],["ずんだもん","そうなのだ。2つをひとまとまりで見るのだ。"],["ずんだもん","キャッシュ・フローの見積りが、この2つをまとめて書いてあるからなのだ。"],["めたん","判定のやり方は？"],["ずんだもん","帳簿価額と、割引前の将来キャッシュ・フローの合計を比べるのだ。"],["ずんだもん","将来キャッシュ・フローの方が小さければ、減損を認識するのだ。"],["めたん","帳簿価額は、投資不動産326,410から減価償却累計額を引くのね。"],["ずんだもん","そうなのだ。建物乙は、4年前の4月に買ったのだ。当期末で、ちょうど4年たっているのだ。"],["めたん","1年12,000の4年分で、48,000ね。"],["ずんだもん","その通りなのだ。当期の12,000も含んでいるのだ。"],["ずんだもん","326,410−48,000で、帳簿価額は278,410なのだ。"],["めたん","将来キャッシュ・フローは？"],["ずんだもん","毎年29,282が、4年間入ってくるのだ。それと、4年後に土地を146,410で処分できるのだ。"],["めたん","建物の処分価額は、見当たらないわね。"],["ずんだもん","そうなのだ。問題文に、処分価額は土地のみ、と書いてあるのだ。"],["ずんだもん","29,282×4年で117,128。146,410を足して、263,538なのだ。"],["めたん","278,410の方が大きいわ。減損ね。"],["ずんだもん","その通りなのだ。帳簿価額を、回収可能価額まで下げるのだ。"],["めたん","回収可能価額って？"],["ずんだもん","売ったらいくらかと、使い続けたらいくらかの、高い方なのだ。"],["ずんだもん","この問題は、使い続けた場合の、使用価値だけが出せるのだ。"],["ずんだもん","使用価値は、将来キャッシュ・フローを、割引率10%で、今の価値に直した合計なのだ。"],["めたん","どうして割り引くの？"],["ずんだもん","来年の29,282は、今の29,282より価値が低いからなのだ。"],["ずんだもん","1年後の分は1.1で割る。2年後の分は1.1を2回かけたもので割る、と続けるのだ。"],["ずんだもん","4年分を割ると、26,620、24,200、22,000、20,000になるのだ。"],["ずんだもん","土地の146,410は、1.1の4乗で割ると、ちょうど100,000なのだ。"],["めたん","全部足すと、使用価値は192,820ね。"],["ずんだもん","その通りなのだ。"],["めたん","減損損失は、278,410−192,820で、85,590。"],["ずんだもん","そうなのだ。表示は特別損失なのだ。"],["ずんだもん","解答用紙の、特別損失の減損損失は、85,590なのだ。"],["ずんだもん","減損損失累計額の85,590は、税効果の場面でまた使うのだ。"]],[["ずんだもん","4番の最後は、機械装置なのだ。"],["ずんだもん","ここで埋まるのは、販売費及び一般管理費の、研究開発費なのだ。"],["めたん","本人は12,000で、正解は32,000だったわね。"],["めたん","問題文には、機械装置はもっぱら新規事業の研究開発に使う目的で買った、ってあるわ。"],["ずんだもん","その研究開発にしか使えない機械は、買ったときに全額を研究開発費にするのだ。"],["めたん","機械なのに、資産にしないの？"],["ずんだもん","研究開発は、将来お金を生むか分からないからなのだ。基準で、費用にすると決まっているのだ。"],["めたん","前T/Bでは、機械装置12,000が資産に載ってるわね。"],["ずんだもん","そうなのだ。だから、機械装置から研究開発費に、12,000を振り替えるのだ。"],["めたん","本人も、ここまでは合っていたのよね。"],["ずんだもん","そうなのだ。落としたのは、最後の一手なのだ。"],["めたん","振り替えた12,000が、そのまま研究開発費の答えでしょ。"],["ずんだもん","そこが落とし穴なのだ。前T/Bに、研究開発費がもう20,000あるのだ。"],["ずんだもん","20,000＋12,000で、32,000なのだ。"],["めたん","12,000だけ書くと、前T/Bの分が抜けちゃうのね。"],["ずんだもん","そうなのだ。前T/Bに同じ名前の科目があったら、必ず足すのだ。"],["めたん","機械装置の償却率も、問題文に書いてあったけど？"],["ずんだもん","解説には、資産のままにして、償却分の2,800だけを研究開発費にする別解も載っているのだ。"],["ずんだもん","でも、模範解答は全額費用の32,000なのだ。"],["ずんだもん","解答用紙の、研究開発費の欄は、32,000なのだ。"]],[["ずんだもん","次は資料2の5番、ソフトウェアなのだ。"],["ずんだもん","ここで埋まるのは、ソフトウェア償却費なのだ。本人は8,080で正解だったのだ。"],["めたん","問題文には、前T/Bのソフトウェア30,000に、2つのシステムが入っている、ってあるわ。"],["ずんだもん","基幹システムと、販売支援システムなのだ。"],["ずんだもん","基幹システムは、取得原価33,600、使える期間5年、定額法なのだ。"],["めたん","1年分は、33,600÷5年で、6,720ね。"],["ずんだもん","その通りなのだ。"],["めたん","販売支援システムの方は、取得原価が書いてないわよ。"],["ずんだもん","前T/Bから逆算するのだ。"],["ずんだもん","前T/Bの30,000は、基幹システムの当期首の帳簿価額と、販売支援システムの取得原価の合計なのだ。"],["めたん","じゃあ、基幹システムの当期首の帳簿価額を引けば、残りが販売支援システムね。"],["ずんだもん","その通りなのだ。使い始めてから当期首まで、21か月たっているのだ。"],["ずんだもん","5年は60か月だから、残りは39か月分なのだ。"],["めたん","33,600×60分の39で、21,840ね。"],["ずんだもん","そうなのだ。30,000−21,840で、販売支援システムの取得原価は8,160なのだ。"],["めたん","販売支援システムは、当期の途中から使い始めたのよね。"],["ずんだもん","そうなのだ。10月からだから、当期は6か月分なのだ。"],["ずんだもん","8,160÷3年で、1年分は2,720。その半分で、1,360なのだ。"],["めたん","6,720＋1,360で、8,080。本人の答えと同じね。"],["ずんだもん","その通りなのだ。解答用紙の、ソフトウェア償却費の欄は、8,080なのだ。"]],[["ずんだもん","次は資料2の6番、外貨建ての満期保有目的の債券なのだ。"],["ずんだもん","ここで埋まるのは、営業外収益の、有価証券利息と為替差益なのだ。"],["めたん","本人は、250と4,970を書いて、前T/Bに足すのを忘れたのよね。"],["ずんだもん","そうなのだ。増えた分の出し方は、合っていたのだ。順番に確かめるのだ。"],["めたん","問題文には、額面500ドルの社債を490ドルで買った、ってあるわ。満期は5年後ね。"],["ずんだもん","そうなのだ。満期保有目的だから、償却原価法なのだ。"],["めたん","償却原価法って、差を少しずつ足していくやつよね。"],["ずんだもん","そうなのだ。買った値段と額面の差を、満期までの間に少しずつ帳簿に足す方法なのだ。"],["めたん","なんで足すの？"],["ずんだもん","満期には500ドル返ってくるから、帳簿も満期の日に500ドルになるように近づけるのだ。"],["めたん","差の10ドルを5年で割って、1年に2ドルずつね。"],["ずんだもん","その通りなのだ。"],["めたん","足した2ドルは、何になるのかしら。"],["ずんだもん","有価証券利息なのだ。安く買った分は、実質的に利息と同じだからなのだ。"],["めたん","当期首までに3年たってるから、490に2ドルの3年分を足して、496ドルね。"],["ずんだもん","その通りなのだ。円では、前T/Bの投資有価証券59,520なのだ。"],["ずんだもん","496ドルに、前期末の120円をかけた数字と一致するのだ。"],["めたん","当期の2ドルは、期末の相場で換算するのよね。"],["ずんだもん","利息は1年かけて発生するから、当期中の相場の125円を使うのだ。"],["めたん","2ドル×125円で、250ね。"],["ずんだもん","そうなのだ。本人の250は、ここまで合っていたのだ。"]],[["めたん","次は為替差益ね。"],["ずんだもん","期末には、債券を、期末の相場で換算し直すのだ。"],["めたん","期末の帳簿価額は、496ドルに当期の2ドルを足して、498ドルね。"],["ずんだもん","その通りなのだ。期末の相場130円をかけて、64,740なのだ。"],["めたん","今の円の帳簿は、59,520＋250で、59,770。"],["ずんだもん","そうなのだ。64,740−59,770で、4,970が為替差益なのだ。"],["めたん","本人の4,970も、合っていたのね。"],["ずんだもん","そうなのだ。落としたのは、ここからなのだ。"],["めたん","前T/Bを見るのね。"],["ずんだもん","前T/Bに、有価証券利息1,250と、為替差損益800が、もう載っているのだ。"],["めたん","これは何の数字？"],["ずんだもん","問題文に内訳はないのだ。でも、決算の前に、期中でもう計上されている収益なのだ。"],["めたん","じゃあ損益計算書には、前T/Bの金額に、決算で増えた分を足すのね。"],["ずんだもん","その通りなのだ。有価証券利息は、1,250＋250で、1,500なのだ。"],["めたん","為替差益は、800＋4,970で、5,770。"],["めたん","あ、でも前T/Bの為替差損益800って、益なの？損なの？"],["ずんだもん","前T/Bの貸方にあるから、益なのだ。だから足してよいのだ。"],["ずんだもん","解答用紙の、有価証券利息は1,500、為替差益は5,770なのだ。"],["めたん","貸借対照表では？"],["ずんだもん","満期まで1年以内になったので、投資有価証券ではなく、流動資産の有価証券64,740になるのだ。"]],[["ずんだもん","次は資料2の7番、退職給付なのだ。"],["ずんだもん","ここで埋まるのは、退職給付費用と、問2の退職給付引当金なのだ。"],["めたん","本人は、退職給付費用7,800で正解、引当金は空欄だったわね。"],["めたん","問題文を見るわよ。数字が4つ並んでるわね。"],["ずんだもん","当期の勤務費用5,000、利息費用4,500、期待運用収益2,700、数理計算上の差異の費用処理額1,000なのだ。"],["めたん","これを足し引きすれば、退職給付費用ね。"],["ずんだもん","そうなのだ。勤務費用と利息費用は、退職金を払う義務が増える分だから、足すのだ。"],["ずんだもん","期待運用収益は、年金資産が増える分だから、引くのだ。"],["めたん","数理計算上の差異の1,000は？"],["ずんだもん","問題文に、年金資産の運用損による差異、と書いてあるのだ。損だから、費用に足すのだ。"],["めたん","5,000＋4,500−2,700＋1,000で、7,800ね。"],["ずんだもん","その通りなのだ。"],["めたん","前T/Bにも、退職給付費用7,000があるわね。研究開発費みたいに、これも足すのよね。"],["ずんだもん","足さないのだ。問題文に、これは当期に払った退職一時金と、年金の掛金だ、と書いてあるのだ。"],["めたん","払ったお金は、費用じゃないの？"],["ずんだもん","退職金は、毎年の費用として、引当金に積んできたものなのだ。"],["ずんだもん","払ったときは、積んである引当金を取り崩すだけなのだ。費用ではないのだ。"],["ずんだもん","だから、退職給付費用の7,000を、退職給付引当金に振り替えて消すのだ。"],["めたん","研究開発費は足したのに、こっちは足さないのね。紛らわしいわ。"],["ずんだもん","そうなのだ。前T/Bの数字は、何の金額かを問題文で確かめてから使うのだ。"],["ずんだもん","解答用紙の、退職給付費用の欄は、7,800なのだ。"],["めたん","引当金の残高は？"],["ずんだもん","前T/Bの54,000から、払った7,000を引いて、当期の費用7,800を足すのだ。"],["ずんだもん","54,000−7,000＋7,800で、54,800なのだ。"],["めたん","54,000って、問題文の数字とつながってるの？"],["ずんだもん","つながっているのだ。退職給付債務150,000から、年金資産90,000と、まだ費用にしていない差異6,000を引くと、54,000なのだ。"],["ずんだもん","問2の退職給付引当金は、54,800なのだ。これも税効果で使うのだ。"]],[["ずんだもん","次は資料2の8番、法人税等と税効果会計なのだ。"],["ずんだもん","ここで埋まるのは、法人税、住民税及び事業税と、法人税等調整額なのだ。"],["めたん","本人は、どっちも空欄だったわね。"],["めたん","問題文には、当年度の法人税等は28,000と見積もられた、ってあるわ。"],["ずんだもん","前T/Bの仮払法人税等10,000は、中間納付した額なのだ。"],["めたん","28,000を費用にして、もう払った10,000は、仮払法人税等を消すのね。"],["ずんだもん","その通りなのだ。残りの18,000は、未払法人税等にするのだ。"],["ずんだもん","解答用紙の、法人税、住民税及び事業税の欄は、28,000なのだ。"]],[["めたん","次は税効果ね。税効果会計って何？"],["ずんだもん","会計の利益と、税金の計算の利益のずれを、調整する方法なのだ。"],["めたん","どんなずれ？"],["ずんだもん","会計では今期の費用なのに、税金の計算では、まだ費用と認められないものがあるのだ。"],["ずんだもん","こういう、将来の税金を減らす効果がある差を、将来減算一時差異というのだ。"],["めたん","今回は、どれが一時差異なの？"],["ずんだもん","問題文に書いてあるのだ。貸倒引当金、受注損失引当金、減損損失累計額、退職給付引当金の、4つだけなのだ。"],["めたん","引当金ばっかりね。なんで引当金が、一時差異になるの？"],["ずんだもん","引当金を積んだときは、税金の計算では費用にならないのだ。実際に払ったときに、費用になるのだ。"],["ずんだもん","だから今は税金を多めに払っていて、将来その分の税金が減るのだ。"],["ずんだもん","その将来減る税金を、繰延税金資産として資産にするのだ。"],["めたん","当期末の一時差異を合計して、税率をかければいいのね。"],["ずんだもん","そうなのだ。税率30%をかけて、当期末の繰延税金資産を出すのだ。"],["ずんだもん","使うのは、今までの場面で出した数字なのだ。"],["ずんだもん","貸倒引当金は1,480、受注損失引当金は3,420なのだ。"],["ずんだもん","減損損失累計額は85,590、退職給付引当金は54,800なのだ。"],["ずんだもん","合計で145,290。30%をかけて、当期末の繰延税金資産は43,587なのだ。"],["めたん","当期首の分は、前T/Bの繰延税金資産16,500ね。"],["ずんだもん","そうなのだ。これが当期首の残高なのだ。"],["めたん","増えた分は、43,587−16,500で、27,087。それが法人税等調整額ね。"],["ずんだもん","その通りなのだ。繰延税金資産が増えた分だけ、税金の費用を減らすのだ。"],["ずんだもん","仕訳は、借方が繰延税金資産27,087、貸方が法人税等調整額27,087なのだ。"],["めたん","解説の表では、当期首の貸倒引当金が1,000になってるけど、前T/Bは400よね？"],["ずんだもん","16,500を30%で割ると、55,000なのだ。そこから退職給付引当金54,000を引くと、1,000なのだ。"],["ずんだもん","前期末には1,000あったけど、期中の貸倒れで600を取り崩して、前T/Bでは400になったと考えられるのだ。"],["ずんだもん","だから当期首の分は、前T/Bの繰延税金資産16,500を、そのまま使うのが確実なのだ。"],["めたん","損益計算書での書き方も、見ておきたいわ。"],["ずんだもん","法人税、住民税及び事業税28,000の下に、法人税等調整額をマイナス27,087と書くのだ。"],["ずんだもん","差し引きの法人税等合計は、913なのだ。"],["ずんだもん","解答用紙の、法人税等調整額の欄は、マイナス27,087なのだ。"]],[["ずんだもん","ここで、損益計算書を上から通して、完成させるのだ。"],["めたん","売上高は、商品販売810,000とソフトウェア開発64,020で、874,020ね。"],["ずんだもん","その通りなのだ。売上原価は、648,000と59,220で、707,220なのだ。"],["めたん","売上総利益は、874,020−707,220で、166,800。"],["ずんだもん","そうなのだ。次は販売費及び一般管理費なのだ。"],["ずんだもん","貸倒引当金繰入額1,080、給料手当20,000、退職給付費用7,800なのだ。"],["ずんだもん","減価償却費21,500、ソフトウェア償却費8,080、研究開発費32,000、一般管理費10,000なのだ。"],["めたん","給料手当と一般管理費は、今日一度も出てこなかったわね。"],["ずんだもん","前T/Bの金額そのままなのだ。資料2に、直す指示がないからなのだ。"],["ずんだもん","合計は100,460で、営業利益は66,340なのだ。"],["めたん","営業外収益は？"],["ずんだもん","受取賃貸料32,400と、受取配当金8,300は、前T/Bのままなのだ。"],["ずんだもん","有価証券利息1,500と、為替差益5,770を足して、47,970なのだ。"],["めたん","営業外費用は、減価償却費12,000と、前T/Bの支払利息8,000で、20,000ね。"],["ずんだもん","その通りなのだ。経常利益は、66,340＋47,970−20,000で、94,310なのだ。"],["めたん","特別損失は減損損失85,590だから、税引前当期純利益は8,720。"],["ずんだもん","そうなのだ。法人税等は、28,000とマイナス27,087を合わせて、913なのだ。"],["めたん","当期純利益は、8,720−913で、7,807ね。"],["ずんだもん","その通りなのだ。"],["めたん","本人が埋めていたのは、どこだった？"],["ずんだもん","退職給付費用、販管費の減価償却費、ソフトウェア償却費、営業外の減価償却費の4つなのだ。"],["ずんだもん","今日の流れで、残りの欄も全部埋まったのだ。"]],[["ずんだもん","最後は資料2の9番、配当に伴う準備金なのだ。"],["ずんだもん","ここで埋まるのは、問2の利益準備金と、繰越利益剰余金なのだ。"],["めたん","問題文には、支払配当金8,000は中間配当で、準備金の積立てがまだ、ってあるわ。"],["ずんだもん","そうなのだ。準備金を積む処理が、まだされていないのだ。"],["めたん","なんで準備金を積むの？"],["ずんだもん","会社法で、配当するときは、配当の10分の1を準備金として積むと決まっているのだ。"],["ずんだもん","ただし、資本準備金と利益準備金の合計が、資本金の4分の1に届くまででいいのだ。"],["めたん","だから2つ計算して、少ない方なのね。"],["ずんだもん","そうなのだ。1つ目は、配当8,000の10分の1で、800なのだ。"],["ずんだもん","2つ目は、資本金500,000の4分の1の125,000から、今ある準備金を引くのだ。"],["ずんだもん","資本準備金100,000と、利益準備金20,000を引いて、5,000なのだ。"],["めたん","800と5,000なら、少ない方の800ね。"],["ずんだもん","そうなのだ。繰越利益剰余金から配当したので、利益準備金に800を積むのだ。"],["めたん","利益準備金は、20,000＋800で、20,800ね。"],["ずんだもん","その通りなのだ。"],["めたん","繰越利益剰余金は、前T/Bの69,700から、配当の8,000と準備金の800を引くのね。"],["めたん","でも支払配当金8,000って、もう繰越利益剰余金から引かれてるんじゃないの？"],["ずんだもん","前T/Bでは、支払配当金という別の科目に置いてあるのだ。決算で、繰越利益剰余金に振り替えるのだ。"],["ずんだもん","そこに、損益計算書の当期純利益7,807を足すのだ。"],["ずんだもん","69,700−8,800＋7,807で、68,707なのだ。"],["ずんだもん","解答用紙の、問2の利益準備金は20,800、繰越利益剰余金は68,707なのだ。"]],[["ずんだもん","最後に、問2の5つを確かめるのだ。"],["ずんだもん","返品資産8,000は、1番の返品権付き販売で出したのだ。"],["ずんだもん","受注損失引当金3,420は、2番のZ社で出したのだ。"],["ずんだもん","退職給付引当金54,800は、7番で出したのだ。"],["ずんだもん","利益準備金20,800と、繰越利益剰余金68,707は、9番で出したのだ。"],["めたん","どれも、途中の計算で出てくる数字ね。"],["ずんだもん","そうなのだ。出たときにすぐ、問2の欄に書き込んでおくと、時間切れで落とさないのだ。"],["めたん","本人は、前半で止まって、後ろが空欄だったのよね。"],["ずんだもん","そうなのだ。4番から7番は、前の番号が解けなくても解けるのだ。"],["ずんだもん","止まったら飛ばして、先の番号を解くのも大事なのだ。"]]],"drops":[{"prob":"法人税等・法人税等調整額","at":"2026-09-27","kind":"none","pair":null,"what":"税効果会計・法人税等の計算が手つかず","n":0,"vs":"","seek":736.62},{"prob":"減損損失","at":"2026-09-27","kind":"none","pair":null,"what":"有形固定資産の保有目的変更と減損が手つかず","n":0,"vs":"","seek":216.79},{"prob":"有価証券利息・為替差益","at":"2026-09-27","kind":"slip","pair":null,"what":"外貨建有価証券の完成計算で、前T/Bへの足し戻しを忘れる","n":0,"vs":"","seek":491.87}]},{"kind":"exam","no":"164回","sub":"過去問","ch":164,"probs":[],"hl":"[在外子会社]の/[一部売却]","acct":"過去問","id":"x164-ka","title":"会計学","sn":"会計","w":0.936,"wt":["連結の数字で「非支配株主の分を含むか」を取り違える"],"video":{"blob":"bee3ce7d1c8910af5b3ea5410361293a","secs":1444.65,"mb":16.8},"scenes":[[0,"会計学の全体像"],[29.8,"第1問の1番：会計上の変更と誤謬"],[88.13,"第1問の2番：新株予約権付社債"],[136.4,"第1問の3番：棚卸減耗損と商品評価損"],[179.89,"第1問の4番：利息と配当金のキャッシュ・フロー"],[238.61,"第1問の5番：開業費"],[273.4,"第2問：資料を読む"],[325.49,"第2問：タイムテーブルを作る"],[407.72,"問1の1番：当期純利益"],[487.57,"問1の2番：非支配株主に帰属する当期純利益"],[518.75,"問1の3番：その他有価証券評価差額金の残高"],[613.75,"問1の4番：のれん償却額"],[649.87,"問1の5番：為替換算調整勘定"],[721.75,"問1の5番：親会社株主に係る包括利益"],[788.4,"問2の全体像：2年目に起きたこと"],[814.91,"問2の1番：P社の個別の当期純利益"],[844.77,"問2の2番：S2社の円換算後の当期純利益"],[874.44,"問2の3番：その他有価証券評価差額金の当期の動き"],[935.99,"問2の4番：為替換算調整勘定"],[1006.45,"問2の5番：S1社の非支配株主持分の増減"],[1054.32,"問2の6番：S2社の非支配株主持分の増減"],[1122.77,"問2の7番：のれんの期末残高"],[1158.42,"一部売却の考え方"],[1219.67,"問2の8番：資本剰余金の増減"],[1290.86,"問2の9番：連結の当期純利益"],[1356.86,"問2の10番：親会社株主に係る包括利益"],[1411.1,"会計学のまとめ"]],"script":[[["ずんだもん","今回は、164回の会計学を、最初から最後まで解くのだ。"],["ずんだもん","第1問は正誤問題、第2問は連結の計算問題なのだ。"],["めたん","まずは本人の点数から聞かせて。"],["ずんだもん","25点中18点なのだ。第1問は5問中4問、第2問は15問中10問、正解だったのだ。"],["ずんだもん","合っていた所も、解き方が合っていたか確かめるのだ。"],["めたん","第1問は、どういう形の問題？"],["ずんだもん","5つの文章に、下線が4つずつ引いてあるのだ。"],["ずんだもん","間違いが1つあれば、その記号と、正しい言葉を書くのだ。"],["めたん","間違いがなければ、丸を書くのよね。"],["ずんだもん","その通りなのだ。"]],[["ずんだもん","第1問の1番は、会計上の変更と、誤謬の訂正なのだ。"],["ずんだもん","ここで埋まるのは、第1問の1番の欄なのだ。"],["めたん","本人は、cと、会計上の見積りの変更、で正解だったわね。"],["ずんだもん","まず前提なのだ。会計上の変更は、会計方針の変更、見積りの変更、表示方法の変更の3つなのだ。"],["ずんだもん","誤謬の訂正は、会計上の変更とは別のものなのだ。"],["めたん","aは、会計方針の変更は遡及適用する、ね。"],["ずんだもん","合っているのだ。新しい方針で、過去の財務諸表も作り直すのだ。"],["めたん","bは、誤謬の訂正は修正再表示する。間違いを直して出し直すんだから、これも合ってそうね。"],["ずんだもん","その通りなのだ。過去の間違いを直して、表示し直すのだ。"],["めたん","cは、区別が難しいときは、会計方針の変更と同じに扱う、ね。"],["ずんだもん","ここが間違いなのだ。基準では、会計上の見積りの変更と同じに扱うのだ。"],["めたん","見積りの変更も、過去にさかのぼって直すのよね。"],["ずんだもん","そこは違うのだ。過去は直さず、変更した期から後に反映するのだ。"],["ずんだもん","丸から丸は継続性、三角から丸は見積りの変更、バツから丸は誤謬、と整理するのだ。"],["ずんだもん","解答は、記号がc、正しい言葉は、会計上の見積りの変更なのだ。"]],[["ずんだもん","2番は、新株予約権付社債なのだ。"],["ずんだもん","ここで埋まるのは、第1問の2番の欄なのだ。"],["めたん","本人は、bと、区分法、で正解ね。"],["めたん","区分法と一括法って、何が違うの？"],["ずんだもん","区分法は、社債の部分と新株予約権の部分を、分けて処理する方法なのだ。"],["ずんだもん","一括法は、分けずに、まとめて社債として処理する方法なのだ。"],["ずんだもん","まず発行する側なのだ。転換社債型は、区分法でも一括法でもいいのだ。だからaは合っているのだ。"],["めたん","じゃあ、転換社債型じゃない方も、一括法でいいのね。"],["ずんだもん","そこが違うのだ。区分法しか使えないのだ。問題文は一括法になっているから、bが間違いなのだ。"],["ずんだもん","次は買う側なのだ。転換社債型は一括法、それ以外は区分法なのだ。だから、cとdは合っているのだ。"],["めたん","一括法が出てくるのは、どっちも転換社債型のときだけね。"],["ずんだもん","その通りなのだ。一括法が使えるのは、転換社債型だけ、と覚えるのだ。"],["ずんだもん","解答は、記号がb、正しい言葉は、区分法なのだ。"]],[["ずんだもん","3番は、棚卸資産なのだ。"],["ずんだもん","ここで埋まるのは、第1問の3番の欄なのだ。"],["めたん","本人は、cと、期末実地棚卸数量、で正解ね。"],["めたん","aとbは、原価性がない棚卸減耗損の表示ね。"],["ずんだもん","営業外費用か特別損失なのだ。合っているのだ。"],["めたん","cは、商品評価損は、下がった単価に、期末帳簿棚卸数量をかける、ね。"],["ずんだもん","ここが間違いなのだ。かけるのは、期末実地棚卸数量なのだ。"],["めたん","なんで帳簿の数量じゃダメなの？"],["ずんだもん","帳簿と実地の差は、なくなった分として、もう棚卸減耗損で落としているのだ。"],["めたん","じゃあ、なくなった分にも評価損をかけると……"],["ずんだもん","同じ商品を、二重に費用にしてしまうのだ。だから、今ある実地の数量にかけるのだ。"],["めたん","dは、臨時で多額なら特別損失。これは素直に合ってるわね。"],["ずんだもん","その通り、合っているのだ。"],["ずんだもん","解答は、記号がc、正しい言葉は、期末実地棚卸数量なのだ。"]],[["ずんだもん","4番は、キャッシュ・フロー計算書なのだ。"],["ずんだもん","ここで埋まるのは、第1問の4番の欄なのだ。"],["めたん","本人が、落とした問題ね。"],["ずんだもん","そうなのだ。本人はdを選んだけど、正解はcなのだ。"],["めたん","利息と配当金の書き方は、2通りあるのよね。"],["ずんだもん","そうなのだ。1つ目は、受取利息、受取配当金、支払利息を、営業活動に書くのだ。"],["ずんだもん","支払配当金だけは、財務活動なのだ。ここまでがaとbで、合っているのだ。"],["めたん","1つ目は、どういう理屈で分けてる？"],["ずんだもん","損益計算書に出てくるものは営業活動、出てこない配当の支払いは財務活動、と分けているのだ。"],["ずんだもん","2つ目の方法では、受け取った利息と配当金は、投資活動に書くのだ。"],["めたん","問題文は、営業活動になっていたのね。"],["ずんだもん","そうなのだ。だから、cが間違いなのだ。"],["めたん","本人が選んだdは、支払利息と支払配当金の話ね。"],["ずんだもん","そっちは財務活動なのだ。だから、dは合っていたのだ。"],["めたん","受け取りと支払いで、行き先が分かれるのね。"],["ずんだもん","そうなのだ。受け取りは投資をした成果、支払いはお金を集めるためのコスト、と分けるのだ。"],["めたん","受け取りは投資、支払いは財務。本人は、cの営業活動を見逃したのね。"],["ずんだもん","解答は、記号がc、正しい言葉は、投資活動なのだ。"]],[["ずんだもん","5番は、開業費なのだ。"],["ずんだもん","ここで埋まるのは、第1問の5番の欄なのだ。"],["めたん","本人は、誤りなしの丸で、正解ね。"],["めたん","開業費って何？"],["ずんだもん","会社ができてから、営業を始めるまでに使った、準備のための費用なのだ。"],["めたん","準備の費用なら、使ったときに費用にするのが原則かしら。"],["ずんだもん","その通りなのだ。使ったときに、営業外費用にするのだ。aは合っているのだ。"],["めたん","繰延資産にもできるのよね。"],["ずんだもん","そうなのだ。開業のときから5年以内に、定額法で償却するのだ。bとcも合っているのだ。"],["めたん","dは、販売費及び一般管理費にもできる、ね。ここだけ怪しい気がするわ。"],["ずんだもん","それもできるのだ。dも合っているのだ。"],["ずんだもん","全部合っているので、解答は丸なのだ。"]],[["ずんだもん","ここから第2問、連結なのだ。"],["ずんだもん","問1は1年目、問2は2年目の、連結の数字を答えるのだ。"],["めたん","どんな会社のグループなの？"],["ずんだもん","親会社は日本商工で、P社と呼ぶのだ。"],["ずんだもん","子会社は2つなのだ。国内のS1社を60%、アメリカのS2社を80%持っているのだ。"],["めたん","どっちも、同じ日に子会社にしたのね。"],["ずんだもん","そうなのだ。1年目の期首に、支配を獲得したのだ。"],["ずんだもん","そして2年目の期末に、S2社の株を8%だけ売ったのだ。"],["めたん","のれんや税効果の決まりも、先に押さえておきたいわね。"],["ずんだもん","のれんは、支配を獲得した次の年から、10年で均等に償却するのだ。"],["ずんだもん","税効果は、その他有価証券評価差額金にだけ使うのだ。税率は30%なのだ。"],["めたん","資料3は、その他有価証券ね。"],["ずんだもん","P社が持っていたアメリカのA社株と、S1社が持っている甲社株なのだ。"],["ずんだもん","A社株は、2年目の1月に売っているのだ。これが問2で効いてくるのだ。"],["めたん","資料4は、為替相場ね。"],["ずんだもん","そうなのだ。期末の相場と、期中平均の相場が、年ごとに書いてあるのだ。"]],[["めたん","連結って、どこから手を付ければいいのかしら。"],["ずんだもん","講義と同じで、まずタイムテーブルを書くのだ。"],["ずんだもん","支配獲得の日、1年目の期末、2年目の期末を、横に並べるのだ。"],["ずんだもん","まずS1社なのだ。取得原価277,000、持分60%なのだ。"],["ずんだもん","支配獲得の日の資本は、資本金230,000と利益剰余金165,000で、395,000なのだ。"],["めたん","親の取り分は、395,000の60%で237,000ね。"],["ずんだもん","その通りなのだ。277,000払って、237,000分しか手に入れていないので、差の40,000がのれんなのだ。"],["めたん","S2社はアメリカの会社だから、まず全部円に直すのよね。"],["ずんだもん","いきなり円にしないで、先にドルで骨を書くのだ。"],["ずんだもん","取得原価2,360ドル、資本は資本金1,500ドルと利益剰余金1,200ドルで、2,700ドルなのだ。"],["ずんだもん","その80%が2,160ドル。差の200ドルが、のれんなのだ。"],["めたん","何円で換算するのかしら。"],["ずんだもん","支配獲得の日の資本とのれんは、その日の相場120円なのだ。これをHRと呼ぶのだ。"],["めたん","のれんは、200×120で、24,000ね。"],["ずんだもん","そうなのだ。次に、1年目に増えた利益剰余金を、各社で出すのだ。"],["ずんだもん","まずP社なのだ。451,000−420,000で、31,000なのだ。1年目は配当していないから、これが利益なのだ。"],["めたん","S1社は、173,000−165,000で、8,000ね。"],["ずんだもん","そうなのだ。S2社は、1,500ドル−1,200ドルで、300ドルなのだ。"],["めたん","S2社の利益も、HRの120円で換算するのね。"],["ずんだもん","そこは違うのだ。1年かけて稼いだものだから、期中平均の123円なのだ。これをARと呼ぶのだ。"],["ずんだもん","300×123で、36,900なのだ。"]],[["ずんだもん","問1の1番は、1年目の、連結の当期純利益なのだ。"],["ずんだもん","ここで埋まるのは、問1の1番の欄なのだ。"],["めたん","本人の答えは58,860、正解は69,440だったわね。"],["ずんだもん","そうなのだ。前の動画では、何年分かを混ぜた、と説明したけど、それは間違いだったのだ。"],["めたん","じゃあ、58,860は何の数字なの？"],["ずんだもん","親会社株主に帰属する当期純利益なのだ。"],["めたん","親会社の取り分だけの利益、ってことかしら。"],["ずんだもん","そうなのだ。子会社の利益を、親会社の持分の分だけ足した数字なのだ。"],["ずんだもん","S1社の8,000の60%で4,800、S2社の36,900の80%で29,520なのだ。"],["めたん","P社の31,000に足して、のれん償却を引くと……"],["ずんだもん","のれん償却6,460を引いて、58,860。本人の答えと、ぴったり同じなのだ。"],["めたん","計算はできていたのね。でも、聞かれたのは違うものだった。"],["ずんだもん","そうなのだ。問題は、ただの当期純利益を聞いているのだ。"],["めたん","ただの、が付くだけで、何が変わるの？"],["ずんだもん","連結の当期純利益は、非支配株主に帰属する分も、全部含むのだ。"],["ずんだもん","連結損益計算書は、グループ全体の成績だからなのだ。"],["めたん","だから、子会社の利益を100%足すのね。"],["ずんだもん","そうなのだ。31,000＋8,000＋36,900−6,460で、69,440なのだ。"],["めたん","58,860との差は、69,440−58,860で10,580ね。"],["ずんだもん","その通りなのだ。これは非支配株主に帰属する当期純利益で、次の2番の答えなのだ。"],["ずんだもん","解答用紙の、問1の1番は69,440なのだ。"]],[["ずんだもん","2番は、非支配株主に帰属する当期純利益なのだ。"],["ずんだもん","ここで埋まるのは、問1の2番の欄なのだ。本人は10,580で正解なのだ。"],["めたん","子会社の利益の、非支配株主の割合を足すのね。"],["ずんだもん","そうなのだ。S1社は、8,000の40%で、3,200なのだ。"],["めたん","S2社は、36,900の20%で7,380。あとは、のれん償却を引いて……"],["ずんだもん","のれん償却は引かないのだ。のれんは親会社が払った分だから、全部親の負担なのだ。"],["ずんだもん","3,200＋7,380で、10,580なのだ。"],["ずんだもん","解答用紙の、問1の2番は10,580なのだ。"]],[["ずんだもん","3番は、その他有価証券評価差額金の、1年目の期末の残高なのだ。"],["ずんだもん","ここで埋まるのは、問1の3番の欄なのだ。"],["めたん","本人は2,282、正解は1,974だったわね。"],["めたん","評価差額金の元は、資料3の2つの株ね。"],["ずんだもん","そうなのだ。P社のA社株と、S1社の甲社株なのだ。"],["ずんだもん","まずA社株なのだ。150ドルで買ったのだ。買った日の相場120円で、18,000なのだ。"],["ずんだもん","1年目の期末の時価は160ドルなのだ。期末の相場126円で、20,160なのだ。"],["めたん","差は2,160。税効果の30%を引いて、1,512ね。"],["ずんだもん","その通りなのだ。これがA社株の評価差額金なのだ。"],["ずんだもん","次は甲社株なのだ。11,500で買って、1年目の期末は12,600なのだ。"],["めたん","差は1,100。30%を引いて、770ね。"],["ずんだもん","そうなのだ。本人の2,282は、1,512＋770なのだ。"],["ずんだもん","これは、包括利益計算書に出てくる評価差額金と、同じ数字なのだ。"],["めたん","両方の評価差額金を足したんだから、それで良さそうに見えるけど。"],["ずんだもん","包括利益計算書は、非支配株主の分も含む、グループ全体の数字なのだ。"],["ずんだもん","でも問題が聞いているのは、貸借対照表の残高なのだ。"],["めたん","残高だと、何が違うの？"],["ずんだもん","S1社の770のうち、非支配株主の40%は、非支配株主持分の中に入るのだ。"],["ずんだもん","評価差額金として残るのは、親の取り分の60%だけなのだ。"],["めたん","770の60%で462。1,512＋462で、1,974ね。"],["ずんだもん","その通りなのだ。"],["めたん","1番と3番、向きが逆の取り違えね。"],["ずんだもん","そうなのだ。1番は親の分だけを書いて、3番は全体を書いてしまったのだ。"],["めたん","じゃあ、どう防げばいい？"],["ずんだもん","答える前に、非支配株主の分を含む数字か、含まない数字かを、一度決めるのだ。"],["ずんだもん","解答用紙の、問1の3番は1,974なのだ。"]],[["ずんだもん","4番は、のれん償却額なのだ。本人は6,460で正解なのだ。"],["ずんだもん","ここで埋まるのは、問1の4番の欄なのだ。"],["めたん","S1社ののれんは40,000だったから、10年で割って4,000ね。"],["ずんだもん","そうなのだ。S2社は、ドルののれん200ドルなのだ。"],["ずんだもん","講義と同じで、のれんもドルのまま償却するのだ。200ドルを10年で割って、20ドルなのだ。"],["めたん","20ドルは、期末の126円で換算すればいいのね。"],["ずんだもん","違うのだ。償却額は、1年間の費用だから、期中平均の123円なのだ。20×123で、2,460なのだ。"],["めたん","4,000＋2,460で、6,460。本人の答えと同じね。"],["ずんだもん","解答用紙の、問1の4番は6,460なのだ。"]],[["ずんだもん","5番の親会社株主に係る包括利益には、為替換算調整勘定が要るので、先に出すのだ。"],["めたん","為替換算調整勘定って何？"],["ずんだもん","S2社の資本を円に直すと、使う相場がばらばらなので、ずれが出るのだ。そのずれなのだ。"],["めたん","ばらばらって、どれが何円？"],["ずんだもん","資本金と、支配獲得の日の利益剰余金は、HRの120円のままなのだ。"],["ずんだもん","1年目の利益は、ARの123円なのだ。"],["ずんだもん","でも、S2社の貸借対照表は、資産も負債も期末の相場126円で換算するのだ。これをCRと呼ぶのだ。"],["ずんだもん","資産も負債もCRなら、差の純資産もCRに決まっているのだ。"],["めたん","純資産を、CRで換算した額と、HRとARで積み上げた額の差が、為替換算調整勘定ね。"],["ずんだもん","そうなのだ。資本金1,500ドルは、126−120で6円ずれるから、9,000なのだ。"],["めたん","支配獲得の日の利益剰余金1,200ドルも、6円ずれて7,200ね。"],["ずんだもん","そうなのだ。1年目の利益300ドルは、126−123で3円ずれて、900なのだ。"],["めたん","9,000と7,200と900で、合計17,100ね。"],["ずんだもん","その通りなのだ。"],["めたん","のれんにも、ずれが出るのよね。"],["ずんだもん","そうなのだ。のれんの残高は、期末の相場で換算するのだ。"],["ずんだもん","180ドル×126円で、22,680なのだ。"],["めたん","円で積み上げた方は、24,000−2,460で21,540ね。"],["ずんだもん","そうなのだ。差の1,140が、のれんから出た為替換算調整勘定なのだ。"]],[["めたん","包括利益って、何だっけ？"],["ずんだもん","当期純利益に、その他の包括利益を足したものなのだ。"],["ずんだもん","財布の中身の増え方から、株主とのやりとりを除いたもの、と考えるのだ。"],["めたん","親会社株主に係る分は、どう分けるの？"],["ずんだもん","講義の田の字を使うのだ。縦に親と非支配、横に当期純利益とその他の包括利益なのだ。"],["めたん","親の当期純利益なら、1番で出てきた58,860ね。"],["ずんだもん","そうなのだ。ここで、本人の数字が役に立つのだ。"],["ずんだもん","次は、親のその他の包括利益なのだ。"],["めたん","評価差額金は、P社の1,512と、S1社の770の60%で462ね。"],["ずんだもん","そうなのだ。為替換算調整勘定は、S2社の17,100の80%で13,680なのだ。"],["めたん","のれんの1,140も、80%だけ親に入れるのよね。"],["ずんだもん","そこは全部、親に入れるのだ。のれんは親が払ったものだから、非支配株主に分けないのだ。"],["ずんだもん","のれんの分は全部親会社の分なのだ。按分したらダメなのだ。"],["ずんだもん","58,860＋1,512＋462＋13,680＋1,140で、75,654なのだ。"],["めたん","本人は、ここは正解だったのよね。"],["ずんだもん","そうなのだ。だから、親の分の考え方は分かっていたのだ。1番と3番は、聞かれた物の取り違えなのだ。"],["ずんだもん","解答用紙の、問1の5番は75,654なのだ。"]],[["ずんだもん","ここから問2、2年目なのだ。"],["ずんだもん","本人は10問中7問正解で、8番から10番が時間切れだったのだ。"],["めたん","2年目には、何が起きたの？"],["ずんだもん","P社は20,000の配当、S2社は100ドルの配当をしたのだ。"],["ずんだもん","P社は、A社株を売って、利益を確定したのだ。"],["ずんだもん","そして期末に、S2社の株を8%売ったのだ。持分は80%から72%になるのだ。"],["めたん","まずは、タイムテーブルに2年目を書き足すのね。"],["ずんだもん","そうなのだ。1番から順に、表の数字を使っていくのだ。"]],[["ずんだもん","1番は、P社の個別損益計算書の当期純利益なのだ。"],["ずんだもん","ここで埋まるのは、問2の1番の欄なのだ。本人は67,000で正解なのだ。"],["めたん","個別の当期純利益ね。どこから拾えばいいのかしら。"],["ずんだもん","利益剰余金の動きから、逆算するのだ。"],["めたん","期末の498,000から期首の451,000を引いて、47,000。これが利益ね。"],["ずんだもん","まだなのだ。P社は配当20,000をしているので、その分、剰余金が減っているのだ。"],["めたん","だから、配当を足し戻すのね。"],["ずんだもん","そうなのだ。47,000＋20,000で、67,000なのだ。"],["ずんだもん","解答用紙の、問2の1番は67,000なのだ。"]],[["ずんだもん","2番は、S2社の当期純利益を、円に直した額なのだ。"],["ずんだもん","ここで埋まるのは、問2の2番の欄なのだ。本人は57,600で正解なのだ。"],["めたん","まず、ドルで利益を出すのね。"],["ずんだもん","1,850ドル−1,500ドルで、350ドルなのだ。"],["めたん","S2社も、配当してるわよね。"],["ずんだもん","そうなのだ。100ドルを足し戻して、450ドルなのだ。"],["めたん","利益だから、2年目の期中平均の128円で換算ね。"],["ずんだもん","その通りなのだ。450×128で、57,600なのだ。"],["ずんだもん","解答用紙の、問2の2番は57,600なのだ。"]],[["ずんだもん","3番は、連結包括利益計算書の、その他有価証券評価差額金なのだ。"],["ずんだもん","ここで埋まるのは、問2の3番の欄なのだ。本人はマイナス1,092で正解なのだ。"],["めたん","今度は残高じゃなくて、1年間の動きなのね。"],["ずんだもん","そうなのだ。包括利益計算書だから、グループ全体の、当期の増減なのだ。"],["めたん","P社のA社株から。"],["ずんだもん","1年目の期末は20,160だったのだ。2年目に、180ドルを127円で、22,860で売ったのだ。"],["めたん","売るまでに、22,860−20,160で2,700値上がりしたのね。"],["ずんだもん","そうなのだ。これが、当期に発生した評価差額なのだ。"],["めたん","でも、売っちゃったのよね。"],["ずんだもん","そうなのだ。売ったら、それまでの評価差額は全部、売却益として損益計算書に移るのだ。"],["ずんだもん","これを組替調整額と言うのだ。取得の18,000から売った22,860までの、4,860を引くのだ。"],["めたん","甲社株は、12,600から13,200で、600増えたわね。"],["ずんだもん","そうなのだ。2,700＋600−4,860で、マイナス1,560なのだ。"],["ずんだもん","税効果の分として、30%の468を反対向きに足して、マイナス1,092なのだ。"],["ずんだもん","解答用紙の、問2の3番はマイナス1,092なのだ。"]],[["ずんだもん","4番は、連結包括利益計算書の、為替換算調整勘定なのだ。"],["ずんだもん","ここで埋まるのは、問2の4番の欄なのだ。本人は9,770で正解なのだ。"],["めたん","2年目の期末の残高から、出すのね。"],["ずんだもん","そうなのだ。2年目の期末の相場は、129円なのだ。"],["ずんだもん","資本金1,500ドルは、129−120で9円ずれて、13,500なのだ。"],["めたん","利益剰余金1,200ドルも、9円ずれて10,800ね。"],["ずんだもん","そうなのだ。1年目の利益300ドルは、129−123で6円ずれて、1,800なのだ。"],["めたん","2年目の利益450ドルは、129−128で1円だから、450ね。"],["ずんだもん","そうなのだ。配当のマイナス100ドルは、129−127で2円ずれて、マイナス200なのだ。"],["ずんだもん","合計で26,350なのだ。"],["めたん","1年目の期末は17,100だったから……"],["ずんだもん","当期の増加は、9,250なのだ。"],["ずんだもん","のれんの分も出すのだ。のれんの残高160ドルを129円で換算すると20,640、円で積み上げると18,980なのだ。"],["ずんだもん","ずれの累計は1,660。1年目の1,140から、520増えたのだ。"],["めたん","9,250＋520で、9,770ね。"],["めたん","8%売った分は、ここで引かなくていい？"],["ずんだもん","引かないのだ。一部売却で取り崩した分は組替調整ではなく、欄外なのだ。"],["ずんだもん","解答用紙の、問2の4番は9,770なのだ。"]],[["ずんだもん","5番は、S1社の連結に係る、非支配株主持分の当期の増減なのだ。"],["ずんだもん","ここで埋まるのは、問2の5番の欄なのだ。本人は21,368で正解なのだ。"],["めたん","非支配株主持分は、何で増えるの？"],["ずんだもん","子会社の資本のうち、非支配株主の割合の分だけ増えるのだ。"],["ずんだもん","S1社の2年目の利益は、226,000−173,000で、53,000なのだ。"],["めたん","その40%で、21,200ね。"],["ずんだもん","そうなのだ。もう1つ、評価差額金の分があるのだ。"],["ずんだもん","甲社株の評価差額金は、770から、1,190に増えたのだ。"],["めたん","1,190って、どこから来たの？"],["ずんだもん","13,200−11,500の1,700から、税効果30%を引いた数字なのだ。"],["めたん","増えた420の40%で、168ね。"],["ずんだもん","その通りなのだ。21,200＋168で、21,368なのだ。"],["ずんだもん","解答用紙の、問2の5番は21,368なのだ。"]],[["ずんだもん","6番は、S2社の連結に係る、非支配株主持分の当期の増減なのだ。"],["ずんだもん","ここで埋まるのは、問2の6番の欄なのだ。本人は45,402で正解なのだ。"],["めたん","非支配株主持分を動かすものは、いくつある？"],["ずんだもん","4つあるのだ。利益、配当、為替換算調整勘定、それと一部売却なのだ。"],["ずんだもん","利益は、57,600の20%で、11,520増えるのだ。"],["ずんだもん","配当は、100ドルを配当した日の127円で12,700。その20%の2,540が減るのだ。"],["めたん","非支配株主も、配当を受け取ったからね。"],["ずんだもん","為替換算調整勘定は、当期の増加9,250の20%で、1,850増えるのだ。"],["めたん","のれんの520も、20%入れておくわ。"],["ずんだもん","入れないのだ。のれんは親だけのものだから、非支配株主には入れないのだ。"],["ずんだもん","最後は一部売却なのだ。P社が売った8%は、非支配株主が買ったのと同じなのだ。"],["めたん","非支配株主の持分が、8%ぶん増えるってことね。"],["ずんだもん","そうなのだ。S2社の期末の資本は、1,500ドルと1,850ドルで3,350ドルなのだ。"],["ずんだもん","期末の129円をかけて、その8%で、34,572なのだ。"],["ずんだもん","11,520−2,540＋1,850＋34,572で、45,402なのだ。"],["ずんだもん","解答用紙の、問2の6番は45,402なのだ。"]],[["ずんだもん","7番は、S2社ののれんの、期末の残高なのだ。"],["ずんだもん","ここで埋まるのは、問2の7番の欄なのだ。本人は20,640で正解なのだ。"],["めたん","ドルののれんは、200ドルから、毎年20ドル減るのね。"],["ずんだもん","そうなのだ。2年償却して、160ドル残っているのだ。"],["めたん","償却のときと同じで、期中平均の128円で換算するのね。"],["ずんだもん","残高だから、期末の129円なのだ。160×129で、20,640なのだ。"],["ずんだもん","残高は期末の相場、償却額は平均の相場、と覚えるのだ。"],["めたん","一部売却で、のれんは減らないのかしら。"],["ずんだもん","減らないのだ。支配が続く一部売却では、のれんはそのまま残すのだ。"],["ずんだもん","解答用紙の、問2の7番は20,640なのだ。"]],[["ずんだもん","ここから、本人が時間切れだった所なのだ。まず、一部売却の考え方なのだ。"],["めたん","8%売っても、S2社は子会社のままなのよね。"],["ずんだもん","そうなのだ。80%が72%になっても、支配は続くのだ。"],["めたん","支配が続くと、何が変わるの？"],["ずんだもん","親会社と非支配株主は、同じグループの親戚みたいなものなのだ。"],["ずんだもん","親戚どうしで株をやりとりしても、グループ全体はもうからないのだ。"],["めたん","身内で売り買いしても、グループの外から見たら何も起きてないってことね。"],["ずんだもん","そうなのだ。だから損益にしないで、資本剰余金にするのだ。"],["ずんだもん","講義の言葉で、連結損益計算書の子会社株式売却益は、絶対にゼロ、なのだ。"],["めたん","個別では、売却益が出ているのよね。"],["ずんだもん","そうなのだ。まず個別を見るのだ。売った値段は、246ドル×129円で、31,734なのだ。"],["めたん","あとは、帳簿の値段と比べるのね。"],["ずんだもん","講義で言う、個簿価なのだ。持っていた80%のうち8%、つまり10分の1を売ったのだ。"],["ずんだもん","取得原価は、2,360ドル×120円で283,200。その10分の1で、28,320なのだ。"],["めたん","31,734−28,320で、個別の売却益は3,414ね。"],["ずんだもん","その通りなのだ。"]],[["ずんだもん","8番は、一部売却に伴う、資本剰余金の当期の増減なのだ。税金を引いた後なのだ。"],["ずんだもん","ここで埋まるのは、問2の8番の欄なのだ。"],["めたん","連結では、いくらで売ったと考えるの？"],["ずんだもん","売った値段は同じ31,734なのだ。違うのは、手放したものの値段なのだ。"],["ずんだもん","講義で言う、連簿価なのだ。連結の帳簿で、手放した持分の値段なのだ。"],["めたん","それなら、6番で出した34,572ね。"],["ずんだもん","そこから、為替換算調整勘定の分を引くのだ。"],["めたん","なんで引くの？"],["ずんだもん","34,572には、期末の相場で膨らんだ分が入っているのだ。その分は、為替換算調整勘定として、もう計上してあるのだ。"],["ずんだもん","売った8%に対応する、26,350の8%の2,108は、為替換算調整勘定を取り崩して、非支配株主に渡すのだ。"],["ずんだもん","だから連簿価は、34,572−2,108で、32,464なのだ。"],["めたん","31,734で売って、32,464のものを手放したのね。"],["ずんだもん","そうなのだ。講義の言葉で、価値より安く売れば損サイドなのだ。730の損なのだ。"],["めたん","その730が、資本剰余金になるのね。"],["ずんだもん","そうなのだ。さらに、税金の分を戻すのだ。"],["ずんだもん","730の30%、219は税金の効果なので、資本剰余金の減りは、730の70%で511なのだ。"],["ずんだもん","解答用紙の、問2の8番はマイナス511なのだ。"]],[["ずんだもん","9番は、2年目の、連結損益計算書の当期純利益なのだ。"],["ずんだもん","ここで埋まるのは、問2の9番の欄なのだ。"],["めたん","1年目と同じで、全部足すのね。"],["ずんだもん","そうなのだ。まず3社の個別の利益を足すのだ。"],["めたん","P社67,000、S1社53,000、S2社57,600で、177,600ね。"],["ずんだもん","その通りなのだ。そこから、連結で消すものを引くのだ。"],["ずんだもん","1つ目は、のれん償却なのだ。S1社4,000と、S2社の20ドル×128円の2,560で、6,560なのだ。"],["ずんだもん","2つ目は、S2社からの受取配当金なのだ。"],["めたん","グループの中でお金が動いただけ、だからね。"],["ずんだもん","そうなのだ。12,700の80%、10,160を消すのだ。"],["ずんだもん","3つ目は、個別の売却益3,414なのだ。連結の売却益はゼロだからなのだ。"],["ずんだもん","4つ目は、税金の219なのだ。"],["めたん","219は、なんで引くの？"],["ずんだもん","さっき資本剰余金に移した損730に対応する、税金の効果なのだ。"],["ずんだもん","この分を、損益計算書から資本剰余金の側へ移すので、損益計算書の税金が219増えるのだ。"],["ずんだもん","177,600−6,560−10,160−3,414−219で、157,247なのだ。"],["ずんだもん","解答用紙の、問2の9番は157,247なのだ。"]],[["ずんだもん","最後の10番は、2年目の、親会社株主に係る包括利益なのだ。"],["ずんだもん","ここで埋まるのは、問2の10番の欄なのだ。"],["めたん","また田の字ね。親の当期純利益から。"],["ずんだもん","P社67,000から、受取配当金10,160、売却益3,414、税金219を引くのだ。"],["ずんだもん","S1社53,000の60%で31,800、S2社57,600の80%で46,080を足すのだ。"],["ずんだもん","のれん償却6,560を引くのだ。"],["ずんだもん","次は、親のその他の包括利益なのだ。評価差額金は、P社がマイナス1,512なのだ。"],["めたん","A社株を売ったから、1年目の1,512が消えたってことね。"],["ずんだもん","そうなのだ。1年目の期末にあった1,512が、全部なくなったのだ。"],["ずんだもん","S1社は、増えた420の60%で、252なのだ。"],["ずんだもん","為替換算調整勘定は、S2社の9,250の80%で7,400、のれんの520は全部親なのだ。"],["めたん","全部足すと、いくつになる？"],["ずんだもん","131,187なのだ。"],["ずんだもん","解答用紙の、問2の10番は131,187なのだ。"]],[["めたん","今日のポイントをまとめて。"],["ずんだもん","第1問の4番は、受け取りは投資活動、支払いは財務活動、という書き方もあるのだ。"],["ずんだもん","連結は、非支配株主の分を含む数字か、含まない数字かを、答える前に決めるのだ。"],["ずんだもん","当期純利益と包括利益計算書は全体、評価差額金の残高は親の分なのだ。"],["めたん","一部売却は、支配が続くなら損益にしない、だったわね。"],["ずんだもん","そうなのだ。資本剰余金にするのだ。連結の売却益はゼロなのだ。"],["ずんだもん","連簿価は、持分から為替換算調整勘定の取り崩しを引いて出すのだ。"],["めたん","本人の数字は、計算ミスではなかったのね。"],["ずんだもん","そうなのだ。聞かれている物の取り違えなのだ。解き方そのものは、身についているのだ。"]]],"shorts":[{"hl":"[当期純利益]は/非支配の分も入る","at":407.72,"blob":"6d5dd75ed8fbedae343c40d41f7ad7cc"},{"hl":"評価差額金の残高は/[親の分]だけ","at":518.75,"blob":"94a48f295896975ab7f81b605cd0aadc"},{"hl":"資本剰余金は/[税金]を引いて","at":1158.42,"blob":"54921be512549a23404d3c8634bb7445"}],"drops":[{"prob":"問1(1)当期純利益・(3)その他有価証券評価差額金","at":"2026-09-27","kind":"run","pair":null,"what":"連結の数字で「非支配株主の分を含むか」を取り違える","n":0,"vs":"","seek":407.72}]},{"kind":"exam","no":"164回","sub":"過去問","ch":164,"probs":[],"hl":"[全部]と[直接]の/利益の差","acct":"過去問","id":"x164-ko","title":"工業簿記","sn":"工簿","w":0.719,"wt":["全部原価計算で、どの固定費を1個あたりにするか"],"video":{"blob":"034f7be93bc69a492b87a56a0d15dcf7","secs":624.43,"mb":7.2},"scenes":[[0,"工業簿記の全体像"],[29.5,"第1問：元帳の名前（1〜3）"],[86.67,"第1問：棚卸計算法と段取時間（4〜6）"],[161.19,"第2問：資料の読み方"],[212.58,"問1：製品1個あたりの固定費"],[255.95,"問1：売上原価と営業利益"],[311.23,"問2：直接原価計算"],[350.14,"問3の1：第2期の在庫とア・イ"],[385.3,"問3の1：第2期の利益の差（ウ・エ）"],[439.21,"問3の2：第4期（オ・カ・キ）"],[495.27,"問3の3：第3期の生産量が増えたら（ク・ケ・コ）"],[558.23,"問3の4：利益計画に向くのは（サ）"]],"script":[[["ずんだもん","今回は、164回の工業簿記を、最初から最後まで解くのだ。"],["ずんだもん","第1問は語群から選ぶ穴埋め、第2問は全部原価計算と直接原価計算の比べ合いなのだ。"],["めたん","本人の点数から聞かせて。"],["ずんだもん","1回目は25点中20点、1週間後の2回目は25点満点だったのだ。"],["めたん","満点なら、見直さなくてもいい気がするけど。"],["ずんだもん","2回目は、問題を覚えていた効果もあるのだ。だから、解き方が本当に合っていたかを確かめるのだ。"],["ずんだもん","1回目に落としたのは3か所。第1問の1番、第2問の問1、問3のクなのだ。"],["めたん","そこは特に丁寧にやってよね。"]],[["ずんだもん","第1問の1番から3番を埋めるのだ。語群から記号を選ぶのだ。"],["めたん","1番は、未完成品の原価計算票をファイルしたもの、ね。"],["ずんだもん","原価計算票は、個別原価計算で、製品1つ1つの原価を集める表なのだ。"],["めたん","未完成品っていうことは、まだ作っている途中の製品よね。"],["ずんだもん","そうなのだ。作りかけの製品の票を綴じたものは、原価元帳、または製造元帳と呼ぶのだ。"],["ずんだもん","仕掛品の勘定の中身を、製品ごとに分けて見せる帳簿なのだ。"],["めたん","作りかけなら、語群の半製品でもよさそうに見えるわ。1回目もケを選んでたわね。"],["ずんだもん","半製品は、途中の工程まで終わって、それだけで売ったり保管したりできる物なのだ。"],["ずんだもん","作りかけの票のファイルの名前ではないのだ。1番の答えは、カの、原価（製造）なのだ。"],["めたん","2番は、完成品の原価計算票をファイルしたもの。完成したら製品ね。"],["ずんだもん","その通りなのだ。完成した製品の票は、製品元帳に移すのだ。答えは、オの製品なのだ。"],["めたん","3番は、材料カードをファイルしたもの。これは材料でしょ。"],["ずんだもん","材料ごとの受け入れと払い出しを書いたカードなのだ。答えは、キの材料なのだ。"],["めたん","作りかけは原価元帳、できたら製品元帳、材料は材料元帳ね。"]],[["めたん","4番は、実際消費量を何々法で把握しても、特定の製品にしか使わないなら賦課できる、ね。"],["ずんだもん","消費量の測り方は2つあるのだ。継続記録法と、棚卸計算法なのだ。"],["ずんだもん","継続記録法は、払い出すたびに記録するのだ。どの製品に使ったかも分かるのだ。"],["ずんだもん","棚卸計算法は、月初と仕入れを足して、月末の棚卸の量を引くのだ。"],["めたん","それだと、使った量は出ても、どの製品に使ったかは分からないわね。"],["ずんだもん","そうなのだ。棚卸計算法は楽だけど、何に使ったかの内訳が分からないのだ。"],["ずんだもん","でも、その材料を1つの製品にしか使わないなら、全部その製品の分だと分かるのだ。"],["ずんだもん","だから、それでも賦課できる、という文になるのだ。4番の答えは、ナの棚卸計算なのだ。"],["めたん","5番と6番は、段取時間と段取費。段取って、準備のことよね。"],["ずんだもん","そうなのだ。作る製品を切り替える時の、機械の準備や調整のことなのだ。"],["ずんだもん","講義3-2では、手を洗ってからパンをこね出す、その手を洗う時間が段取だ、とたとえていたのだ。"],["ずんだもん","段取をしないと加工できないのだ。切っても切り離せないのだ。"],["ずんだもん","日本では、段取時間は直接作業時間に含めることが多いのだ。だから5番は、サの直接作業時間なのだ。"],["ずんだもん","段取費も、直接労務費に含めることが多いのだ。6番は、ソの直接労務費なのだ。"],["めたん","後ろの文に、自動化されても5番が生じる、ってあるわ。機械が全部やってくれるのに？"],["ずんだもん","機械が自動で加工しても、段取は人がやるのだ。だから、直接作業時間が出てくるのだ。"],["めたん","5番が同じ言葉で2回出るから、そこで確かめられるのね。"]],[["ずんだもん","第2問は、全部原価計算と直接原価計算の、営業利益の違いを見る問題なのだ。"],["めたん","資料を順に読むわよ。販売単価は4,000円。"],["ずんだもん","1個あたりの標準製造変動費が、1,500円なのだ。"],["めたん","製造固定費の予算は、1期で12,000,000円ね。"],["ずんだもん","正常作業時間は、1期で24,000時間なのだ。1個作るのに2時間かかるのだ。"],["めたん","正常作業時間って、ふだん働く時間の目安、くらいの意味かしら。"],["ずんだもん","そうなのだ。毎期これくらい働く、という基準の時間なのだ。固定費をこれで割って、配賦率を作るのだ。"],["めたん","販売費と一般管理費は、全部固定費で3,200,000円。"],["ずんだもん","生産と販売の表も大事なのだ。販売量は、4期とも10,000個なのだ。"],["ずんだもん","生産量は、第1期が12,000個、第2期が11,000個、第3期が10,000個、第4期が9,500個なのだ。"],["めたん","売る量は同じで、作る量だけ変えてるのね。"],["ずんだもん","その通りなのだ。作る量だけ変えると、利益がどう動くかを見る問題なのだ。"],["ずんだもん","もう1つ、原価差異は操業度差異だけで、売上原価に足す、と書いてあるのだ。"]],[["ずんだもん","問1は、全部原価計算で、第1期の営業利益を出すのだ。答案の問1の欄が埋まるのだ。"],["めたん","全部原価計算の全部って、変動費も固定費も全部、って意味よね。"],["ずんだもん","そうなのだ。全部を製品の原価に入れるのだ。"],["めたん","じゃあ、製品1個に固定費がいくら入るかが要るのね。"],["ずんだもん","その通りなのだ。1回目は、ここで固定費を1個あたりにしなかったのだ。"],["めたん","固定費12,000,000円を、作った12,000個で割ればいいのかしら。"],["ずんだもん","惜しいのだ。この問題は、時間で配賦するのだ。まず、1時間あたりにするのだ。"],["ずんだもん","予算の12,000,000円を、正常作業時間の24,000時間で割るのだ。12,000,000÷24,000で、1時間あたり500円なのだ。"],["めたん","1個は2時間かかるから、500円×2時間で、1,000円ね。"],["ずんだもん","その通りなのだ。これは問3のイの答えにもなるのだ。"],["めたん","変動費1,500円と足して、製品1個は2,500円。"],["ずんだもん","完璧なのだ。"]],[["めたん","第1期は、12,000個作って10,000個売ったのよね。"],["ずんだもん","そうなのだ。売上原価は、売れた10,000個の分だけなのだ。"],["ずんだもん","2,500円×10,000個で、25,000,000円なのだ。"],["めたん","固定費は12,000,000円かかってるのに、売上原価には10,000,000円しか入ってないわ。"],["ずんだもん","残りの2,000,000円は、売れ残った2,000個に乗って、期末の製品として次の期へ行くのだ。"],["ずんだもん","操業度差異も確かめるのだ。第1期は12,000個作ったので、12,000×2時間で24,000時間なのだ。"],["めたん","正常作業時間とぴったり同じ。じゃあ、操業度差異は0ね。"],["ずんだもん","その通りなのだ。あとは営業利益なのだ。"],["ずんだもん","売上高は、4,000円×10,000個で、40,000,000円なのだ。"],["ずんだもん","売上原価の25,000,000円を引いて、売上総利益は15,000,000円なのだ。"],["ずんだもん","販売費と一般管理費の3,200,000円を引いて、営業利益は11,800,000円なのだ。"],["めたん","1回目は9,800,000円だった。どこで違ったのかしら。"],["ずんだもん","固定費12,000,000円を、全部売上原価に入れた数字なのだ。それは、次の問2の直接原価計算と同じ答えになるのだ。"],["ずんだもん","問1の欄は、11,800,000円なのだ。"]],[["ずんだもん","問2は、直接原価計算で、第1期の営業利益を出すのだ。問2の欄が埋まるのだ。"],["めたん","直接原価計算は、変動費だけを製品の原価にするのよね。"],["ずんだもん","そうなのだ。固定費は、作った量に関係なく、その期の費用に全額入れるのだ。"],["めたん","変動費は売れた10,000個の分だから、1,500円×10,000個で、15,000,000円。"],["ずんだもん","売上高の40,000,000円から引いて、貢献利益は25,000,000円なのだ。"],["めたん","固定費は、製造の12,000,000円と、販売費と一般管理費の3,200,000円で、15,200,000円ね。"],["ずんだもん","25,000,000から15,200,000を引いて、営業利益は9,800,000円なのだ。"],["めたん","問1と2,000,000円違うわね。"],["ずんだもん","その2,000,000円は、さっきの、売れ残りに乗って次へ行った固定費なのだ。"],["ずんだもん","問2の欄は、9,800,000円なのだ。"]],[["ずんだもん","問3の1番では、第2期を例に、ア、イ、ウ、エを埋めるのだ。"],["めたん","アは、期首と比べて、期末の製品在庫が何個増えたか、ね。"],["ずんだもん","まず第2期の期首を出すのだ。第1期の売れ残りの2,000個なのだ。"],["めたん","第2期は、11,000個作って10,000個売ったわね。"],["ずんだもん","期首2,000個に11,000個を足して、10,000個を引くと、期末は3,000個なのだ。"],["ずんだもん","2,000個から3,000個へ、1,000個増えたのだ。アは1,000なのだ。"],["めたん","もっと簡単に、作った量から売った量を引いても出るわね。"],["ずんだもん","その通りなのだ。11,000−10,000で、1,000個なのだ。"],["めたん","イは、製品1個あたりの標準製造固定費。問1で出した1,000円ね。"],["ずんだもん","そうなのだ。イは1,000なのだ。"]],[["めたん","ウとエは、全部原価計算の利益が、直接原価計算よりいくら大きいか、小さいか、ね。"],["ずんだもん","問題文に、ウはア個かけるイ円で計算できる、と書いてあるのだ。"],["めたん","1,000個×1,000円で、1,000,000円。"],["ずんだもん","その通りなのだ。"],["めたん","大きいか小さいかは、どっちかしら。"],["ずんだもん","在庫が増えた期は、増えた在庫に固定費が乗って、次の期へ繰り越されるのだ。"],["ずんだもん","その分、全部原価計算の方が、今期の費用が少なくなるのだ。だから、利益は大きいのだ。"],["めたん","本当にそうなるか、損益計算書で確かめてみて。"],["ずんだもん","全部原価計算の第2期は、売上原価が25,000,000円に、操業度差異を足すのだ。"],["ずんだもん","11,000個×2時間で22,000時間。正常の24,000時間より2,000時間少ないのだ。"],["めたん","2,000時間×500円で、1,000,000円の不利差異ね。"],["ずんだもん","そうなのだ。売上原価は26,000,000円になるのだ。"],["ずんだもん","営業利益は、40,000,000−26,000,000−3,200,000で、10,800,000円なのだ。"],["めたん","直接原価計算は、売る量が同じだから毎期9,800,000円。差は1,000,000円で、ぴったりね。"],["ずんだもん","ウは1,000,000、エは大きい、なのだ。"]],[["めたん","2番は第4期ね。オは、期末の在庫が何個減ったか。"],["ずんだもん","第4期は、9,500個作って10,000個売ったのだ。"],["めたん","作った量より500個多く売ったから、500個減ったのね。"],["ずんだもん","その通りなのだ。オは500なのだ。"],["ずんだもん","念のため在庫も追うのだ。第3期は作った量と売った量が同じ10,000個なので、第3期の期末も3,000個のままなのだ。"],["ずんだもん","3,000個から500個減って、第4期の期末は2,500個なのだ。"],["めたん","カは、オ個かけるイ円だから、500個×1,000円で500,000円。"],["ずんだもん","そうなのだ。今度は、大きいか小さいかが逆になるのだ。"],["ずんだもん","在庫が減った期は、前の期から繰り越した固定費が、今期の売上原価に入ってくるのだ。"],["めたん","費用が増えるから、全部原価計算の方が利益は小さいのね。"],["ずんだもん","その通りなのだ。確かめるのだ。"],["ずんだもん","第4期の操業度差異は、9,500個×2時間で19,000時間。正常より5,000時間少ないのだ。"],["ずんだもん","5,000時間×500円で、2,500,000円の不利差異なのだ。"],["ずんだもん","売上原価は27,500,000円、営業利益は9,300,000円なのだ。直接原価計算の9,800,000円より500,000円小さいのだ。"],["ずんだもん","カは500,000、キは小さい、なのだ。"]],[["めたん","3番は、第3期の生産量が10,000個じゃなくて12,000個だったら、ね。"],["ずんだもん","ク、ケ、コを埋めるのだ。1回目はクが空欄だったのだ。"],["ずんだもん","ここは、コから考えるのだ。問題文は、クの金額は、第3期のコの金額と同じ、と言っているのだ。"],["ずんだもん","そして、正常生産量いっぱい作ると、コが発生しない、とも書いてあるのだ。"],["めたん","いっぱい作ると消える差異って、操業度差異ね。"],["ずんだもん","その通りなのだ。コは、操業度差異なのだ。"],["めたん","じゃあ、第3期の操業度差異を出せば、クになるのね。"],["ずんだもん","第3期は10,000個なので、10,000×2時間で20,000時間なのだ。"],["めたん","正常の24,000時間より4,000時間少ないから、4,000×500円で、2,000,000円。"],["ずんだもん","その通りなのだ。12,000個作ると、ちょうど24,000時間になって、この2,000,000円が消えるのだ。"],["ずんだもん","売上原価に足していた不利差異が消えるので、利益は2,000,000円増えるのだ。"],["めたん","売る量は同じなのに、作るだけで利益が増えるなんて、ちょっとずるい気がするわ。"],["ずんだもん","増やした2,000個は在庫になって、その固定費が次の期へ繰り越されるだけなのだ。"],["ずんだもん","クは2,000,000、ケは増加する、コは操業度差異なのだ。"],["めたん","1回目は、コが書けてたのに、クが空欄だったのよね。"],["ずんだもん","そうなのだ。後ろの設問が、前の答えの手がかりになっていることがあるのだ。空欄が残ったら、同じ大問をもう一度読むのだ。"]],[["めたん","最後のサは、在庫変動の影響を受けないので、利益計画に適しているのはどっち、ね。"],["ずんだもん","ここまでの結果を並べるのだ。直接原価計算の営業利益は、4期とも9,800,000円だったのだ。"],["ずんだもん","全部原価計算は、11,800,000円、10,800,000円、9,800,000円、9,300,000円と動いたのだ。"],["めたん","売る量は同じなのに、作る量で利益が動いてる。これじゃ計画は立てにくいわね。"],["ずんだもん","そうなのだ。直接原価計算の利益は、売る量だけで決まるのだ。だから計画が立てやすいのだ。"],["ずんだもん","全部原価計算だと、売っていなくても、作ってさえいれば利益を上げられてしまうのだ。"],["ずんだもん","サは、直接原価計算なのだ。"],["ずんだもん","まとめると、在庫が増えれば全部原価計算の方が大きい、減れば小さいのだ。差は、在庫の増減かける1個あたりの固定費なのだ。"],["ずんだもん","講義14-1では、これを、ぜん、ちょく、まっ、しゅ、と覚えていたのだ。"],["めたん","ぜん、ちょく、まっ、しゅ。呪文みたいね。"],["ずんだもん","全部の利益ひく直接の利益は、期末の在庫の固定費ひく期首の在庫の固定費、という式なのだ。"],["ずんだもん","覚え方は、マッシュルームみたいに、全直マッシュ、なのだ。"],["めたん","覚えやすいわね。第2期なら、期末3,000個と期首2,000個の差の1,000個に、1,000円をかけるのね。"],["ずんだもん","全部原価計算と書いてあったら、まず固定費を1個あたりにする。これが今回の一番大事な一手なのだ。"]]],"shorts":[{"hl":"固定費は/[時間]から1個あたりに","at":212.58,"blob":"941909df71ea5d9707d849b9ddf36ae2"},{"hl":"在庫が増えたら/[全部]の利益が大きい","at":385.3,"blob":"3efde269535a0d409a5fc738b8ac0e2b"},{"hl":"利益計画に向くのは/[直接原価計算]","at":558.23,"blob":"c3dfaf571b9b85893e87d713ee58598d"}],"drops":[{"prob":"第2問問1","at":"2026-09-19","kind":"run","pair":null,"what":"全部原価計算で、どの固定費を1個あたりにするか","n":0,"vs":"","seek":212.58}]},{"kind":"exam","no":"164回","sub":"過去問","ch":164,"probs":[],"hl":"[正常仕損費]を/[誰に]配る？","acct":"過去問","id":"x164-ge","title":"原価計算","sn":"原計","w":0.669,"wt":["最初に紙に書いた数字が、その後の判断の前提として固定される"],"video":{"blob":"ab10eadc87f8c45f4af9e1082fbeb48a","secs":699.98,"mb":8.2},"scenes":[[0,"原価計算の全体像"],[31.06,"第1問：品質原価計算（①〜③）"],[99.87,"第1問：ライフサイクル・コスティング（④⑤）"],[138.1,"第2問：資料とタイムテーブル"],[180.04,"第2問：どの方法で計算するか"],[226.3,"第2問：原料費の箱"],[276.61,"第2問：加工費の箱"],[327.45,"第2問：正常仕損費を出す"],[360.65,"第2問：正常仕損費を誰に配るか"],[452.55,"第2問：異常仕損費を出す（問1）"],[490.86,"第2問：異常仕損費の会計処理（問2）"],[566.23,"第2問：完成品原価と月末仕掛品原価（問3）"],[634.73,"第2問：売上総利益（問4）"]],"script":[[["ずんだもん","今回は、164回の原価計算を、最初から最後まで解くのだ。"],["ずんだもん","第1問は正しいものを全部選ぶ問題、第2問は仕損が出る総合原価計算なのだ。"],["めたん","本人の点数から聞かせて。"],["ずんだもん","1回目は30分で切り上げて、25点中7点だったのだ。1週間後の2回目は22点なのだ。"],["めたん","2回目は3点だけ落としたのね。どこかしら。"],["ずんだもん","異常仕損費の1か所だけなのだ。下書きには答えが出ていたのに、足さずに写してしまったのだ。"],["めたん","じゃあ今回は、第2問の流れを最初から最後まで追うのね。"],["ずんだもん","そうなのだ。第2問は、問1の答えが問3と問4につながっているのだ。1つずつ積み上げるのだ。"]],[["ずんだもん","第1問は、5つの文から、正しいものの番号を全部選ぶのだ。答案の第1問の欄が埋まるのだ。"],["めたん","①から③は、品質原価計算の話ね。品質にかかったお金を集める計算、くらいのイメージだけど。"],["ずんだもん","それで合っているのだ。集めた原価を、品質の改善に役立てるのだ。"],["ずんだもん","品質原価は4つに分けるのだ。予防原価、評価原価、内部失敗原価、外部失敗原価なのだ。"],["めたん","予防と評価は、名前でなんとなく分かるわ。"],["ずんだもん","予防原価は、不良を出さないための教育や訓練なのだ。評価原価は、検査やテストの費用なのだ。"],["ずんだもん","内部失敗原価は、社内で不良が見つかった時の原価。仕損がここに入るのだ。"],["ずんだもん","外部失敗原価は、お客さんに渡した後で不良が見つかった時の原価。リコールがここなのだ。"],["めたん","①は、通常の原価計算は費目別・部門別・製品別だから、品質の原価を見るには不十分、ね。"],["ずんだもん","品質のための費用は、いろいろな部門や費目に散らばっているのだ。いつもの集め方では見えないのだ。だから①は正しいのだ。"],["めたん","②は、外部失敗原価に、リコール費用や仕損費が含まれる。リコールは外部失敗で合ってるわね。"],["ずんだもん","そうなのだ。でも仕損は社内で起きるので、内部失敗原価なのだ。②は間違いなのだ。"],["めたん","③は、品質原価計算は設計品質に焦点を当てる。品質なんだから、設計でいいんじゃない？"],["ずんだもん","そこが引っかけなのだ。品質原価計算が見るのは、設計どおりに作れたか、という適合品質なのだ。③は間違いなのだ。"]],[["めたん","④と⑤は、ライフサイクル・コスティングね。"],["ずんだもん","製品を開発してから、使われて、捨てられるまでの、一生分のコストを計算するのだ。"],["めたん","④は、会社の外で発生する原価も含むようになっている、ね。"],["ずんだもん","使う人の運用や保守、処分の費用も、一生分に入るのだ。これは会社の外で起きるのだ。④は正しいのだ。"],["めたん","⑤は、各段階のコストの間には、トレードオフの関係はない、ね。"],["ずんだもん","トレードオフは、片方を減らすと、もう片方が増える関係なのだ。"],["めたん","安物買いの銭失い、みたいな話ね。"],["ずんだもん","まさにそれなのだ。安く作ると壊れやすくなって、使う人の修理代が増えるのだ。だから、関係はあるのだ。⑤は間違いなのだ。"],["めたん","残ったのは、①と④ね。"],["ずんだもん","第1問の欄は、①と④なのだ。本人は2回とも正解なのだ。"]],[["ずんだもん","第2問は、仕損が出る総合原価計算なのだ。まず資料を図にするのだ。"],["めたん","月初仕掛品が100キロで、進捗度50パーセント。当月投入が4,400キロ。"],["ずんだもん","正常仕損が60キロで20パーセントの点、異常仕損が40キロで80パーセントの点で出たのだ。"],["めたん","月末仕掛品が100キロで50パーセント、完成品が4,300キロね。"],["ずんだもん","原料は工程の始点で全部入れるのだ。仕損は全部、当月に作り始めた分から出た、とも書いてあるのだ。"],["ずんだもん","これをタイムテーブルにするのだ。工程の始まりから終わりまで1本の線を引いて、進捗度の点に印をつけるのだ。"],["めたん","20パーセントに正常仕損、50パーセントに月初と月末、80パーセントに異常仕損ね。"],["ずんだもん","その通りなのだ。描く目的は、誰が正常仕損の点を通ったかを、目で見るためなのだ。"],["ずんだもん","これが後で、正常仕損費を誰に配るかを決めるのだ。"]],[["めたん","仕損費の計算って、度外視法と非度外視法があったわよね。"],["ずんだもん","度外視法は、仕損をいなかったことにして、良品だけで原価を割る方法なのだ。"],["ずんだもん","非度外視法は、仕損品の原価を一度きちんと計算して、それから良品に配る方法なのだ。"],["めたん","楽そうだから、度外視法でいきたいわ。"],["ずんだもん","それはできないのだ。答案用紙が、正常仕損費の金額を聞いているのだ。"],["ずんだもん","度外視法だと、正常仕損費の金額が出てこないのだ。だから非度外視法で計算するのだ。"],["めたん","注意書きにも、発生の点で負担を考えること、ってあるわね。"],["ずんだもん","その通りなのだ。異常仕損品は80パーセントの点で出たので、20パーセントの正常仕損の点を通っているのだ。"],["ずんだもん","だから異常仕損品にも、正常仕損費を負担させるのだ。ここが2回とも落ちた所につながるのだ。"],["めたん","完成品と月末への配り方は、先入先出法って書いてあるわ。"],["ずんだもん","月初仕掛品を先に仕上げて、残りを当月に作り始めた分から完成させる、と考えるのだ。"]],[["ずんだもん","原料費と加工費は、別々の箱で計算するのだ。まず原料費なのだ。"],["めたん","原料費は、当月352,000円ね。"],["ずんだもん","原料は始点で入れるので、当月に入れた量は4,400キロなのだ。"],["めたん","先入先出法だから、当月の分だけで割るのよね。352,000÷4,400で、1キロ80円。"],["ずんだもん","その通りなのだ。"],["ずんだもん","正常仕損品は、60キロ×80円で4,800円なのだ。"],["ずんだもん","異常仕損品は、40キロ×80円で3,200円。月末仕掛品は、100キロ×80円で8,000円なのだ。"],["めたん","完成品は4,300キロだから、4,300×80円ね。"],["ずんだもん","そこは注意なのだ。月初仕掛品の100キロは、原料をもう先月に入れてあるのだ。"],["ずんだもん","当月の原料を使った完成品は、4,300−100で4,200キロなのだ。4,200×80円で、336,000円なのだ。"],["めたん","月初仕掛品原価の14,400円は、どこへ行くの？"],["ずんだもん","原料費と加工費が混ざった金額なのだ。問3で、完成品にまとめて足すのだ。"]],[["めたん","次は加工費ね。当月260,640円。"],["ずんだもん","加工費は、進捗度をかけた量で数えるのだ。これを加工換算量と呼ぶのだ。"],["めたん","完成品は100パーセントだから、4,300キロのままね。"],["ずんだもん","完成品全体はそうなのだ。でも月初仕掛品は、先月に50パーセントまで加工済みなのだ。"],["ずんだもん","100キロの50パーセントで50キロ分は先月の仕事なので、当月の完成品の分は、4,300−50で4,250キロなのだ。"],["めたん","正常仕損は60キロの20パーセントで12キロ、異常仕損は40キロの80パーセントで32キロね。"],["ずんだもん","月末仕掛品は100キロの50パーセントで50キロなのだ。"],["めたん","足すと、4,250と12と32と50で、4,344キロ。"],["ずんだもん","260,640÷4,344で、1キロあたり60円なのだ。"],["ずんだもん","正常仕損は12×60で720円。異常仕損は32×60で1,920円なのだ。"],["ずんだもん","月末仕掛品は50×60で3,000円。完成品は4,250×60で255,000円なのだ。"]],[["ずんだもん","ここから問1なのだ。正常仕損費と異常仕損費の欄が埋まるのだ。"],["めたん","正常仕損品の原料費4,800円と、加工費720円を足して、5,520円ね。"],["ずんだもん","まだ終わりではないのだ。問題文に、使っていない数字が残っているのだ。"],["めたん","あっ、廃棄費用ね。正常仕損品の廃棄費用は556円。"],["ずんだもん","そうなのだ。仕損品は再利用できずに捨てて、その費用は仕損費にする、と書いてあるのだ。"],["ずんだもん","5,520に556を足して、正常仕損費は6,076円なのだ。"],["めたん","これで正常仕損費の欄は6,076円ね。本人は2回とも正解。"],["ずんだもん","でも異常仕損費は、この6,076円を配ってからでないと決まらないのだ。"]],[["ずんだもん","6,076円を配る相手は、当月に、20パーセントの正常仕損の点を通った物なのだ。"],["めたん","完成品は全部通ってるから、4,300キロ全部ね。"],["ずんだもん","そこが落とし穴なのだ。完成品のうち、月初仕掛品の100キロは、先月もう50パーセントまで進んでいたのだ。"],["ずんだもん","20パーセントの点は、先月に通り過ぎているのだ。だから、当月の正常仕損費は負担しないのだ。"],["めたん","先入先出法だから、月初の分は先月の話、ってわけね。"],["ずんだもん","講義8-3では、先入先出法は、期首からは仕損が出ない、という仮定を置くのだ、と言っていたのだ。"],["ずんだもん","だから、月初の進捗度が何パーセントでも、指示がない限り月初は外すのだ。講師は、1ひく期首、対、1、と呼んでいたのだ。"],["ずんだもん","完成品のうち配る量は、4,300−100で4,200キロなのだ。"],["めたん","月末仕掛品は50パーセントまで進んでるから、20パーセントの点を当月に通ってる。100キロね。"],["ずんだもん","その通りなのだ。"],["めたん","異常仕損品は80パーセントで出たから、これも通ってる。でも、異常な物に正常な費用を負担させるのは、ちょっと変な気もするわ。"],["ずんだもん","講義8-4では、考え方が2つあると言っていたのだ。通った物みんなで負担する考え方と、異常には負担させない考え方なのだ。"],["ずんだもん","この問題は、注意書きで、発生の点で負担を考えること、と決めているのだ。だから負担させるのだ。"],["めたん","じゃあ、4,200と100と40で、4,340キロ。"],["ずんだもん","そうなのだ。1回目は、4,300と100と40を足した4,440キロで割ろうとしていたのだ。月初の100キロを引いていなかったのだ。"],["ずんだもん","6,076÷4,340で、1キロあたり1.4円なのだ。"],["ずんだもん","完成品は4,200×1.4で5,880円。月末仕掛品は100×1.4で140円。異常仕損品は40×1.4で56円なのだ。"],["めたん","検算するわよ。5,880と140と56で、6,076円。ぴったりね。"]],[["ずんだもん","異常仕損費は、3つを足すのだ。異常仕損品の原料費と加工費、配られた正常仕損費、そして廃棄費用なのだ。"],["めたん","原料費3,200円と加工費1,920円で、5,120円。"],["ずんだもん","配られた正常仕損費が56円なのだ。"],["めたん","廃棄費用は、異常仕損品の分が324円だったわね。"],["ずんだもん","5,120と56と324を足して、異常仕損費は5,500円なのだ。"],["めたん","2回目の答えは5,444円。56円だけ足りないのね。"],["ずんだもん","下書きには、5,444の後ろに、たす56、まで書いてあったのだ。答案に写す時に足さなかったのだ。"],["めたん","式が、イコールで閉じてない所は、写す前に閉じる、ね。"],["ずんだもん","その通りなのだ。問1の欄は、正常仕損費6,076円、異常仕損費5,500円なのだ。"]],[["ずんだもん","問2は、番号を1つ選んで、理由を40字以内で書くのだ。"],["めたん","異常仕損が、機械の整備不良による故障で出た時、ね。選択肢は、製品原価、一般管理費、営業外費用、特別損失。"],["ずんだもん","まず、異常仕損費は、原価に入れないのだ。"],["めたん","異常なものだから、原価じゃない、ってこと？"],["ずんだもん","そうなのだ。原価は、ふつうの状態で作った時にかかるもの、という性質があるのだ。異常な原因で出た損は、それを満たさないのだ。"],["ずんだもん","だから非原価項目なのだ。①の製品原価と、②の一般管理費は外れるのだ。"],["めたん","残りは、営業外費用か特別損失ね。"],["ずんだもん","営業外費用は、本業以外で、いつも起こり得る費用なのだ。特別損失は、たまたま臨時に起きた損失なのだ。"],["めたん","整備不良なら、ちゃんと整備していれば防げたはずよね。"],["ずんだもん","その通りなのだ。会社が管理できる原因なので、臨時の災害とは違うのだ。だから③の営業外費用なのだ。"],["めたん","でも講義では、異常な仕損は特別損失、って言ってた気がするわ。"],["ずんだもん","講義1-1では、異常な仕損や火災を、特別損失の例に挙げていたのだ。ふつうはそう覚えておいていいのだ。"],["ずんだもん","でもこの問題は、原因が整備不良だと、わざわざ書いてあるのだ。その原因で、営業外か特別かを分けさせる問題なのだ。"],["ずんだもん","理由は、機械の整備不良は非原価項目である。また、管理可能であるため営業外費用に該当する、なのだ。"],["めたん","非原価項目、管理可能、営業外費用、の3つを入れればいいのね。"],["ずんだもん","そうなのだ。1回目は空欄だったのだ。計算の要らない設問は、先に埋めるのが大事なのだ。"]],[["ずんだもん","問3は、仕損費を配った後の、完成品原価と月末仕掛品原価なのだ。"],["めたん","完成品は、月初の14,400円、原料費の336,000円、加工費の255,000円を足すのね。"],["ずんだもん","それで605,400円なのだ。そこに、配られた正常仕損費の5,880円を足して、完成品原価は611,280円なのだ。"],["めたん","月末は、原料費8,000円と加工費3,000円で11,000円。配られた140円を足して、11,140円ね。"],["ずんだもん","完璧なのだ。最後に、全部足して元に戻るか確かめるのだ。"],["ずんだもん","入ってきた原価は、月初14,400円と、当月の原料費352,000円と加工費260,640円で、627,040円なのだ。"],["ずんだもん","それに廃棄費用の556円と324円を足して、627,920円なのだ。"],["めたん","出ていった先は、完成品611,280円、月末11,140円、異常仕損費5,500円。足すと627,920円。合ってるわ。"],["めたん","でも、板書の表の合計は627,596円になってる。"],["ずんだもん","表の異常仕損費は、廃棄費用324円を足す前の5,176円なのだ。だから324円少ない627,596円になっているのだ。"],["ずんだもん","問3の欄は、完成品原価611,280円、月末仕掛品原価11,140円なのだ。"]],[["ずんだもん","問4は、当月の売上総利益なのだ。"],["めたん","販売データを見るわよ。販売量は4,300キロで、1キロ230円。"],["ずんだもん","売上高は、4,300×230で、989,000円なのだ。"],["めたん","売上原価は、問3の611,280円をそのまま使えばいいわね。"],["ずんだもん","惜しいのだ。月初に製品が残っていて、払い出しは平均法なのだ。"],["ずんだもん","月初の製品と、今月できた製品を混ぜて、平均の単価を出すのだ。"],["めたん","月初の製品は、200キロで27,720円。今月できたのが、4,300キロで611,280円。"],["ずんだもん","足すと、4,500キロで639,000円なのだ。639,000÷4,500で、1キロ142円なのだ。"],["めたん","売れたのは4,300キロだから、142×4,300で、610,600円。"],["ずんだもん","その通りなのだ。残りの200キロ、28,400円が月末の製品なのだ。"],["ずんだもん","989,000−610,600で、売上総利益は378,400円なのだ。"],["めたん","問1の完成品が間違ってたら、ここも全部ずれるのね。"],["ずんだもん","その通りなのだ。問4の欄は、378,400円なのだ。"],["ずんだもん","まとめると、正常仕損費を誰に配るかは、タイムテーブルで、当月にその点を通った物を数える。先入先出法なら月初は外す。これが一番大事な一手なのだ。"]]],"shorts":[{"hl":"[月初]は正常仕損費を/負担しない","at":360.65,"blob":"c85c687523d68f570c92b2f4142a6e39"},{"hl":"整備不良なら/[営業外費用]","at":490.86,"blob":"a27e0abc2540949b3fc6af8392dca3b3"},{"hl":"異常仕損費に/[正常仕損費]も足す","at":452.55,"blob":"9aa41ec760735cbf7e279d5c5f8e1222"}],"drops":[{"prob":"問1異常仕損費","at":"2026-09-26","kind":"slip","pair":null,"what":"最初に紙に書いた数字が、その後の判断の前提として固定される","n":0,"vs":"","seek":452.55},{"prob":"問2記述","at":"2026-09-19","kind":"stop","pair":null,"what":"計算の要らない設問を空欄で出す","n":0,"vs":"","seek":490.86},{"prob":"問1正常仕損費","at":"2026-09-19","kind":"run","pair":null,"what":"正常仕損費の按分基礎に、貸方合計をそのまま使う","n":0,"vs":"","seek":360.65}]},{"kind":"exam","no":"165回","sub":"過去問","ch":165,"probs":[],"hl":"","acct":"過去問","id":"x165-bo","title":"商業簿記","sn":"商簿","w":0.0,"wt":[]},{"kind":"exam","no":"165回","sub":"過去問","ch":165,"probs":[],"hl":"","acct":"過去問","id":"x165-ka","title":"会計学","sn":"会計","w":0.0,"wt":[]},{"kind":"exam","no":"165回","sub":"過去問","ch":165,"probs":[],"hl":"","acct":"過去問","id":"x165-ko","title":"工業簿記","sn":"工簿","w":0.0,"wt":[]},{"kind":"exam","no":"165回","sub":"過去問","ch":165,"probs":[],"hl":"","acct":"過去問","id":"x165-ge","title":"原価計算","sn":"原計","w":0.0,"wt":[]},{"kind":"exam","no":"167回","sub":"過去問","ch":167,"probs":[],"hl":"","acct":"過去問","id":"x167-bo","title":"商業簿記","sn":"商簿","w":0.0,"wt":[]},{"kind":"exam","no":"167回","sub":"過去問","ch":167,"probs":[],"hl":"","acct":"過去問","id":"x167-ka","title":"会計学","sn":"会計","w":0.0,"wt":[]},{"kind":"exam","no":"167回","sub":"過去問","ch":167,"probs":[],"hl":"","acct":"過去問","id":"x167-ko","title":"工業簿記","sn":"工簿","w":0.0,"wt":[]},{"kind":"exam","no":"167回","sub":"過去問","ch":167,"probs":[],"hl":"","acct":"過去問","id":"x167-ge","title":"原価計算","sn":"原計","w":0.0,"wt":[]},{"kind":"exam","no":"168回","sub":"過去問","ch":168,"probs":[],"hl":"","acct":"過去問","id":"x168-bo","title":"商業簿記","sn":"商簿","w":0.0,"wt":[]},{"kind":"exam","no":"168回","sub":"過去問","ch":168,"probs":[],"hl":"","acct":"過去問","id":"x168-ka","title":"会計学","sn":"会計","w":0.0,"wt":[]},{"kind":"exam","no":"168回","sub":"過去問","ch":168,"probs":[],"hl":"","acct":"過去問","id":"x168-ko","title":"工業簿記","sn":"工簿","w":0.0,"wt":[]},{"kind":"exam","no":"168回","sub":"過去問","ch":168,"probs":[],"hl":"","acct":"過去問","id":"x168-ge","title":"原価計算","sn":"原計","w":0.0,"wt":[]},{"kind":"exam","no":"170回","sub":"過去問","ch":170,"probs":[],"hl":"","acct":"過去問","id":"x170-bo","title":"商業簿記","sn":"商簿","w":0.0,"wt":[]},{"kind":"exam","no":"170回","sub":"過去問","ch":170,"probs":[],"hl":"","acct":"過去問","id":"x170-ka","title":"会計学","sn":"会計","w":0.0,"wt":[]},{"kind":"exam","no":"170回","sub":"過去問","ch":170,"probs":[],"hl":"","acct":"過去問","id":"x170-ko","title":"工業簿記","sn":"工簿","w":0.0,"wt":[]},{"kind":"exam","no":"170回","sub":"過去問","ch":170,"probs":[],"hl":"","acct":"過去問","id":"x170-ge","title":"原価計算","sn":"原計","w":0.0,"wt":[]},{"kind":"exam","no":"171回","sub":"過去問","ch":171,"probs":[],"hl":"","acct":"過去問","id":"x171-bo","title":"商業簿記","sn":"商簿","w":0.0,"wt":[]},{"kind":"exam","no":"171回","sub":"過去問","ch":171,"probs":[],"hl":"","acct":"過去問","id":"x171-ka","title":"会計学","sn":"会計","w":0.0,"wt":[]},{"kind":"exam","no":"171回","sub":"過去問","ch":171,"probs":[],"hl":"","acct":"過去問","id":"x171-ko","title":"工業簿記","sn":"工簿","w":0.0,"wt":[]},{"kind":"exam","no":"171回","sub":"過去問","ch":171,"probs":[],"hl":"","acct":"過去問","id":"x171-ge","title":"原価計算","sn":"原計","w":0.0,"wt":[]},{"kind":"exam","no":"173回","sub":"過去問","ch":173,"probs":[],"hl":"","acct":"過去問","id":"x173-bo","title":"商業簿記","sn":"商簿","w":0.0,"wt":[]},{"kind":"exam","no":"173回","sub":"過去問","ch":173,"probs":[],"hl":"","acct":"過去問","id":"x173-ka","title":"会計学","sn":"会計","w":0.0,"wt":[]},{"kind":"exam","no":"173回","sub":"過去問","ch":173,"probs":[],"hl":"","acct":"過去問","id":"x173-ko","title":"工業簿記","sn":"工簿","w":0.0,"wt":[]},{"kind":"exam","no":"173回","sub":"過去問","ch":173,"probs":[],"hl":"","acct":"過去問","id":"x173-ge","title":"原価計算","sn":"原計","w":0.0,"wt":[]}]};
+const MOCK = !!DATA.mock;
+// アカウント＝アーティファクト1つ（アカウント.json）。本番の1枚は自分のアカウントの分だけを持つ。
+// モックは全アカウントぶんを持ち、切り替えは同じページの中（選んだアカウントを端末に覚えて読み直す）
+const ACCTS = DATA.accounts || [];
+const MOCK_ACCT = "zunda-mock-acct";
+const ACCT = (() => {
+  if (!MOCK) return DATA.account || null;
+  let a = null;
+  try { a = localStorage.getItem(MOCK_ACCT); } catch (e) {}
+  return ACCTS.some(x => x.id === a) ? a : DATA.account || null;
+})();
+// 解説キャラはアカウントごと（本人 2026-09-29「工原はずんだもん、商会は別のキャラ、みたいな感じで解説するキャラを変えるかもしれない」）。
+// 顔（アカウント.json の chara.face）があれば、サムネイルの丸・マイページ・切り替え画面の顔をそれにする。無ければずんだもん（build.py が埋める顔）
+const ME = ACCTS.find(a => a.id === ACCT) || null;
+if (ME && ME.face) document.documentElement.style.setProperty("--zun", `url("${ME.face}")`);
+const CH = DATA.chapters, V = DATA.lectures.filter(v => !v.acct || !ACCT || v.acct === ACCT);
+const byId = Object.fromEntries(V.map(v => [v.id, v]));
+const chKey = v => v.sub + v.ch;
+const isExam = v => v.kind === "exam";
+// 問題集の問題の解説動画（2026-09-29〜。ID は pK19-5、no は 工原19-5）。章は講義と同じ並びに入る
+const isProb = v => v.kind === "prob";
+const isLec = v => !v.kind;
+const EXAMS = (DATA.exams || []).filter(r => V.some(v => isExam(v) && v.ch === r));
+const chName = (sub, ch) => sub === "過去問" ? `第${ch}回` : (CH[sub] || [])[ch - 1] || `第${ch}章`;
+const place = v => isExam(v) ? `過去問 第${v.ch}回` : `${v.sub} 第${v.ch}章 ${chName(v.sub, v.ch)}`;
+const discTxt = (sub, ch) => sub === "過去問" ? String(ch) : short(sub) + ch;
+const chVideos = (sub, ch) => V.filter(v => v.sub === sub && v.ch === ch);
+const short = sub => ({ 工原: "工", 商会: "商" })[sub] || String(sub)[0];
+const HUES = { 工原: [150, 118, 172, 100, 135, 162], 商会: [214, 244, 198, 262, 228, 252], 過去問: [24, 8, 38, 352, 16, 30] };
+const hue = (sub, ch) => (HUES[sub] || [200, 185, 215, 170, 230, 195])[(ch - 1) % 6];
+const SUBNAME = { 商会: "商業簿記・会計学", 工原: "工業簿記・原価計算" };
+// このアカウントにある講義の科目（並びは 商会・工原・そのほか）と、過去問の有無
+const SUBS = [...new Set(V.filter(v => !isExam(v)).map(v => v.sub))].sort((a, b) => (a === "商会" ? 0 : a === "工原" ? 1 : 2) - (b === "商会" ? 0 : b === "工原" ? 1 : 2));
+const LSUBS = [...new Set(V.filter(isLec).map(v => v.sub))].sort((a, b) => SUBS.indexOf(a) - SUBS.indexOf(b));
+const KINDS = LSUBS.concat(V.some(isProb) ? ["問題"] : [], EXAMS.length ? ["過去問"] : []);
+const lvl = v => v.w >= 1.2 ? 3 : v.w >= 0.5 ? 2 : v.w >= 0.2 ? 1 : 0;
+const chW = (sub, ch) => chVideos(sub, ch).reduce((a, v) => a + v.w, 0);
+const mmss = s => Math.floor(s / 60) + ":" + String(Math.floor(s % 60)).padStart(2, "0");
+const clone = x => JSON.parse(JSON.stringify(x));
+
+// ---------- 記録（版つき） ----------
+// 手元（localStorage）にいつも写しを持ち、本番はアーティファクトのデータベースにも書く。
+//   prog/<講義ID>  { t, d, at, done?, x? }   見た位置。x は「未視聴に戻した」の印
+//   lib/folders    { v, at, folders }        お気に入りのフォルダ
+//   lib/set        { at, rate, auto }        再生速度・自動で次へ
+// 本番はアカウントごとに別のアーティファクト（別の場所）なので、手元の写しも自然に分かれる。モックは1つのページなのでキーで分ける
+const KEY = MOCK ? "zunda-mock-v2:" + ACCT : "zunda-v2:" + ACCT;
+const LATER = "later";
+const laterFolder = () => ({ id: LATER, name: "後で見る", fixed: true, ids: [] });
+const fresh = () => ({ v: 2, prog: {}, folders: [laterFolder(), { id: "f1", name: "直前に見る", ids: [] }], fat: 0, set: { rate: 1, auto: true }, sat: 0 });
+function migrate(s) {
+  if (!s || typeof s !== "object") return fresh();
+  if (s.v === 1) {
+    const n = fresh();
+    n.prog = s.prog || {};
+    Object.keys(s.done || {}).forEach(id => { n.prog[id] = Object.assign({ t: 0, d: 0, at: 0 }, n.prog[id], { done: true }); });
+    n.folders = [laterFolder()].concat((s.folders || []).map((f, i) => ({ id: "f" + (i + 1), name: f.name, ids: f.ids || [] })));
+    n.set = Object.assign(n.set, s.set);
+    return n;
+  }
+  if (s.v !== 2) return fresh();
+  const n = Object.assign(fresh(), s);
+  if (!n.folders.some(f => f.id === LATER)) n.folders.unshift(laterFolder());
+  return n;
+}
+let S;
+try { S = migrate(JSON.parse(localStorage.getItem(KEY))); } catch (e) { S = fresh(); }
+if (MOCK && !Object.keys(S.prog).length && S.folders.every(f => !f.ids.length)) {
+  S.prog["f27-1"] = { t: 280, d: 702.7, at: 3 };
+  S.prog["f25-3"] = { t: 0.7, d: 1, at: 2 };
+  S.prog["k13-1"] = { t: 0, d: 0, at: 1, done: true };
+  S.folders = [Object.assign(laterFolder(), { ids: ["r24-4"] }), { id: "f1", name: "直前に見る", ids: ["f27-1", "s:f27-1", "f26-3"] }, { id: "f2", name: "連結", ids: ["f25-2", "f25-3", "f27-1"] }];
+}
+let db = null, chain = Promise.resolve();
+const dirty = { prog: new Set(), lib: false, set: false };
+function saveLocal() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} }
+async function put(path, body, again) {
+  try { await db.doc(path).set(clone(body)); }
+  catch (e) {
+    const c = e && e.code;
+    if (["revoked", "not_granted", "capability_disabled", "capability_removed"].includes(c)) db = null;
+    else if (c !== "invalid_argument" && c !== "quota_exceeded" && c !== "transform_error") again();
+  }
+}
+function flush() {
+  saveLocal();
+  if (!db) return;
+  const ids = [...dirty.prog], lib = dirty.lib, set = dirty.set;
+  if (!ids.length && !lib && !set) return;
+  dirty.prog.clear(); dirty.lib = dirty.set = false;
+  chain = chain.then(async () => {
+    for (const id of ids) { if (db && S.prog[id]) await put("prog/" + id, S.prog[id], () => dirty.prog.add(id)); }
+    if (db && lib) await put("lib/folders", { v: 2, at: S.fat, folders: S.folders }, () => { dirty.lib = true; });
+    if (db && set) await put("lib/set", Object.assign({ at: S.sat }, S.set), () => { dirty.set = true; });
+  });
+}
+const markProg = id => { dirty.prog.add(id); };
+const markLib = () => { S.fat = Date.now(); dirty.lib = true; flush(); };
+const markSet = () => { S.sat = Date.now(); dirty.set = true; };
+setInterval(flush, 15000);
+document.addEventListener("visibilitychange", () => { if (document.hidden) flush(); });
+async function connect() {
+  if (MOCK || !window.claude || !window.claude.use) return;
+  try {
+    const d = await window.claude.use("db");
+    if (!d) return;
+    const [ps, fo, se] = await Promise.all([d.collection("prog").limit(1000).get(), d.doc("lib/folders").get(), d.doc("lib/set").get()]);
+    const there = new Set();
+    ps.docs.forEach(x => {
+      const r = x.data() || {}, l = S.prog[x.id];
+      there.add(x.id);
+      if (!l || (r.at || 0) > (l.at || 0)) S.prog[x.id] = clone(r);
+      else if ((l.at || 0) > (r.at || 0)) dirty.prog.add(x.id);
+    });
+    Object.keys(S.prog).forEach(id => { if (!there.has(id)) dirty.prog.add(id); });
+    const f = fo.exists ? fo.data() : null;
+    if (f && Array.isArray(f.folders) && (f.at || 0) >= S.fat) { S.folders = clone(f.folders); S.fat = f.at || 0; }
+    else dirty.lib = true;
+    if (!S.folders.some(x => x.id === LATER)) S.folders.unshift(laterFolder());
+    const s = se.exists ? se.data() : null;
+    if (s && (s.at || 0) >= S.sat) { S.set = { rate: +s.rate || 1, auto: s.auto !== false }; S.sat = s.at || 0; }
+    else dirty.set = true;
+    db = d;
+    flush();
+    order = homeOrder();
+    if (document.getElementById("player").hidden && document.getElementById("sheet").hidden && !searching) rerender();
+  } catch (e) {}
+}
+const pg = id => { const p = S.prog[id]; return p && !p.x ? p : null; };
+const ratio = id => { const p = pg(id); return !p ? 0 : p.done ? 1 : p.d ? Math.min(1, p.t / p.d) : 0; };
+const seen = id => !!pg(id);
+const finished = id => ratio(id) >= .95;
+// ショートは1本の動画に2〜3本。キーは1本目が s:<ID>、2本目から s:<ID>#2（前からある保存を読み替えずに済むように）
+const keyId = k => k.replace(/^s:/, "").replace(/#\d+$/, "");
+const isShort = k => k.startsWith("s:");
+const shortKey = (id, n) => "s:" + id + (n > 1 ? "#" + n : "");
+const shortOf = k => { const v = byId[keyId(k)], m = k.match(/#(\d+)$/); return v && v.shorts ? v.shorts[(m ? +m[1] : 1) - 1] : null; };
+const saved = k => S.folders.some(f => f.ids.includes(k));
+const folderOf = id => S.folders.find(f => f.id === id);
+
+// 検索の表記ゆれ（全角半角・大小・カタカナ→ひらがな）
+const norm = s => String(s).normalize("NFKC").toLowerCase().replace(/[ァ-ヶ]/g, c => String.fromCharCode(c.charCodeAt(0) - 0x60));
+
+// ---------- 部品 ----------
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const hl = s => esc(s).split("/").map(x => x.replace(/\[(.+?)\]/g, "<em>$1</em>")).join("<br>");
+function thumb(v, sh) {
+  const asShort = !!sh, r = asShort ? 0 : ratio(v.id), text = asShort ? sh.hl : (v.hl || v.title);
+  return `<div class="th ${isExam(v) ? "X" : v.sub === "工原" ? "K" : "S"}" style="--h:${hue(v.sub, v.ch)}">
+    <span class="chno" aria-hidden="true">${v.ch}</span>
+    <span class="tag">${isExam(v) ? `過去問 第${v.ch}回 ${esc(v.title)}` : isProb(v) ? `${asShort ? "ショート・" : ""}問題 ${esc(v.no)}` : `${asShort ? "ショート・" : v.sub + " "}講義${esc(v.no)}`}</span>
+    <span class="hl${asShort || v.hl ? "" : " plain"}">${hl(text)}</span>
+    <span class="zun" aria-hidden="true"></span>
+    ${asShort ? "" : `<span class="dur${v.video ? "" : " soon"}">${v.video ? mmss(v.video.secs) : "準備中"}</span>`}
+    ${r ? `<div class="pbar"><i style="width:${(r * 100).toFixed(1)}%"></i></div>` : ""}
+  </div>`;
+}
+const weakBadge = v => lvl(v) ? `<span class="weak">弱点${"●".repeat(lvl(v))}</span>・` : "";
+const state = v => finished(v.id) ? "見終わった" : seen(v.id) ? "途中まで" : "未視聴";
+const name = v => isExam(v) ? `第${v.ch}回 ${esc(v.title)}` : isProb(v) ? `問題 ${esc(v.no)} ${esc(v.title)}` : `講義${esc(v.no)} ${esc(v.title)}`;
+const moreBtn = (k, ctx) => `<button class="more" data-more="${k}" ${ctx ? `data-ctx="${ctx}"` : ""} aria-label="メニュー">${I.more}</button>`;
+function card(v) {
+  return `<div class="card">
+    <button class="cth" data-open="${v.id}" aria-label="${name(v)}">${thumb(v)}</button>
+    <div class="meta"><button class="mt" data-open="${v.id}"><span class="av" style="--h:${hue(v.sub, v.ch)}">${discTxt(v.sub, v.ch)}</span>
+      <span><b>${name(v)}</b><small>${weakBadge(v)}${isExam(v) ? "過去問" : esc(chName(v.sub, v.ch))}・${state(v)}</small></span></button>${moreBtn(v.id)}</div>
+  </div>`;
+}
+const mini = v => `<button class="mini" data-open="${v.id}">${thumb(v)}<b>${name(v)}</b><small>${state(v)}</small></button>`;
+function li(k, extra, ctx) {
+  const v = byId[keyId(k)], s = isShort(k);
+  return `<div class="li"><button class="lh" ${s ? `data-short="${k}"` : `data-open="${v.id}"`}>${thumb(v, s && shortOf(k))}
+    <span><b>${name(v)}</b><small>${extra || (s ? "ショート・" : "") + esc(chName(v.sub, v.ch))}</small></span></button>${moreBtn(k, ctx)}</div>`;
+}
+const I = {
+  home: '<svg viewBox="0 0 24 24"><path class="fill" d="M4 10.5 12 4l8 6.5V20h-5.5v-5.5h-5V20H4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>',
+  shorts: '<svg viewBox="0 0 24 24"><rect class="fill" x="6.5" y="3" width="11" height="18" rx="3.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10.5 9.5v5l4-2.5z" fill="currentColor"/></svg>',
+  list: '<svg viewBox="0 0 24 24"><rect class="fill" x="3" y="7" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M6 4h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M10.5 10.5v6l5-3z" fill="var(--bg)" stroke="currentColor" stroke-width="1.2"/></svg>',
+  me: '<svg viewBox="0 0 24 24"><circle class="fill" cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="10" r="3" fill="var(--bg)" stroke="currentColor" stroke-width="1.6"/><path d="M6.5 18c1.4-2.2 3.3-3.2 5.5-3.2s4.1 1 5.5 3.2" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>',
+  down: '<svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  back: '<svg viewBox="0 0 24 24"><path d="m15 5-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  close: '<svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>',
+  mark: f => `<svg viewBox="0 0 24 24"><path d="M6.5 3.5h11v17l-5.5-4-5.5 4z" fill="${f ? "currentColor" : "none"}" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>`,
+  info: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 11v6M12 7.5v.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+  search: '<svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>',
+  check: f => `<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="${f ? "currentColor" : "none"}" stroke="currentColor" stroke-width="1.8"/><path d="m8 12.5 3 3 5-6" fill="none" stroke="${f ? "var(--chip-on-ink)" : "currentColor"}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+  auto: '<svg viewBox="0 0 24 24"><path d="M5 12a7 7 0 0 1 12-5l2 2M19 12a7 7 0 0 1-12 5l-2-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M19 5v4h-4M5 19v-4h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  doc: '<svg viewBox="0 0 24 24"><path d="M6 3.5h8.5L19 8v12.5H6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 11.5h7M9 15h7M9 18h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+  full: '<svg viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  more: '<svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="1.8" fill="currentColor"/><circle cx="12" cy="12" r="1.8" fill="currentColor"/><circle cx="12" cy="19" r="1.8" fill="currentColor"/></svg>',
+  play: '<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>',
+  qnext: '<svg viewBox="0 0 24 24"><path d="M4 6h10M4 11h10M4 16h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M15 13.5v6l5-3z" fill="currentColor"/></svg>',
+  qlast: '<svg viewBox="0 0 24 24"><path d="M4 6h16M4 11h16M4 16h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M16 14.5v5l4-2.5z" fill="currentColor"/></svg>',
+  clock: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5.5l3.5 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+  trash: '<svg viewBox="0 0 24 24"><path d="M5 7h14M10 7V4.5h4V7M7 7l1 13h8l1-13" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+};
+
+// ---------- 画面の状態 ----------
+let tab = "home", homeChip = "すべて", pickCh = null, showAll = false, meView = null, fChip = "すべて", searching = false, q = "";
+let queue = [], usage = null;
+const scrollMem = {};
+const viewKey = () => searching ? "search" : tab + (tab === "list" ? (showAll ? ":all" : ":" + pickCh) : tab === "me" ? ":" + meView : "");
+const TABS = [["home", "ホーム", I.home], ["shorts", "ショート", I.shorts], ["list", "再生リスト", I.list], ["me", "マイページ", I.me]];
+function renderNav() {
+  document.getElementById("nav").innerHTML = TABS.map(([k, n, ic]) =>
+    `<button data-tab="${k}" ${tab === k ? 'aria-current="page"' : ""}>${ic}<span>${n}</span></button>`).join("");
+}
+let toastT = 0;
+function toast(msg) {
+  const el = document.getElementById("toast");
+  el.textContent = msg; el.hidden = false;
+  clearTimeout(toastT); toastT = setTimeout(() => { el.hidden = true; }, 2200);
+}
+
+// ホーム：動画のある講義だけ。弱点と未視聴を多めに混ぜる（並びは同じ日のあいだ変わらない）
+function rnd(s) { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return (((h >>> 0) % 99991) + 1) / 99992; }
+const today = (d => d.getFullYear() + "-" + (d.getMonth() + 1) + "-" + d.getDate())(new Date());
+function homeOrder() {
+  return V.filter(v => v.video)
+    .map(v => ({ v, k: Math.pow(rnd(today + v.id), 1 / ((1 + 2 * v.w) * (seen(v.id) ? (finished(v.id) ? .3 : 1.5) : 2))) }))
+    .sort((a, b) => b.k - a.k).map(x => x.v);
+}
+let order = homeOrder();
+const HOME_CHIPS = {
+  "すべて": () => true,
+  "弱点": v => lvl(v) > 0,
+  "未視聴": v => !seen(v.id),
+};
+// 科目のチップは、1つのアカウントに2種類以上あるときだけ（分けた後の本番は1種類なので出ない）
+// 講義の科目が1つだけのアカウント（分けた後の本番）では、講義のチップの名前は「講義」
+if (KINDS.length > 1) KINDS.forEach(k => {
+  if (k === "過去問") HOME_CHIPS[k] = isExam;
+  else if (k === "問題") HOME_CHIPS[k] = isProb;
+  else HOME_CHIPS[LSUBS.length > 1 ? k : "講義"] = v => isLec(v) && v.sub === k;
+});
+function renderHome() {
+  const cont = V.filter(v => v.video && seen(v.id) && !finished(v.id)).sort((a, b) => pg(b.id).at - pg(a.id).at);
+  const list = order.filter(HOME_CHIPS[homeChip]);
+  return `<header class="top"><span class="logo"><i></i>ずんだ講義</span><button class="ico sbtn" data-search aria-label="検索">${I.search}</button></header>
+  <div class="chips" role="group" aria-label="絞り込み">${Object.keys(HOME_CHIPS).map(c =>
+    `<button class="chip" data-chip="${c}" aria-pressed="${c === homeChip}">${c}<span class="n">${order.filter(HOME_CHIPS[c]).length}</span></button>`).join("")}</div>
+  ${cont.length ? `<section class="sec"><div class="sech"><h2>続きから</h2></div><div class="row">${cont.map(mini).join("")}</div></section>` : ""}
+  <div class="feed">${list.map(card).join("") || '<p class="empty">この条件の講義はありません</p>'}</div>`;
+}
+
+// ショート
+// 並びはランダム（本人 2026-09-29「ショート動画の順番はランダムでいいよ」）。開くたびに変わり、開いている間は変わらない（戻ると同じ1本に戻れるように）
+const shortSeed = String(Math.random());
+const shortList = () => V.flatMap(v => (v.shorts || []).map((sh, i) => ({ v, sh, k: shortKey(v.id, i + 1) })))
+  .map(x => ({ x, r: rnd(shortSeed + x.k) })).sort((a, b) => a.r - b.r).map(o => o.x);
+function renderShorts() {
+  return `<div class="shorts" id="shorts">${shortList().map(({ v, sh, k }) => {
+    const at = sh.at;
+    return `<article class="short" data-sid="${k}" style="--h:${hue(v.sub, v.ch)}">
+      <span class="slabel">ショート</span>
+      ${sh.blob ? `<video playsinline loop preload="metadata" src="v/${sh.blob}.mp4"></video>`
+        : `<p class="shl">${hl(sh.hl)}</p><div class="sframe">${thumb(v)}</div>`}
+      <div class="side">
+        <button data-save="${k}"><i>${I.mark(saved(k))}</i>保存</button>
+        <button data-about="${v.id}"><i>${I.info}</i>概要</button>
+      </div>
+      <div class="sfoot"><b>${name(v)}</b><small>${esc(place(v))}${sh.blob ? "" : "・ショートは準備中"}</small>
+        <button class="gomain" data-open="${v.id}" data-fs="1" ${at != null ? `data-at="${at}"` : ""}>本編を見る${at != null && v.video ? `　${mmss(at)}から` : ""}</button></div>
+      <div class="sline"><i></i></div>
+    </article>`; }).join("") || '<p class="empty">ショートはまだありません</p>'}</div>`;
+}
+let shortWatch = null;
+function watchShorts() {
+  if (shortWatch) { shortWatch.disconnect(); shortWatch = null; }
+  const box = document.getElementById("shorts");
+  if (!box || !("IntersectionObserver" in window)) return;
+  shortWatch = new IntersectionObserver(es => es.forEach(e => {
+    const vid = e.target.querySelector("video");
+    if (!vid) return;
+    if (e.isIntersecting && e.intersectionRatio >= .6) vid.play().catch(() => {}); else vid.pause();
+  }), { root: box, threshold: [0, .6] });
+  box.querySelectorAll(".short").forEach(a => {
+    shortWatch.observe(a);
+    const vid = a.querySelector("video"), bar = a.querySelector(".sline i");
+    if (!vid) return;
+    vid.addEventListener("timeupdate", () => { if (vid.duration) bar.style.width = (vid.currentTime / vid.duration * 100).toFixed(1) + "%"; });
+    vid.addEventListener("click", () => { if (vid.paused) vid.play().catch(() => {}); else vid.pause(); });
+  });
+}
+function stopShorts() { document.querySelectorAll("#shorts video").forEach(x => x.pause()); }
+
+// 検索
+function results() {
+  const words = norm(q).trim().split(/\s+/).filter(Boolean);
+  if (!words.length) return "";
+  const hit = V.filter(v => {
+    const c = (v.core ? JSON.stringify(v.core) : "") + (v.script ? JSON.stringify(v.script) : "");
+    const h = norm([v.no, isExam(v) ? "過去問 第" + v.no + " " + v.sn : isProb(v) ? "問題" + v.no : "講義" + v.no, v.title, v.sub, chName(v.sub, v.ch), v.hl, c, ...(v.probs || [])].join(" "));
+    return words.every(w => h.includes(w));
+  });
+  return hit.map(v => li(v.id)).join("") || '<p class="empty">見つかりませんでした</p>';
+}
+function renderSearch() {
+  return `<div class="backbar"><button class="ico" data-back aria-label="戻る">${I.back}</button>
+    <input id="q" type="search" value="${esc(q)}" placeholder="講義・論点・数字で探す" aria-label="検索" autocomplete="off"></div>
+    <div class="list" id="res">${results()}</div>`;
+}
+
+// 再生リスト：丸い章。優先＝弱点の重い章から
+function chapterOrder() {
+  const keys = [...new Set(V.map(chKey))];
+  return keys.map(k => { const v = V.find(x => chKey(x) === k); return { sub: v.sub, ch: v.ch, k, w: chW(v.sub, v.ch) }; })
+    .sort((a, b) => b.w - a.w || (a.sub === b.sub ? a.ch - b.ch : a.sub === "商会" ? -1 : 1));
+}
+function renderList() {
+  const chs = chapterOrder();
+  if (!pickCh) pickCh = chs[0].k;
+  const top = chs.slice(0, 5);
+  if (!top.some(c => c.k === pickCh)) top.push(chs.find(c => c.k === pickCh));
+  const cur = chs.find(c => c.k === pickCh);
+  const disc = c => `<button class="sub" data-ch="${c.k}" aria-pressed="${c.k === pickCh}">
+      <span class="disc" style="--h:${hue(c.sub, c.ch)}">${discTxt(c.sub, c.ch)}${c.w >= .5 ? '<i class="dot" aria-label="弱点あり"></i>' : ""}</span>
+      <span>${esc(chName(c.sub, c.ch))}</span></button>`;
+  if (showAll) {
+    const grp = sub => (CH[sub] || []).map((n, i) => {
+      const k = sub + (i + 1), vs = chVideos(sub, i + 1), nv = vs.filter(v => v.video).length;
+      return `<button class="chrow" data-ch="${k}" ${vs.length ? "" : "disabled"}><span class="disc" style="--h:${hue(sub, i + 1)}">${short(sub)}${i + 1}</span>
+        <span class="nm">${esc(n)}</span><span class="cnt">${vs.length ? `${vs.length}本${nv ? `（動画${nv}）` : ""}` : "講義なし"}</span></button>`;
+    }).join("");
+    const grpX = () => EXAMS.map(r => {
+      const vs = chVideos("過去問", r), nv = vs.filter(v => v.video).length;
+      return `<button class="chrow" data-ch="過去問${r}"><span class="disc" style="--h:${hue("過去問", r)}">${r}</span>
+        <span class="nm">第${r}回</span><span class="cnt">${nv ? `動画${nv}本` : "準備中"}</span></button>`;
+    }).join("");
+    const head = t => KINDS.length > 1 ? `<h3>${esc(t)}</h3>` : "";
+    return `<div class="backbar"><button class="ico" data-back aria-label="戻る">${I.back}</button><h1>${SUBS.length ? "すべての章" : "すべての回"}</h1></div>
+      <div class="grid-ch">${SUBS.map(s => head(SUBNAME[s] || s) + grp(s)).join("")}${EXAMS.length ? head("過去問") + grpX() : ""}</div>`;
+  }
+  const vids = chVideos(cur.sub, cur.ch);
+  const done = vids.filter(v => finished(v.id)).length;
+  return `<header class="top"><h1>再生リスト</h1><button class="ico sbtn" data-search aria-label="検索">${I.search}</button></header>
+  <div class="subs">${top.map(disc).join("")}<button class="all" data-all>すべて</button></div>
+  <div class="chhead"><h2>${esc(place(vids[0]))}</h2>
+    <small>${cur.sub === "過去問" ? new Set(vids.map(v => v.sn[0] + v.sn[1])).size + "科目" : vids.length + "本"}・動画 ${vids.filter(v => v.video).length}本・見終わった ${done}本</small></div>
+  <div class="feed">${vids.map(card).join("")}</div>`;
+}
+
+// マイページ
+const folderItems = f => f.ids.filter(k => byId[keyId(k)] && (!isShort(k) || shortOf(k)));
+function renderFolder(f) {
+  const items = folderItems(f);
+  const list = items.filter(k => fChip === "すべて" || (fChip === "ショート") === isShort(k));
+  const first = items[0], fv = first && byId[keyId(first)];
+  const can = items.some(k => !isShort(k) && byId[k].video);
+  return `<div class="fhead" style="--h:${fv ? hue(fv.sub, fv.ch) : 140}">
+      ${fv ? `<div class="fbg" aria-hidden="true">${thumb(fv, isShort(first) && shortOf(first))}</div>` : ""}
+      <div class="ftop"><button class="ico" data-back aria-label="戻る">${I.back}</button><button class="ico" data-search aria-label="検索">${I.search}</button></div>
+      <div class="fbody">${fv ? `<div class="fcover">${thumb(fv, isShort(first) && shortOf(first))}</div>` : ""}
+        <h1>${esc(f.name)}</h1><small>${items.length}本</small>
+        <button class="playall" data-playall="${f.id}" ${can ? "" : "disabled"}>${I.play}すべて再生</button></div>
+    </div>
+    <div class="chips" role="group" aria-label="絞り込み">${["すべて", "動画", "ショート"].map(c => `<button class="chip" data-fchip="${c}" aria-pressed="${c === fChip}">${c}</button>`).join("")}</div>
+    <div class="list">${list.map(k => li(k, null, "folder:" + f.id)).join("") || '<p class="empty">まだありません</p>'}</div>`;
+}
+// アカウントの切り替え（本人 2026-09-29「マイページのずんだもんのアイコンの上にアカウントボタンを作って押すと、他のアカウント(アーティファクト)に飛べるように」）
+// 本番: ほかのアカウントのアーティファクトを今の画面で開く（url が無いものは押せない）。モック: 同じページの中で切り替える
+// 顔: 今のアカウントは --zun（上で差し替え済み）。ほかのアカウントは顔があればその画像、無ければ色の丸に字
+const acctAv = a => a.id === ACCT ? `<span class="av z" aria-hidden="true"></span>`
+  : a.face ? `<span class="av z" style="background-image:url('${a.face}');box-shadow:none" aria-hidden="true"></span>`
+  : `<span class="av" style="background:hsl(${a.hue} 42% 44%)" aria-hidden="true">${esc(a.abbr)}</span>`;
+function acctSheet() {
+  const row = a => {
+    const inner = `${acctAv(a)}<span class="nm"><b>${esc(a.name)}</b><small>${esc(a.sub)}</small></span>`;
+    if (a.id === ACCT) return `<div class="acrow">${inner}<svg class="ck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12.5l5 5L20 6.5"/></svg></div>`;
+    if (MOCK) return `<button class="acrow" data-acct="${esc(a.id)}">${inner}</button>`;
+    // _top＝今の画面で開く。_blank だとホーム画面に追加した claude.ai から帯つきのブラウザで開いてしまう（本人 2026-09-29 のスクショ。_top は実機で「うまく行ってる」）
+    return a.url ? `<a class="acrow" href="${esc(a.url)}" target="_top">${inner}</a>` : `<div class="acrow off">${inner}</div>`;
+  };
+  openSheet(`<div class="sheeth"><h2>アカウント</h2><button class="ico" data-back aria-label="閉じる">${I.close}</button></div>
+    <div class="sbody accts">${ACCTS.filter(a => a.id === ACCT).map(row).join("")}
+      <h3>その他のアカウント</h3>${ACCTS.filter(a => a.id !== ACCT).map(row).join("")}</div>`);
+}
+function renderMe() {
+  const hist = Object.keys(S.prog).filter(id => byId[id] && pg(id)).sort((a, b) => S.prog[b].at - S.prog[a].at).map(id => byId[id]);
+  if (meView === "hist") {
+    return `<div class="backbar"><button class="ico" data-back aria-label="戻る">${I.back}</button><h1>履歴</h1></div>
+      <div class="list">${hist.map(v => li(v.id, state(v))).join("") || '<p class="empty">まだありません</p>'}</div>`;
+  }
+  if (meView && folderOf(meView)) return renderFolder(folderOf(meView));
+  const nv = V.filter(v => v.video).length, nl = V.filter(isLec).length, npb = V.filter(isProb).length;
+  const me = ACCTS.length > 1 && ME;
+  const cap = usage ? `<small${usage.bytes > 800 * 1048576 ? ' class="warn"' : ""}>動画の容量 ${(usage.bytes / 1048576).toFixed(0)}MB／${(usage.maxBytes / 1048576).toFixed(0)}MB</small>` : "";
+  const acbtn = ACCTS.length > 1 ? `<button class="acbtn" data-accts>アカウント<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>` : "<h1>マイページ</h1>";
+  return `<header class="top">${acbtn}<button class="ico sbtn" data-search aria-label="検索">${I.search}</button></header>
+  <div class="me"><span class="big" aria-hidden="true"></span><div><b>わたし</b>${me ? `<small>${esc(me.name)}</small>` : ""}<small>見終わった ${V.filter(v => finished(v.id)).length}本・動画 ${nv}本／${[nl ? `講義 ${nl}本` : "", npb ? `問題 ${npb}問` : "", EXAMS.length ? `過去問 ${EXAMS.length}回` : ""].filter(Boolean).join("・")}</small>${cap}</div></div>
+  <section class="sec"><div class="sech"><h2><button data-hist>履歴 ›</button></h2></div>
+    <div class="row">${hist.map(mini).join("") || '<p class="empty">まだありません</p>'}</div></section>
+  <section class="sec"><div class="sech"><h2>お気に入りリスト</h2><button class="plus" data-newfolder aria-label="フォルダを作る">＋</button></div>
+    <div class="row">${S.folders.map(f => { const its = folderItems(f), k = its[0], v = k && byId[keyId(k)];
+      return `<button class="mini folder" data-folder="${f.id}">${v ? thumb(v, isShort(k) && shortOf(k)).replace(/<span class="dur[^<]*<\/span>/, "").replace(/<\/div>\s*$/, `<span class="cnt">${its.length}</span></div>`) : `<div class="th K"><span class="cnt">0</span></div>`}<b>${esc(f.name)}</b><small>${its.length}本</small></button>`; }).join("")}</div></section>`;
+}
+async function loadUsage() {
+  if (MOCK || usage || !window.claude || !window.claude.use) return;
+  try {
+    const a = await window.claude.use("assets");
+    if (!a) return;
+    usage = (await a.list()).usage;
+    if (tab === "me" && meView === null && !searching && document.getElementById("player").hidden && document.getElementById("sheet").hidden) rerender();
+  } catch (e) {}
+}
+
+function render() {
+  const app = document.getElementById("app");
+  app.innerHTML = searching ? renderSearch() : tab === "home" ? renderHome() : tab === "shorts" ? renderShorts() : tab === "list" ? renderList() : renderMe();
+  renderNav();
+  const box = document.getElementById("shorts");
+  if (box) { box.scrollTop = scrollMem[viewKey()] || 0; watchShorts(); }
+  else window.scrollTo(0, scrollMem[viewKey()] || 0);
+  if (tab === "me") loadUsage();
+}
+function leave() { const box = document.getElementById("shorts"); scrollMem[viewKey()] = box ? box.scrollTop : window.scrollY; }
+function rerender() { leave(); render(); }
+
+// ---------- 戻る操作（端末の戻るでも1枚ずつ閉じる） ----------
+let depth = 0;
+function pushLayer() { depth++; try { history.pushState({ z: depth }, ""); } catch (e) {} }
+function back() { if (depth > 0) history.back(); else closeTop(); }
+window.addEventListener("popstate", () => { if (depth > 0) depth--; closeTop(); });
+function closeTop() {
+  if (!document.getElementById("sheet").hidden) return closeSheet();
+  if (!document.getElementById("player").hidden) return closePlayer();
+  if (searching) { leave(); searching = false; return render(); }
+  if (tab === "list" && showAll) { leave(); showAll = false; return render(); }
+  if (tab === "me" && meView !== null) { leave(); meView = null; return render(); }
+}
+
+// ---------- 再生画面 ----------
+let playing = null, noRec = false;
+function nextsOf(v) { const vids = chVideos(v.sub, v.ch), i = vids.indexOf(v); return vids.slice(i + 1).concat(vids.slice(0, i)); }
+function actsHtml(v) {
+  const f = finished(v.id);
+  return `<button class="act${saved(v.id) ? " on" : ""}" data-save="${v.id}">${I.mark(saved(v.id))}保存</button>
+      <button class="act" data-about="${v.id}">${I.info}概要</button>
+      <button class="act${f ? " on" : ""}" data-done="${v.id}">${I.check(f)}見終わった</button>
+      <button class="act${S.set.auto ? " on" : ""}" data-auto>${I.auto}自動で次へ</button>`;
+}
+function plistHtml(v) {
+  const qs = queue.filter(id => byId[id]);
+  return `${qs.length ? `<div class="nexth">次に再生</div><div class="list qlist">${qs.map(id => li(id, null, "queue")).join("")}</div>` : ""}
+    <div class="nexth">${isExam(v) ? "この回のほかの科目" : "この章の次の講義"}</div>
+    <div class="feed">${nextsOf(v).map(card).join("") || '<p class="empty">この章の講義はこれだけです</p>'}</div>`;
+}
+function refreshPlayer() {
+  if (!playing) return;
+  const a = document.getElementById("acts"), p = document.getElementById("plist");
+  if (a) a.innerHTML = actsHtml(byId[playing]);
+  if (p) p.innerHTML = plistHtml(byId[playing]);
+}
+function openPlayer(id, at, fromShort, replace) {
+  playing = id; noRec = !!fromShort;
+  queue = queue.filter(x => x !== id);
+  const v = byId[id], el = document.getElementById("player"), p = pg(id);
+  stopShorts();
+  el.innerHTML = `<div class="pw">
+    <div class="stick"><div class="ptop"><button class="ico" data-back aria-label="閉じる">${I.down}</button>${v.video ? `<button class="fullb" data-full>${I.full}全画面</button>` : ""}</div>
+    <div class="screen">
+      ${v.video ? `<video id="vid" controls playsinline preload="metadata" src="v/${v.video.blob}.mp4"></video>` : `${thumb(v)}<div class="nomovie">${isExam(v) ? "この回の解説動画" : "この講義の動画"}はまだありません</div>`}
+    </div></div>
+    <button class="pinfo" data-about="${v.id}"><h2>${name(v)}</h2>
+      <small>${weakBadge(v)}${esc(place(v))}・${v.video ? mmss(v.video.secs) : "準備中"}${noRec ? "・ショートから（記録しない）" : ""}　<b>…その他</b></small></button>
+    <div class="acts" id="acts">${actsHtml(v)}</div>
+    ${v.video ? `<div class="rates" role="group" aria-label="再生速度">${[0.5, 0.75, 1, 1.25, 1.5].map(r => `<button class="chip" data-rate="${r}" aria-pressed="${S.set.rate === r}">${r}×</button>`).join("")}</div>` : ""}
+    <div id="plist">${plistHtml(v)}</div>
+  </div>`;
+  if (el.hidden) { el.hidden = false; document.body.style.overflow = "hidden"; if (!replace) pushLayer(); }
+  el.scrollTop = 0;
+  const vid = document.getElementById("vid");
+  if (!vid) return;
+  vid.playbackRate = S.set.rate;
+  // 動画の上で指を上に動かしたら全画面（本人 2026-09-28「動画を上に上げたら全画面に」）
+  let sx = 0, sy = 0;
+  const scr = el.querySelector(".screen");
+  scr.addEventListener("touchstart", e => { const t = e.touches[0]; sx = t.clientX; sy = t.clientY; }, { passive: true });
+  scr.addEventListener("touchend", e => {
+    const t = e.changedTouches[0];
+    if (sy - t.clientY > 50 && Math.abs(t.clientX - sx) < 60) goFull();
+  }, { passive: true });
+  vid.addEventListener("loadedmetadata", () => {
+    vid.playbackRate = S.set.rate;
+    if (at != null) vid.currentTime = at;
+    else if (p && !p.done && p.t > 1 && p.t < vid.duration - 3) vid.currentTime = p.t;
+    if (at != null || replace) vid.play().catch(() => {});
+  }, { once: true });
+  vid.addEventListener("timeupdate", () => {
+    markScene();
+    if (noRec || !vid.currentTime) return;
+    const old = S.prog[id];
+    S.prog[id] = { t: Math.round(vid.currentTime * 10) / 10, d: Math.round((vid.duration || v.video.secs) * 10) / 10, at: Date.now() };
+    if (old && old.done && !old.x) S.prog[id].done = true;
+    markProg(id);
+  });
+  vid.addEventListener("pause", flush);
+  vid.addEventListener("ended", () => {
+    if (!noRec) { S.prog[id] = { t: 0, d: Math.round((vid.duration || v.video.secs) * 10) / 10, at: Date.now(), done: true }; markProg(id); flush(); }
+    const qn = queue.find(x => byId[x] && byId[x].video);
+    if (qn) return openPlayer(qn, null, false, true);
+    const vids = chVideos(v.sub, v.ch), nx = S.set.auto && vids.slice(vids.indexOf(v) + 1).find(n => n.video);
+    if (nx) openPlayer(nx.id, null, noRec, true); else refreshPlayer();
+  });
+}
+function goFull() {
+  const vid = document.getElementById("vid");
+  if (!vid) return;
+  try {
+    if (vid.webkitEnterFullscreen) vid.webkitEnterFullscreen();
+    else if (vid.requestFullscreen) vid.requestFullscreen().catch(() => {});
+  } catch (e) {}
+}
+function closePlayer() {
+  const vid = document.getElementById("vid"); if (vid) vid.pause();
+  flush();
+  const el = document.getElementById("player"); el.hidden = true; el.innerHTML = "";
+  document.body.style.overflow = ""; playing = null; noRec = false;
+  closeSheet(true); render();
+}
+
+// ---------- 下から出る画面 ----------
+let sheetKey = null, sheetCtx = null;
+function openSheet(html, low, open) {
+  const sh = document.getElementById("sheet");
+  const wasOpen = !sh.hidden;
+  sh.className = "sheet" + (low ? " low" : "");
+  sh.innerHTML = `<div class="grab"></div>${html}`;
+  // open: 幕を掛けない（台本を読みながら上の動画を操作できるように）
+  sh.hidden = false; document.getElementById("scrim").hidden = !!open;
+  if (!wasOpen) pushLayer();
+}
+function closeSheet(quiet) {
+  const sh = document.getElementById("sheet");
+  if (sh.hidden) return;
+  sh.hidden = true; sh.innerHTML = ""; document.getElementById("scrim").hidden = true;
+  if (quiet) return;
+  if (playing) refreshPlayer(); else rerender();
+}
+const LBL = t => `<p class="lbl">${t}</p>`;
+function coreHtml(c) {
+  let h = `<p class="kt">${esc(c.t)}</p>`;
+  if (c.ab && c.ab.length) h += LBL("ことば") + `<dl class="ab">${c.ab.map(([a, b]) => `<dt>${esc(a)}</dt><dd>${esc(b)}</dd>`).join("")}</dl>`;
+  for (const p of c.parts) {
+    if (p.h) h += `<h4 class="ph">${esc(p.h)}</h4>`;
+    if (p.judge.length) h += LBL("問題文でこう見たら") + `<ul class="kl">${p.judge.map(([a, b]) => `<li><b>${esc(a)}</b><br>${esc(b)}</li>`).join("")}</ul>`;
+    if (p.steps.length) h += LBL("解く手順") + `<ol class="kl">${p.steps.map(([a, b]) => `<li><b>${esc(a)}</b><br>${esc(b)}</li>`).join("")}</ol>`;
+    if (p.why) h += LBL("なぜそうなるか") + `<p>${esc(p.why)}</p>`;
+    if (p.check) h += LBL("確かめ方") + `<p>${esc(p.check)}</p>`;
+    if (p.trap && p.trap.length) h += LBL("落とし穴") + `<ul class="kl">${p.trap.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
+    if (p.skip && p.skip.length) h += LBL("気にしなくていいこと") + `<ul class="kl">${p.skip.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
+  }
+  return h;
+}
+const KIND = { stop: "止まった", run: "取り違え", slip: "写し・計算のミス", form: "形式の欄", none: "手つかず・時間切れ" };
+const VS = { new: "今回が初めて", same: "前の回も同じ", recur: "再発" };
+const md = s => { const m = /^\d+-(\d+)-(\d+)/.exec(s || ""); return m ? +m[1] + "/" + +m[2] : ""; };
+function dropsHtml(v) {
+  const lb = isExam(v) ? "この回で落とした所" : isProb(v) ? "この問題で落とした所" : "この講義で落とした所";
+  if (v.drops && v.drops.length) {
+    return `<section class="blk">${LBL(lb)}<ul class="kl">${v.drops.map(d => `<li><b>${KIND[d.kind] || ""}${d.pair ? `　「${esc(d.pair[0])}」を「${esc(d.pair[1])}」に` : ""}</b><br>${d.zwhat ? d.zwhat.map(t => `<span class="zp">${esc(t)}</span>`).join("") : esc(d.what)}
+      <small>${[esc(d.prob), md(d.at), d.n ? "落とした欄 " + d.n : "", VS[d.vs] || ""].filter(Boolean).join("・")}</small>
+      ${d.seek != null && v.video ? `<button class="seekb" data-seek="${d.seek}">この場面から再生　${mmss(d.seek)}</button>` : ""}</li>`).join("")}</ul>
+      ${v.prev ? `<p>前の回から　直った ${v.prev.fixed}・残った ${v.prev.remain}</p>` : ""}</section>`;
+  }
+  if (v.wt && v.wt.length) return `<section class="blk">${LBL(lb)}<ul class="kl">${v.wt.map(t => `<li>${esc(t)}</li>`).join("")}</ul></section>`;
+  return "";
+}
+function about(id) {
+  const v = byId[id], vids = chVideos(v.sub, v.ch);
+  const pct = Math.round(ratio(v.id) * 100);
+  sheetKey = id;
+  openSheet(`<div class="sheeth"><h2>概要</h2><button class="ico" data-back aria-label="閉じる">${I.close}</button></div>
+    <div class="sbody">
+      <h3>${name(v)}</h3>
+      <div class="who"><span class="av" style="--h:${hue(v.sub, v.ch)}">${discTxt(v.sub, v.ch)}</span>${esc(place(v))}</div>
+      <div class="stats"><div><b>${v.video ? mmss(v.video.secs) : "―"}</b><small>長さ</small></div><div><b>${pct}%</b><small>見たところ</small></div><div><b>${lvl(v) ? "●".repeat(lvl(v)) : "―"}</b><small>弱点</small></div></div>
+      ${v.script ? `<button class="act scbtn" data-script="${v.id}">${I.doc}台本を読む</button>` : ""}
+      ${isLec(v) ? `<section class="blk talk">${v.core ? coreHtml(v.core) : "<p>この講義の核はまだありません。</p>"}</section>` : ""}
+      ${isProb(v) && v.zabout ? `<section class="blk talk">${v.zabout.map(t => `<p>${esc(t)}</p>`).join("")}</section>` : ""}
+      ${dropsHtml(v)}
+      ${isProb(v) && (v.lec || []).some(id => byId[id]) ? `<section class="blk">${LBL("この問題の講義")}<div class="links">${v.lec.filter(id => byId[id]).map(id => { const x = byId[id];
+        return `<button data-open="${x.id}"><span class="no">${esc(x.no)}</span><span>${esc(x.title)}</span>${x.video ? "" : '<span class="now">動画は準備中</span>'}</button>`; }).join("")}</div></section>` : ""}
+      ${v.scenes && v.video ? `<section class="blk">${LBL("場面の目次")}<div class="links">${v.scenes.map(([s, t]) => `<button data-seek="${s}"><span class="no">${mmss(s)}</span><span>${esc(t)}</span></button>`).join("")}</div></section>` : ""}
+      ${v.probs && v.probs.length ? `<section class="blk">${LBL("この講義で解ける問題")}${(() => {
+        // 解説動画のある問題は押せる行に、無い問題は文字だけ
+        const pv = v.probs.map(no => V.find(x => isProb(x) && x.no === no)), has = pv.filter(Boolean);
+        return (has.length ? `<div class="links">${has.map(x => `<button data-open="${x.id}"><span class="no">${esc(x.no.replace(/^\D+/, "問"))}</span><span>${esc(x.title)}</span></button>`).join("")}</div>` : "")
+          + (has.length < pv.length ? `<p>${v.probs.filter((no, i) => !pv[i]).map(esc).join("、")}</p>` : ""); })()}</section>` : ""}
+      <section class="blk">${LBL(isExam(v) ? "この回の科目" : "この章の講義と問題")}<div class="links">${vids.map(x => `<button data-open="${x.id}" ${x.id === v.id ? 'aria-current="true"' : ""}><span class="no">${esc(isExam(x) ? x.sn : isProb(x) ? x.no.replace(/^\D+/, "問") : x.no.replace(/^\D+/, ""))}</span><span>${esc(x.title)}</span>${x.id === playing ? '<span class="now">再生中</span>' : ratio(x.id) ? `<span class="now">${Math.round(ratio(x.id) * 100)}%</span>` : ""}</button>`).join("")}</div></section>
+    </div>`);
+}
+const sceneAt = (v, t) => { let i = 0; v.scenes.forEach(([s], j) => { if (t >= s - .3) i = j; }); return i; };
+function markScene() {
+  const box = document.querySelector("#sheet .scr"), vid = document.getElementById("vid");
+  if (!box || !vid || playing !== box.dataset.id) return;
+  const i = sceneAt(byId[playing], vid.currentTime);
+  box.querySelectorAll(".sc").forEach((x, j) => x.classList.toggle("now", j === i));
+}
+function scriptSheet(id) {
+  const v = byId[id];
+  sheetKey = id;
+  openSheet(`<div class="sheeth"><h2>台本</h2><button class="ico" data-back aria-label="閉じる">${I.close}</button></div>
+    <div class="sbody scr" data-id="${id}">${v.script.map((ls, i) => `<section class="sc">
+      <button class="sch" data-sseek="${v.scenes[i][0]}"><span class="no">${mmss(v.scenes[i][0])}</span><b>${esc(v.scenes[i][1])}</b></button>
+      ${ls.map(([w, t]) => `<p><i class="${w === "めたん" ? "m" : "z"}">${esc(w)}</i><span>${esc(t)}</span></p>`).join("")}</section>`).join("")}</div>`, false, playing === id);
+  markScene();
+}
+function saveSheet(k) {
+  sheetKey = k;
+  openSheet(`<div class="sheeth"><h2>保存先</h2><button class="ico" data-back aria-label="閉じる">${I.close}</button></div>
+    <div class="sbody">
+      <div class="fold">${S.folders.map(f => `<label><input type="checkbox" data-fold="${f.id}" ${f.ids.includes(k) ? "checked" : ""}>${esc(f.name)}</label>`).join("")}</div>
+      <form class="newf" data-newf><input id="newname" maxlength="20" placeholder="新しいフォルダ" aria-label="新しいフォルダの名前"><button>作る</button></form>
+    </div>`, true);
+}
+function newFolderSheet() {
+  sheetKey = null;
+  openSheet(`<div class="sheeth"><h2>新しいフォルダ</h2><button class="ico" data-back aria-label="閉じる">${I.close}</button></div>
+    <div class="sbody"><form class="newf" data-newf><input id="newname" maxlength="20" placeholder="フォルダの名前" aria-label="フォルダの名前"><button>作る</button></form></div>`, true);
+}
+function menuSheet(k, ctx) {
+  sheetKey = k; sheetCtx = ctx || "";
+  const v = byId[keyId(k)], s = isShort(k), f = sheetCtx.startsWith("folder:") ? folderOf(sheetCtx.slice(7)) : null;
+  const it = (m, ic, t) => `<button data-m="${m}">${ic}<span>${t}</span></button>`;
+  const later = folderOf(LATER);
+  openSheet(`<div class="sheeth"><h2 class="sm">${s ? "ショート・" : ""}${name(v)}</h2><button class="ico" data-back aria-label="閉じる">${I.close}</button></div>
+    <div class="menu">
+      ${sheetCtx === "queue" ? it("unqueue", I.trash, "「次に再生」から外す") : ""}
+      ${!s && v.video && sheetCtx !== "queue" && k !== playing ? it("next", I.qnext, "次に再生") + it("last", I.qlast, "最後に再生") : ""}
+      ${later && !later.ids.includes(k) ? it("later", I.clock, "［後で見る］に保存") : ""}
+      ${it("fav", I.mark(false), "お気に入りリストに保存")}
+      ${f ? it("unfolder", I.trash, `［${esc(f.name)}］から削除`) : ""}
+      ${s ? "" : it("done", I.check(false), finished(v.id) ? "未視聴に戻す" : seen(v.id) ? "見終わったにする／未視聴に戻す" : "見終わったにする")}
+    </div>`, true);
+}
+function setDone(id, on) {
+  if (on) S.prog[id] = Object.assign({ t: 0, d: 0 }, pg(id), { at: Date.now(), done: true });
+  else S.prog[id] = { t: 0, d: 0, at: Date.now(), x: 1 };
+  markProg(id); flush();
+}
+function doMenu(m) {
+  const k = sheetKey, id = keyId(k), ctx = sheetCtx;
+  if (m === "fav") return saveSheet(k);
+  if (m === "done" && !finished(id) && seen(id)) {
+    return openSheet(`<div class="sheeth"><h2 class="sm">${name(byId[id])}</h2><button class="ico" data-back aria-label="閉じる">${I.close}</button></div>
+      <div class="menu"><button data-m="done1">${I.check(false)}<span>見終わったにする</span></button><button data-m="done0">${I.trash}<span>未視聴に戻す</span></button></div>`, true);
+  }
+  if (m === "next") { queue = [id].concat(queue.filter(x => x !== id)); toast("次に再生します"); }
+  else if (m === "last") { queue = queue.filter(x => x !== id).concat(id); toast("最後に再生します"); }
+  else if (m === "unqueue") { queue = queue.filter(x => x !== id); }
+  else if (m === "later") { const f = folderOf(LATER); if (!f.ids.includes(k)) f.ids.push(k); markLib(); toast("［後で見る］に保存しました"); }
+  else if (m === "unfolder") { const f = folderOf(ctx.slice(7)); if (f) { f.ids = f.ids.filter(x => x !== k); markLib(); toast(`［${f.name}］から削除しました`); } }
+  else if (m === "done") setDone(id, !finished(id));
+  else if (m === "done1") setDone(id, true);
+  else if (m === "done0") setDone(id, false);
+  back();
+}
+function playAll(fid) {
+  const f = folderOf(fid); if (!f) return;
+  const ids = folderItems(f).filter(k => !isShort(k) && byId[k].video);
+  if (!ids.length) return;
+  queue = ids.slice(1);
+  leave(); openPlayer(ids[0], null, false, false);
+  const vid = document.getElementById("vid"); if (vid) vid.play().catch(() => {});
+}
+
+// ---------- 操作 ----------
+document.addEventListener("click", e => {
+  if (e.target.id === "scrim") return back();
+  const t = e.target.closest("button");
+  if (!t) return;
+  const d = t.dataset;
+  if ("back" in d) back();
+  else if ("search" in d) { leave(); searching = true; pushLayer(); render(); const i = document.getElementById("q"); if (i) i.focus(); }
+  else if (d.tab) { leave(); tab = d.tab; showAll = false; meView = null; searching = false; render(); }
+  else if (d.chip) { homeChip = d.chip; rerender(); }
+  else if (d.fchip) { fChip = d.fchip; rerender(); }
+  else if (d.ch) { leave(); pickCh = d.ch; if (showAll) back(); else render(); }
+  else if ("all" in d) { leave(); showAll = true; pushLayer(); render(); }
+  else if ("hist" in d) { leave(); meView = "hist"; pushLayer(); render(); }
+  else if (d.folder) { leave(); meView = d.folder; fChip = "すべて"; pushLayer(); render(); }
+  else if ("newfolder" in d) newFolderSheet();
+  else if ("accts" in d) acctSheet();
+  else if (d.acct) { flush(); try { localStorage.setItem(MOCK_ACCT, d.acct); } catch (e) {} location.reload(); }
+  else if (d.playall) playAll(d.playall);
+  else if (d.more) menuSheet(d.more, d.ctx);
+  else if (d.m) doMenu(d.m);
+  else if (d.short) {
+    leave(); searching = false; meView = null; tab = "shorts";
+    scrollMem.shorts = 0; render();
+    const box = document.getElementById("shorts"), a = box && box.querySelector(`[data-sid="${d.short}"]`);
+    if (a) box.scrollTop = a.offsetTop;
+  }
+  else if (d.open) {
+    const vid = document.getElementById("vid"); if (vid) vid.pause();
+    closeSheet(true);
+    const inPlayer = !document.getElementById("player").hidden;
+    if (!inPlayer) leave();
+    openPlayer(d.open, d.at != null ? +d.at : null, d.fs === "1", inPlayer);
+  }
+  else if (d.seek) {
+    const id = sheetKey, vid = document.getElementById("vid");
+    closeSheet(true);
+    if (playing === id && vid) { vid.currentTime = +d.seek; vid.play().catch(() => {}); }
+    else { const inPlayer = !!playing; if (!inPlayer) leave(); openPlayer(id, +d.seek, tab === "shorts" && !inPlayer, inPlayer); }
+  }
+  else if ("full" in d) goFull();
+  else if (d.script) scriptSheet(d.script);
+  else if (d.sseek) {
+    const vid = document.getElementById("vid");
+    if (playing === sheetKey && vid) { vid.currentTime = +d.sseek; vid.play().catch(() => {}); markScene(); }
+    else { const id = sheetKey, inPlayer = !!playing; closeSheet(true); if (!inPlayer) leave(); openPlayer(id, +d.sseek, tab === "shorts" && !inPlayer, inPlayer); }
+  }
+  else if (d.about) about(d.about);
+  else if (d.save) saveSheet(d.save);
+  else if (d.done) { setDone(d.done, !finished(d.done)); refreshPlayer(); }
+  else if ("auto" in d) { S.set.auto = !S.set.auto; markSet(); flush(); refreshPlayer(); }
+  else if (d.rate) {
+    S.set.rate = +d.rate; markSet(); flush();
+    const vid = document.getElementById("vid"); if (vid) vid.playbackRate = S.set.rate;
+    document.querySelectorAll("[data-rate]").forEach(b => b.setAttribute("aria-pressed", String(+b.dataset.rate === S.set.rate)));
+  }
+});
+document.addEventListener("input", e => {
+  if (e.target.id === "q") { q = e.target.value; document.getElementById("res").innerHTML = results(); }
+});
+document.addEventListener("change", e => {
+  const d = e.target.dataset;
+  if (d.fold != null && sheetKey) {
+    const f = folderOf(d.fold);
+    if (!f) return;
+    if (e.target.checked) { if (!f.ids.includes(sheetKey)) f.ids.push(sheetKey); } else f.ids = f.ids.filter(x => x !== sheetKey);
+    markLib();
+  }
+});
+document.addEventListener("submit", e => {
+  if (!e.target.matches("[data-newf]")) return;
+  e.preventDefault();
+  const n = document.getElementById("newname").value.trim();
+  if (!n) return;
+  S.folders.push({ id: "f" + Date.now().toString(36), name: n, ids: sheetKey ? [sheetKey] : [] }); markLib();
+  if (sheetKey) saveSheet(sheetKey); else back();
+});
+render();
+connect();
+</script>
+<script>if('serviceWorker' in navigator)addEventListener('load',()=>navigator.serviceWorker.register('sw.js'));</script></body></html>
